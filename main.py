@@ -5,11 +5,12 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 
-path_to_data = 'simple'
+
+path_to_data = os.path.join(os.getcwd(), 'simple')
 
 # Conjunto de nodos
 # nodo_id,x,y
-N = pd.read_csv(os.path.join(path_to_data, 'mapa.csv'))
+N = pd.read_csv(os.path.join(path_to_data, 'nodos.csv'))
 
 # Electrolineras 
 # nodo_id,potencia_de_carga,carga_por_unidad_tiempo
@@ -29,7 +30,7 @@ for i in range(len(N)):
 
 # Conjunto de aristas con información de distancia y tiempo
 # nodo1,nodo2,tiempo,variacion_energia,variacion_temperatura
-A = pd.read_csv(os.path.join(path_to_data, 'conexiones3.csv'))
+A = pd.read_csv(os.path.join(path_to_data, 'aristas.csv'))
 
 # Pasamos las aristas a un objeto networkx
 for i in range(len(A)):
