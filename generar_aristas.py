@@ -29,6 +29,8 @@ for i in range(num_nodos):
     for j in range(i + 1, num_nodos):
         nodo1 = nodo_ids[i]
         nodo2 = nodo_ids[j]
+        if nodos.loc[nodos['nodo_id'] == nodo1, 'es_electrolinera'].values[0] and nodos.loc[nodos['nodo_id'] == nodo2, 'es_electrolinera'].values[0]:
+            continue  # No conectar dos electrolineras
         x1, y1 = nodos.loc[nodos['nodo_id'] == nodo1, ['x', 'y']].values[0]
         x2, y2 = nodos.loc[nodos['nodo_id'] == nodo2, ['x', 'y']].values[0]
         distancia = distancia_euclidiana(x1, y1, x2, y2)
@@ -76,8 +78,8 @@ while num_aristas < num_nodos - 1:
         tiempo = distancia / 10
         es_electrolinera1 = nodos.loc[nodos['nodo_id'] == nodo1, 'es_electrolinera'].values[0]
         es_electrolinera2 = nodos.loc[nodos['nodo_id'] == nodo2, 'es_electrolinera'].values[0]
-        variacion_energia = -distancia / 2 if es_electrolinera1 or es_electrolinera2 else distancia / 2
-        variacion_temperatura = -distancia / 10 if es_electrolinera1 or es_electrolinera2 else distancia / 10
+        variacion_energia = -distancia / 2 if es_electrolinera1 else distancia / 2
+        variacion_temperatura = -distancia / 10 if es_electrolinera1 else distancia / 10
         aristas.append([nodo1, nodo2, tiempo, variacion_energia, variacion_temperatura])
 
 # Asegurar que el grafo sea fuertemente conexo añadiendo solo las aristas necesarias
@@ -92,14 +94,16 @@ aristas_existentes = set((n1, n2) for n1, n2, _, _, _ in aristas)
 while not es_fuertemente_conexo(aristas, nodo_ids):
     nodo1, nodo2 = random.sample(nodo_ids, 2)
     if (nodo1, nodo2) not in aristas_existentes:
+        if nodos.loc[nodos['nodo_id'] == nodo1, 'es_electrolinera'].values[0] and nodos.loc[nodos['nodo_id'] == nodo2, 'es_electrolinera'].values[0]:
+            continue  # No conectar dos electrolineras
         x1, y1 = nodos.loc[nodos['nodo_id'] == nodo1, ['x', 'y']].values[0]
         x2, y2 = nodos.loc[nodos['nodo_id'] == nodo2, ['x', 'y']].values[0]
         distancia = distancia_euclidiana(x1, y1, x2, y2)
         tiempo = distancia / 10
         es_electrolinera1 = nodos.loc[nodos['nodo_id'] == nodo1, 'es_electrolinera'].values[0]
         es_electrolinera2 = nodos.loc[nodos['nodo_id'] == nodo2, 'es_electrolinera'].values[0]
-        variacion_energia = -distancia / 2 if es_electrolinera1 or es_electrolinera2 else distancia / 2
-        variacion_temperatura = -distancia / 10 if es_electrolinera1 or es_electrolinera2 else distancia / 10
+        variacion_energia = -distancia / 2 if es_electrolinera1 else distancia / 2
+        variacion_temperatura = -distancia / 10 if es_electrolinera1 else distancia / 10
         aristas.append([nodo1, nodo2, tiempo, variacion_energia, variacion_temperatura])
         aristas_existentes.add((nodo1, nodo2))
 
