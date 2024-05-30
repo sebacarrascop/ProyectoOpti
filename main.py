@@ -4,7 +4,6 @@ from gurobipy import GRB, quicksum
 import pandas as pd
 import numpy as np
 import networkx as nx
-import matplotlib.pyplot as plt
 
 
 path_to_data = os.path.join(os.getcwd(), 'simple')
@@ -21,7 +20,7 @@ E = pd.read_csv(os.path.join(path_to_data, 'electrolineras.csv'))
 electrolineras = E['nodo_id'].values.tolist()
 
 # Pasamos los nodos a un objeto networkx
-G = nx.DiGraph()  # Cambiado a DiGraph para aristas dirigidas
+G = nx.DiGraph()
 
 for i in range(len(N)):
     node = N.iloc[i, 0]
@@ -41,6 +40,7 @@ for i in range(len(A)):
 # Definimos conjunto de tipos de auto V
 # tipo,potencia_de_carga,temperatura_max,factor_consumo,tamano_bateria,temperatura_ideal_operacion
 V = pd.read_csv(os.path.join(path_to_data, 'tipo_auto.csv'))
+cantidad_de_tipos_de_autos = len(V)
 
 # Definimos conjunto de autos
 #id,tipo,temperatura_inicial,porcentaje_inicial_bateria
@@ -52,9 +52,6 @@ cantidad_autos = len(C)
 parametros = pd.read_csv(os.path.join(path_to_data, 'parametros.csv'))
 B_max = parametros.iloc[0, 0]
 B_min = parametros.iloc[0, 1]
-
-
-
 
 ### MODELO DE OPTIMIZACION ###
 
@@ -69,6 +66,25 @@ T_ij = np.zeros((cantidad_nodos + 1, cantidad_nodos + 1))
 for i, j, data in G.edges(data=True):
     T_ij[i, j] = data['tiempo']
 
+# Matriz de tipo de auto x cantidad de autos, tiene un 1 si el auto k es de tipo v
+Y_vk = np.zeros((cantidad_de_tipos_de_autos + 1, cantidad_autos + 1))
+for k in range(cantidad_autos):
+    for v in range(cantidad_de_tipos_de_autos):
+        if C.iloc[k, 1] == V.iloc[v, 0]: 
+            Y_vk[v+1, k+1] = 1
+
+print(electrolineras)
+Z_ik = np.zeros((cantidad_autos + 1, cantidad_nodos + 1))
+for k in range(cantidad_autos):
+    for i in range(1, cantidad_nodos + 1):
+        if G.nodes[i]['electrolinera']:
+            if V.iloc[C.iloc[k, 1]-1,1] >= E[E['nodo_id'] == i]['potencia_de_carga'].values[0]:
+                print(f"Auto {k} puede cargar en nodo {i}")
+                Z_ik[k, i] = 1
+
+# REVISAR, ME CONFUNDI CON LOS INDICES +1
+
+print(Z_ik)
 ## VARIABLES ## 
 
 # Se define variable X_ij: 1 si el nodo i y el nodo j pertenecen al camino elegido del auto k
@@ -88,13 +104,32 @@ F_ik = m.addVars(G.nodes(), range(cantidad_autos), vtype=gp.GRB.CONTINUOUS, name
 U_ik = m.addVars(G.nodes(), range(cantidad_autos), vtype=gp.GRB.BINARY, name="U")
 
 
-obj = gp.quicksum(gp.quicksum(gp.quicksum(gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] for i, j in G.edges()) for k in range(cantidad_autos))))
-m.setObjective(obj, gp.GRB.MINIMIZE)
+# obj = gp.quicksum(gp.quicksum(gp.quicksum(gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] for i, j in G.edges()) for k in range(cantidad_autos))))
+# m.setObjective(obj, gp.GRB.MINIMIZE)
 
+# Restricciones
+# Restriccion 1: hay un camino solucion para cada auto
+for k in range(cantidad_autos):
+    for node in G.nodes():
+        
+        '''
+        for succesor in G.successors(node):
+            print(f"Node: {node}, Succesor: {succesor}")
+        '''
+        out_flow = quicksum(X_ijk[node, j, k] for j in G.successors(node) if (node, j) in G.edges())
+        in_flow = quicksum(X_ijk[j, node, k] for j in G.predecessors(node) if (j, node) in G.edges())
 
-# imprimimos el grafo con matplotlib
-# SIN ETIQUETAS
-# LAS ARISTAS SON DIRIGIDAS
-# pos = nx.get_node_attributes(G, 'pos')
-# nx.draw(G, pos, with_labels=False, node_size=100, node_color='blue', arrows=True, arrowstyle='-|>', arrowsize=10)
-# plt.show()
+        if node == 1:
+            m.addConstr(out_flow - in_flow == 1, f"flow_cons_{node}_{k}")
+        elif node == cantidad_nodos:
+            m.addConstr(out_flow - in_flow == -1, f"flow_cons_{node}_{k}")
+        else:
+            m.addConstr(out_flow - in_flow == 0, f"flow_cons_{node}_{k}")
+
+# Restriccion 2: Energia
+# Energia inicial es equivalente al porcentaje inicial de la bateria del auto
+
+# Falta recorrer sobre I_j
+for j in G.nodes():
+    for k in range(cantidad_autos):
+        m.addConstr(E_jk[j, k] == E_jk[i,k] - G.edges[i, j]['energia'] * Y_vk[i, j, k] + R_ik[i, k] * g_i * Z_ki[i, j] - U_ik (e_ij/5), name=f"Energia_nodo_{j}_auto_{k}")
