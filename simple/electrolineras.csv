@@ -1,4 +1,4 @@
-nodo_id,potencia_de_carga,carga_por_unidad_tiempo
-6,22,10
-1,7,10
-7,3.5,10
+nodo_id,potencia_de_carga
+6,22
+1,7
+7,3.5

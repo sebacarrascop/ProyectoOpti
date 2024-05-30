@@ -6,6 +6,12 @@ import os
 PORCENTAJE_ARISTAS_EXTRA = 0.1
 DISTACIA_MAXIMA = 4
 
+# Configuración de rutas
+path_to_data = 'simple'
+nodos_file = os.path.join(path_to_data, 'nodos.csv')
+electrolineras_file = os.path.join(path_to_data, 'electrolineras.csv')
+output_file = os.path.join(path_to_data, 'aristas.csv')
+
 # Calcular tiempo, energía requerida y variación de temperatura
 def tiempo(distancia):
     return distancia / 15
@@ -23,12 +29,6 @@ def distancia_manhattan(node1, node2):
     x1, y1 = nodos.loc[nodos['nodo_id'] == node1, ['x', 'y']].values[0]
     x2, y2 = nodos.loc[nodos['nodo_id'] == node2, ['x', 'y']].values[0]
     return abs(x1 - x2) + abs(y1 - y2)
-
-# Configuración de rutas
-path_to_data = 'simple'
-nodos_file = os.path.join(path_to_data, 'nodos.csv')
-electrolineras_file = os.path.join(path_to_data, 'electrolineras.csv')
-output_file = os.path.join(path_to_data, 'aristas.csv')
 
 # Cargar los datos
 nodos = pd.read_csv(nodos_file)

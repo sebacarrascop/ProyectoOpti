@@ -41,6 +41,7 @@ for i in range(len(A)):
 # tipo,potencia_de_carga,temperatura_max,factor_consumo,tamano_bateria,temperatura_ideal_operacion
 V = pd.read_csv(os.path.join(path_to_data, 'tipo_auto.csv'))
 cantidad_de_tipos_de_autos = len(V)
+tipos_de_autos = V['tipo'].values.tolist()
 
 # Definimos conjunto de autos
 #id,tipo,temperatura_inicial,porcentaje_inicial_bateria
@@ -52,10 +53,6 @@ cantidad_autos = len(C)
 parametros = pd.read_csv(os.path.join(path_to_data, 'parametros.csv'))
 B_max = parametros.iloc[0, 0]
 B_min = parametros.iloc[0, 1]
-
-### MODELO DE OPTIMIZACION ###
-
-m = gp.Model("electric_cars")
 
 
 ## PARAMETROS ##
@@ -73,18 +70,33 @@ for k in range(cantidad_autos):
         if C.iloc[k, 1] == V.iloc[v, 0]: 
             Y_vk[v+1, k+1] = 1
 
-print(electrolineras)
+# Indicador de si el vehiculo k se puede cargar en la electrolinera i porque cumple 
+# con que la potencia de carga del vehiculo es mayor o igual a la potencia de carga
+# entregada en el nodo i.
 Z_ik = np.zeros((cantidad_autos + 1, cantidad_nodos + 1))
 for k in range(cantidad_autos):
     for i in range(1, cantidad_nodos + 1):
         if G.nodes[i]['electrolinera']:
             if V.iloc[C.iloc[k, 1]-1,1] >= E[E['nodo_id'] == i]['potencia_de_carga'].values[0]:
-                print(f"Auto {k} puede cargar en nodo {i}")
                 Z_ik[k, i] = 1
 
-# REVISAR, ME CONFUNDI CON LOS INDICES +1
+# Constante de porcentaje de carga por unidad de tiempo, donde la posicion i,v es 
+# la constante de carga de la electrolinera i para el tipo de auto v
+g_iv = np.zeros((cantidad_nodos + 1, cantidad_de_tipos_de_autos + 1))
+for nodo_electrolinera in electrolineras:
+    for tipo_auto in tipos_de_autos:
+        r_i = V['potencia_de_carga'][V['tipo'] == tipo_auto].values[0]
+        C_v = V['tamano_bateria'][V['tipo'] == tipo_auto].values[0]
+        constante_tiempo = 60 # [min/hora]
+        g_iv[nodo_electrolinera, tipo_auto] = (r_i) / (C_v * constante_tiempo)
 
-print(Z_ik)
+print(g_iv)
+
+### MODELO DE OPTIMIZACION ###
+
+m = gp.Model("electric_cars")
+
+
 ## VARIABLES ## 
 
 # Se define variable X_ij: 1 si el nodo i y el nodo j pertenecen al camino elegido del auto k
@@ -103,9 +115,10 @@ F_ik = m.addVars(G.nodes(), range(cantidad_autos), vtype=gp.GRB.CONTINUOUS, name
 # Se define la variable U_ik: 1 si la tempertura de la bateria del auto k supera la tempertura ideal de operación en el nodo i
 U_ik = m.addVars(G.nodes(), range(cantidad_autos), vtype=gp.GRB.BINARY, name="U")
 
-
-# obj = gp.quicksum(gp.quicksum(gp.quicksum(gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] for i, j in G.edges()) for k in range(cantidad_autos))))
-# m.setObjective(obj, gp.GRB.MINIMIZE)
+# Define the objective function
+obj = gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] for k in range(cantidad_autos) for i in range(cantidad_nodos) for j in range(cantidad_nodos))
+# Set the objective to minimize
+m.setObjective(obj, gp.GRB.MINIMIZE)
 
 # Restricciones
 # Restriccion 1: hay un camino solucion para cada auto
@@ -132,4 +145,11 @@ for k in range(cantidad_autos):
 # Falta recorrer sobre I_j
 for j in G.nodes():
     for k in range(cantidad_autos):
-        m.addConstr(E_jk[j, k] == E_jk[i,k] - G.edges[i, j]['energia'] * Y_vk[i, j, k] + R_ik[i, k] * g_i * Z_ki[i, j] - U_ik (e_ij/5), name=f"Energia_nodo_{j}_auto_{k}")
+        if j == 1:
+            m.addConstr(E_jk[j, k] == C.iloc[k, 3], name=f"Energia_inicial_auto_{k}")
+        else:
+            tipo_auto = C.iloc[k, 1]
+            m.addConstr(E_jk[j, k] == E_jk[i,k] - G.edges[i, j]['energia'] * Y_vk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto] * Z_ik[i, k] - U_ik (e_ij[i, j]/5), name=f"Energia_nodo_{j}_auto_{k}")
+
+
+# Restriccion 3: Se relaciona la variable E_jk con la X_ijk
