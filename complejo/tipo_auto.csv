@@ -1,0 +1,4 @@
+tipo,potencia_de_carga [kW],temperatura_max,factor_consumo,tamano_bateria,temperatura_ideal_operacion,temperatura_inicial
+1,14,40,1.0,9.9,25,20
+2,44,40,1.5,15.4,25,20
+3,70,40,2.0,22.0,27,20

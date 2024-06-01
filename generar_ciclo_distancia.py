@@ -3,11 +3,11 @@ import random
 import os
 
 # VARIABLES GLOABLES
-PORCENTAJE_ARISTAS_EXTRA = 0.1
+PORCENTAJE_ARISTAS_EXTRA = 0.05
 DISTACIA_MAXIMA = 4
 
 # Configuración de rutas
-path_to_data = 'simple'
+path_to_data = 'complejo'
 nodos_file = os.path.join(path_to_data, 'nodos.csv')
 electrolineras_file = os.path.join(path_to_data, 'electrolineras.csv')
 output_file = os.path.join(path_to_data, 'aristas.csv')

@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-path_to_data = 'simple'
+path_to_data = 'complejo'
 
 # Conjunto de nodos
 # nodo_id,x,y
