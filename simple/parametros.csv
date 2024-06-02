@@ -1,2 +1,2 @@
-porcentaje_max_bateria,porcentaje_min_bateria
-80,20
+porcentaje_max_bateria,porcentaje_min_bateria,temperatura_max_real
+80,20,70
