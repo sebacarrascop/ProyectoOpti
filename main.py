@@ -168,15 +168,14 @@ for k in range(cantidad_autos):
         for j in G.successors(i):
             tipo_auto = C.iloc[k, 1]  
             factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0]
-            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto] * Z_ik[i, k+1])
+            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto] * Z_ik[i, k+1], name=f"Energia_auto{k}_nodo{j}")
 
-# # 6. Se define que solo se puede cargar en electrolineras y que el tiempo total de recarga no excederá
-# # jamás el tiempo que tomaría cargar la batería por completo.
+# 6. Se define que solo se puede cargar en electrolineras y que el tiempo total de recarga no excederá
+# jamás el tiempo que tomaría cargar la batería por completo.
 for i in G.nodes():
     for k in range(cantidad_autos):
         for v in range(1, cantidad_de_tipos_de_autos + 1):
-            m.addConstr(g_iv[i, v] * R_ik[i, k] <= B_max *
-                        Z_ik[i, k+1], name=f"Tiempo_Carga_{i}_{k+1}")
+            m.addConstr(g_iv[i, v] * R_ik[i, k] <= B_max * Z_ik[i, k+1], name=f"Tiempo_Carga_{i}_{k+1}")
 
 
 # 7. Primero,  se limita la  + 1temperafor i, j in G.edges():or, pero para la cota inferior.

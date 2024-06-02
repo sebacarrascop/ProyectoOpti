@@ -3,7 +3,7 @@ import random
 import os
 
 # VARIABLES GLOABLES
-PORCENTAJE_ARISTAS_EXTRA = 0.5
+PORCENTAJE_ARISTAS_EXTRA = 0
 DISTACIA_MAXIMA = 8
 
 # Configuración de rutas
@@ -56,18 +56,6 @@ def evitar_electrolineras_consecutivas(nodo_ids, nodos):
         
     return nodo_ids
 
-# Asegurar que si existe un camino x -> y, también exista un camino y -> x
-def evitar_caminos_bidireccionales(nodo_ids, nodos):
-    for i in range(0, len(nodo_ids) - 1):
-        nodo1 = nodo_ids[i]
-        nodo2 = nodo_ids[i + 1]
-        if nodos.loc[nodos['nodo_id'] == nodo1, 'es_electrolinera'].values[0] and \
-           nodos.loc[nodos['nodo_id'] == nodo2, 'es_electrolinera'].values[0]:
-            print(f'Intercambiando nodos {nodo1} y {nodo2}')
-            nodo_ids[i], nodo_ids[i + 1] = nodo_ids[i + 1], nodo_ids[i]
-    return nodo_ids
-
-
 nodo_ids = evitar_electrolineras_consecutivas(nodo_ids, nodos)
 
 # Generar un ciclo circular para asegurar la conexión
@@ -88,7 +76,7 @@ for _ in range(num_extra_edges):
             nodos.loc[nodos['nodo_id'] == nodo2, 'es_electrolinera'].values[0]) or
            nodo1 == 1 or
            nodo2 == nodo_ids[-1] or
-           distancia_manhattan(nodo1, nodo2) > DISTACIA_MAXIMA):
+           distancia_manhattan(nodo1, nodo2) > DISTACIA_MAXIMA) or any((e[0] == nodo2 and e[1] == nodo1) for e in edges):
         nodo1 = random.choice(nodo_ids)
         nodo2 = random.choice(nodo_ids)
     distancia = distancia_manhattan(nodo1, nodo2)
