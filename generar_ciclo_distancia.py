@@ -3,11 +3,11 @@ import random
 import os
 
 # VARIABLES GLOABLES
-PORCENTAJE_ARISTAS_EXTRA = 0.05
-DISTACIA_MAXIMA = 4
+PORCENTAJE_ARISTAS_EXTRA = 0.5
+DISTACIA_MAXIMA = 8
 
 # Configuración de rutas
-path_to_data = 'complejo'
+path_to_data = 'simple'
 nodos_file = os.path.join(path_to_data, 'nodos.csv')
 electrolineras_file = os.path.join(path_to_data, 'electrolineras.csv')
 output_file = os.path.join(path_to_data, 'aristas.csv')
@@ -17,7 +17,8 @@ def tiempo(distancia):
     return distancia / 15
 
 def energia_requerida(distancia):
-    return distancia / 10
+    
+    return 0.1
 
 def variacion_temperatura(distancia, nodo1):
     if nodos.loc[nodos['nodo_id'] == nodo1, 'es_electrolinera'].values[0]:
