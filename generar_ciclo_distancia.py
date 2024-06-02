@@ -56,6 +56,18 @@ def evitar_electrolineras_consecutivas(nodo_ids, nodos):
         
     return nodo_ids
 
+# Asegurar que si existe un camino x -> y, también exista un camino y -> x
+def evitar_caminos_bidireccionales(nodo_ids, nodos):
+    for i in range(0, len(nodo_ids) - 1):
+        nodo1 = nodo_ids[i]
+        nodo2 = nodo_ids[i + 1]
+        if nodos.loc[nodos['nodo_id'] == nodo1, 'es_electrolinera'].values[0] and \
+           nodos.loc[nodos['nodo_id'] == nodo2, 'es_electrolinera'].values[0]:
+            print(f'Intercambiando nodos {nodo1} y {nodo2}')
+            nodo_ids[i], nodo_ids[i + 1] = nodo_ids[i + 1], nodo_ids[i]
+    return nodo_ids
+
+
 nodo_ids = evitar_electrolineras_consecutivas(nodo_ids, nodos)
 
 # Generar un ciclo circular para asegurar la conexión

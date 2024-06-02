@@ -1,0 +1,25 @@
+\ Model electric_cars_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ flow_cons_1_2: X[1,2,2] = 1
+ flow_cons_3_2: - X[2,3,2] + X[3,4,2] = 0
+ flow_cons_4_2: - X[3,4,2] + X[4,5,2] = 0
+ flow_cons_5_2: - X[4,5,2] = -1
+ Energia_inicial_auto_2: E[1,2] = 0.51
+ R26: 0.1 X[1,2,2] - E[1,2] + E[2,2] = 0
+ R27: 0.1 X[2,3,2] - E[2,2] + E[3,2] = 0
+ R28: 0.1 X[3,4,2] - E[3,2] + E[4,2] - 1.66667e-05 R[3,2] = 0
+ R29: 0.1 X[4,5,2] - E[4,2] + E[5,2] = 0
+ R_3_2: - 1000 X[3,4,2] + R[3,2] <= 0
+Bounds
+ E[1,2] free
+ E[2,2] free
+ E[3,2] free
+ E[4,2] free
+ E[5,2] >= 0.2
+ R[3,2] free
+Binaries
+ X[1,2,2] X[2,3,2] X[3,4,2] X[4,5,2]
+End
