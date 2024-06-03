@@ -6,7 +6,7 @@ import numpy as np
 import networkx as nx
 
 # Variables globales
-BIG_M = 1e3
+BIG_M = 99999999999999  # El big M parecia no funcionar como lo teníamos antes, por eso lo dejé así.
 LITLLE_M = 1e-3
 path_to_data = os.path.join(os.getcwd(), 'simple')
 
@@ -19,6 +19,11 @@ cantidad_nodos = len(N)
 # nodo_id,potencia_de_carga,carga_por_unidad_tiempo
 E = pd.read_csv(os.path.join(path_to_data, 'electrolineras.csv'))
 electrolineras = E['nodo_id'].values.tolist()
+
+es_electrolinera = np.zeros(cantidad_nodos + 1)
+for i in range(len(N)):
+    if N.iloc[i, 0] in electrolineras:
+        es_electrolinera[N.iloc[i, 0]] = 1
 
 # Pasamos los nodos a un objeto networkx
 G = nx.DiGraph()
@@ -50,13 +55,6 @@ tipos_de_autos = V['tipo'].values.tolist()
 C = pd.read_csv(os.path.join(path_to_data, 'autos.csv'))
 cantidad_autos = len(C)
 
-# Obtenemos parametros
-# porcentaje_max_bateria,porcentaje_min_bateria
-parametros = pd.read_csv(os.path.join(path_to_data, 'parametros.csv'))
-B_max = parametros.iloc[0, 0]
-B_min = parametros.iloc[0, 1]
-T_max = parametros.iloc[0, 2]
-
 
 ## PARAMETROS ##
 
@@ -73,16 +71,6 @@ for k in range(cantidad_autos):
         if C.iloc[k, 1] == V.iloc[v, 0]:
             Y_vk[v+1, k+1] = 1
 
-# Indicador de si el vehiculo k se puede cargar en la electrolinera i porque cumple
-# con que la potencia de carga del vehiculo es mayor o igual a la potencia de carga
-# entregada en el nodo i.
-Z_ik = np.zeros((cantidad_nodos + 1, cantidad_autos + 1))
-for k in range(cantidad_autos):
-    for i in range(1, cantidad_nodos + 1):
-        if G.nodes[i]['electrolinera']:
-            if V.iloc[C.iloc[k, 1]-1, 1] >= E[E['nodo_id'] == i]['potencia_de_carga'].values[0]:
-                Z_ik[i, k+1] = 1
-
 # Constante de porcentaje de carga por unidad de tiempo, donde la posicion i,v es
 # la constante de carga de la electrolinera i para el tipo de auto v
 g_iv = np.zeros((cantidad_nodos + 1, cantidad_de_tipos_de_autos + 1))
@@ -90,14 +78,9 @@ g_iv = np.zeros((cantidad_nodos + 1, cantidad_de_tipos_de_autos + 1))
 for nodo_electrolinera in electrolineras:
     for tipo_auto in tipos_de_autos:
         r_i = V['potencia_de_carga'][V['tipo'] == tipo_auto].values[0]
-        print("r_i: ", r_i)
         C_v = V['tamano_bateria'][V['tipo'] == tipo_auto].values[0]
-        print("C_v: ", C_v)
         constante_tiempo = 60  # [min/hora]
         g_iv[nodo_electrolinera, tipo_auto] = (r_i) / (C_v * constante_tiempo)
-
-print(g_iv)
-
 
 e_ij = np.zeros((cantidad_nodos + 1, cantidad_nodos + 1))
 for i, j, data in G.edges(data=True):
@@ -130,13 +113,6 @@ E_jk = m.addVars(G.nodes(), range(cantidad_autos),
 R_ik = m.addVars(G.nodes(), range(cantidad_autos),
                  vtype=gp.GRB.CONTINUOUS, name="R", lb=0)
 
-# Se define variable F_ik: temperatura de la batería del auto k en el nodo i
-F_ik = m.addVars(G.nodes(), range(cantidad_autos),
-                 vtype=gp.GRB.CONTINUOUS, name="F")
-
-# Se define la variable U_ik: 1 si la tempertura de la bateria del auto k supera la tempertura ideal de operación en el nodo i
-U_ik = m.addVars(G.nodes(), range(cantidad_autos),
-                 vtype=gp.GRB.BINARY, name="U")
 
 # Define the objective function
 obj = gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k]
@@ -144,39 +120,48 @@ obj = gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k]
 # Set the objective to minimize
 m.setObjective(obj, gp.GRB.MINIMIZE)
 
-# Restricciones
+## RESTRICCIONES ##
+
 # Restriccion 1: hay un camino solucion para cada auto
 for k in range(cantidad_autos):
     for node in G.nodes():
         out_flow = quicksum(X_ijk[node, j, k] for j in G.successors(node) if (node, j) in G.edges())
-        in_flow = quicksum(X_ijk[j, node, k] for j in G.predecessors(
-            node) if (j, node) in G.edges())
+        in_flow = quicksum(X_ijk[j, node, k] for j in G.predecessors( node) if (j, node) in G.edges())
 
         if node == 1:
             m.addConstr(out_flow - in_flow == 1, f"flow_cons_{node}_{k}")
         elif node == cantidad_nodos:
             m.addConstr(out_flow - in_flow == -1, f"flow_cons_{node}_{k}")
         else:
-            m.addConstr(out_flow - in_flow == 0, f"flow_cons_{node}_{k}")
+            m.addConstr(out_flow == in_flow,  f"flow_cons_{node}_{k}")
+
 
 # Restriccion 2: Energia
-# Energia inicial es equivalente al porcentaje inicial de la bateria del auto
+"""
+Por el momento solo considerare:
+1. Gasto de energia entre nodos
+2. Carga en electrolineras segun tiempo asignado por el modelo
+Falta considerar:
+1. Z_ik: 1 si el auto k puede cargar en la electrolinera i por potencia
+2. Temperatura.
+"""
+
 for k in range(cantidad_autos):
     for i in G.nodes():
         if i == 1:
             m.addConstr(E_jk[i, k] == C.iloc[k, 3], name=f"Energia_inicial_auto_{k}")
         for j in G.successors(i):
-            tipo_auto = C.iloc[k, 1]  
+            tipo_auto = C.iloc[k, 1]   
             factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0]
-            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto] * Z_ik[i, k+1])
+            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto], name=f"Energia_{j}_{k}")
 
-# # 6. Se define que solo se puede cargar en electrolineras y que el tiempo total de recarga no excederá
-# # jamás el tiempo que tomaría cargar la batería por completo.
-# for i in G.nodes():
-#     for k in range(cantidad_autos):
-#         for v in range(1, cantidad_de_tipos_de_autos + 1):
-#             m.addConstr(g_iv[i, v] * R_ik[i, k] <= B_max *
-#                         Z_ik[i, k+1], name=f"Tiempo_Carga_{i}_{k+1}")
+# Esta restriccion es para que el auto k no pueda cargar en un nodo que no sea electrolinera
+for i in G.nodes():
+    for k in range(cantidad_autos):
+        for v in range(1, cantidad_de_tipos_de_autos + 1):
+            m.addConstr(R_ik[i, k] <= BIG_M * es_electrolinera[i], name=f"Tiempo_Carga_{i}_{k+1}")
+
+
 
 
 # 7. Primero,  se limita la  + 1temperafor i, j in G.edges():or, pero para la cota inferior.

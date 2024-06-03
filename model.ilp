@@ -3,34 +3,17 @@
 Minimize
  
 Subject To
- flow_cons_1_0: X[1,4,0] = 1
- flow_cons_4_0: - X[1,4,0] + X[4,7,0] = 0
- flow_cons_6_0: X[6,8,0] - X[7,6,0] = 0
- flow_cons_7_0: - X[4,7,0] + X[7,6,0] = 0
- flow_cons_8_0: - X[6,8,0] + X[8,2,0] = 0
- flow_cons_10_0: - X[9,10,0] = -1
- Energia_inicial_auto_0: E[1,0] = 0.75
- Energia_auto0_nodo4: 0.1 X[1,4,0] - E[1,0] + E[4,0] = 0
- Energia_auto0_nodo3: 0.1 X[2,3,0] - E[2,0] + E[3,0] = 0
- Energia_auto0_nodo5: 0.1 X[3,5,0] - E[3,0] + E[5,0] = 0
- Energia_auto0_nodo7: 0.1 X[4,7,0] - E[4,0] + E[7,0] = 0
- Energia_auto0_nodo9: 0.1 X[5,9,0] - E[5,0] + E[9,0] = 0
- Energia_auto0_nodo8: 0.1 X[6,8,0] - E[6,0] + E[8,0] = 0
- Energia_auto0_nodo6: 0.1 X[7,6,0] + E[6,0] - E[7,0] = 0
- Energia_auto0_nodo2: 0.1 X[8,2,0] + E[2,0] - E[8,0] = 0
- Energia_auto0_nodo10: 0.1 X[9,10,0] - E[9,0] + E[10,0] = 0
+ flow_cons_9_0: - X[6,9,0] + X[9,10,0] = 0
+ flow_cons_10_0: - X[8,10,0] - X[9,10,0] = -1
+ Energia_6_8_0: 0.1 X[6,8,0] - E[6,0] + E[8,0] = 0
+ Energia_6_9_0: 0.1 X[6,9,0] - E[6,0] + E[9,0] = 0
+ Energia_8_10_0: 0.1 X[8,10,0] - E[8,0] + E[10,0] = 0
+ Energia_9_10_0: 0.1 X[9,10,0] - E[9,0] + E[10,0] = 0
 Bounds
- E[1,0] free
- E[2,0] free
- E[3,0] free
- E[4,0] free
- E[5,0] free
  E[6,0] free
- E[7,0] free
  E[8,0] free
  E[9,0] free
- E[10,0] >= 0.2
+ E[10,0] free
 Binaries
- X[1,4,0] X[2,3,0] X[3,5,0] X[4,7,0] X[5,9,0] X[6,8,0] X[7,6,0] X[8,2,0]
- X[9,10,0]
+ X[6,8,0] X[6,9,0] X[8,10,0] X[9,10,0]
 End

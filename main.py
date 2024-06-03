@@ -90,13 +90,9 @@ g_iv = np.zeros((cantidad_nodos + 1, cantidad_de_tipos_de_autos + 1))
 for nodo_electrolinera in electrolineras:
     for tipo_auto in tipos_de_autos:
         r_i = V['potencia_de_carga'][V['tipo'] == tipo_auto].values[0]
-        print("r_i: ", r_i)
         C_v = V['tamano_bateria'][V['tipo'] == tipo_auto].values[0]
-        print("C_v: ", C_v)
         constante_tiempo = 60  # [min/hora]
         g_iv[nodo_electrolinera, tipo_auto] = (r_i) / (C_v * constante_tiempo)
-
-print(g_iv)
 
 
 e_ij = np.zeros((cantidad_nodos + 1, cantidad_nodos + 1))
@@ -123,7 +119,7 @@ X_ijk = m.addVars(G.edges(), range(cantidad_autos),
 
 # Se define variable E_jk: energía porcentual de la batería del auto k al salir del nodo j.
 E_jk = m.addVars(G.nodes(), range(cantidad_autos),
-                 vtype=gp.GRB.CONTINUOUS, name="E", lb=0.2, ub=0.8)
+                 vtype=gp.GRB.CONTINUOUS, name="E", lb=0.0, ub=1.0)
 
 
 # Se define variable R_ik: tiempo de carga en el punto de carga i del auto k
@@ -168,10 +164,10 @@ for k in range(cantidad_autos):
         for j in G.successors(i):
             tipo_auto = C.iloc[k, 1]  
             factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0]
-            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto] * Z_ik[i, k+1], name=f"Energia_auto{k}_nodo{j}")
+            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto], name=f"Energia_auto{k}_nodo{j}")
 
-# 6. Se define que solo se puede cargar en electrolineras y que el tiempo total de recarga no excederá
-# jamás el tiempo que tomaría cargar la batería por completo.
+#6. Se define que solo se puede cargar en electrolineras y que el tiempo total de recarga no excederá
+#jamás el tiempo que tomaría cargar la batería por completo.
 for i in G.nodes():
     for k in range(cantidad_autos):
         for v in range(1, cantidad_de_tipos_de_autos + 1):
@@ -226,6 +222,9 @@ except gp.GurobiError as e:
 
 # Si el modelo es inviable, procede a calcular el IIS
 if m.status == gp.GRB.INFEASIBLE:
+    # Imprimir todas las restricciones
+    for constr in m.getConstrs():
+        print(f"{constr.ConstrName}: {constr.Sense} {constr.RHS}")
     print("Modelo inviable. Calculando el conjunto irreducible de restricciones infeasibles...")
     m.computeIIS()  # Calcula el IIS
     m.write("model.ilp")  # Escribe el IIS a un archivo
