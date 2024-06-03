@@ -3,7 +3,7 @@ import random
 import os
 
 # Definir la ruta al directorio de datos
-path_to_data = os.path.join(os.getcwd(), 'data', 'complejo')
+path_to_data = os.path.join(os.getcwd(), 'data', 'LasCondes')
 
 # Cargar los nodos y las electrolineras
 nodos = pd.read_csv(os.path.join(path_to_data, 'nodos.csv'))
@@ -64,7 +64,9 @@ aristas_df['distancia'] = aristas_df.apply(lambda x: distancia_manhattan(x['nodo
 
 # Calcular el tiempo, energía requerida y variación de temperatura
 aristas_df['tiempo'] = aristas_df['distancia'] / 15
-aristas_df['variacion_energia'] = 0.1 + random.uniform(-0.05, 0.05)
+# Que sea random en cada entrada
+for i in range(len(aristas_df)):
+    aristas_df.loc[i, 'energia_requerida'] = 0.05 + random.uniform(-0.001, 0.001)
 aristas_df['variacion_temperatura'] = aristas_df.apply(lambda x: -1 if x['nodo1'] in electrolineras['nodo_id'].values else 1, axis=1)
 
 # quitar columnas de distancia

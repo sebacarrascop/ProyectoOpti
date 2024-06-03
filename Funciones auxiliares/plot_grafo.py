@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-path_to_data = os.path.join(os.getcwd(), 'data', 'complejo')
+path_to_data = os.path.join(os.getcwd(), 'data', 'LasCondes')
 
 # Conjunto de nodos
 # nodo_id,x,y
@@ -36,13 +36,17 @@ for I in range(len(A)):
 # nodos normales de color azul
 pos = nx.get_node_attributes(G, 'pos')
 node_colors = ['red' if G.nodes[node]['electrolinera'] else 'blue' for node in G.nodes]
-edge_colors = ['black' if G.nodes[node]['electrolinera'] else 'blue' for node in G.nodes]
-
+edge_colors = ['red' if G.nodes[node]['electrolinera'] else 'blue' for node in G.nodes]
 plt.figure(figsize=(10, 8))
 ax = plt.gca()
 ax.patch.set_alpha(0)  # Fondo transparente
 
-nx.draw(G, pos, with_labels=True, node_size=100, node_color=node_colors,
-        edgecolors=edge_colors, arrows=True, arrowstyle='-|>', arrowsize=10)
+nx.draw(G, pos, with_labels=False, node_size=50, node_color=node_colors,
+        edgecolors=edge_colors, arrows=True, arrowstyle='-|>', arrowsize=5,
+        width=1, edge_color='grey', alpha=0.7)
+
+ax.xaxis.set_visible(True)  # Muestra el eje X
+ax.yaxis.set_visible(True)  # Muestra el eje Y
 
 plt.show()
+

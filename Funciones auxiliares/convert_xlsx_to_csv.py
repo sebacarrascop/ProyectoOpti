@@ -16,4 +16,4 @@ def convert_xlsx_to_csv(path):
             print(f"Converted {filename} to {csv_filename}")
 
 # Especifica el camino a la carpeta con archivos .xlsx
-convert_xlsx_to_csv('complejo')
+convert_xlsx_to_csv('data/LasCondes')

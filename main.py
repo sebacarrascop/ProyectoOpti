@@ -8,7 +8,7 @@ import networkx as nx
 # Variables globales
 BIG_M = 9999999999
 LITLLE_M = 0.0000000001
-path_to_data = os.path.join(os.getcwd(), 'data', 'simple')
+path_to_data = os.path.join(os.getcwd(), 'data', 'LasCondes')
 
 # Conjunto de nodos
 # nodo_id,x,y
@@ -123,22 +123,23 @@ m = gp.Model("electric_cars")
 X_ijk = m.addVars(G.edges(), range(cantidad_autos),
                  vtype=gp.GRB.BINARY, name="X")
 
+
 # Se define variable E_jk: energía porcentual de la batería del auto k al salir del nodo j.
 E_jk = m.addVars(G.nodes(), range(cantidad_autos),
                  vtype=gp.GRB.CONTINUOUS, name="E", lb=0.2, ub=0.8)
-
-
-# Se define variable R_ik: tiempo de carga en el punto de carga i del auto k
-R_ik = m.addVars(G.nodes(), range(cantidad_autos),
-                 vtype=gp.GRB.CONTINUOUS, name="R", lb=0)
 
 # Se define variable F_ik: temperatura de la batería del auto k en el nodo i
 F_ik = m.addVars(G.nodes(), range(cantidad_autos),
                  vtype=gp.GRB.CONTINUOUS, name="F")
 
+# Se define variable R_ik: tiempo de carga en el punto de carga i del auto k
+R_ik = m.addVars(G.nodes(), range(cantidad_autos),
+                 vtype=gp.GRB.CONTINUOUS, name="R", lb=0)
+
 # Se define la variable U_ik: 1 si la tempertura de la bateria del auto k supera la tempertura ideal de operación en el nodo i
 U_ik = m.addVars(G.nodes(), range(cantidad_autos),
                  vtype=gp.GRB.BINARY, name="U")
+
 
 # Define the objective function
 obj = gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k]
@@ -147,6 +148,7 @@ obj = gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k]
 m.setObjective(obj, gp.GRB.MINIMIZE)
 
 ## RESTRICCIONES ##
+
 # Restriccion 1: hay un camino solucion para cada auto
 for k in range(cantidad_autos):
     for node in G.nodes():
@@ -162,58 +164,66 @@ for k in range(cantidad_autos):
 
 
 # Restriccion 2: Energia
-# Energia inicial es equivalente al porcentaje inicial de la bateria del auto
+
+# Funciona pero no está linealizado.
 for k in range(cantidad_autos):
     for i in G.nodes():
         if i == 1:
             m.addConstr(E_jk[i, k] == C.iloc[k, 3], name=f"Energia_inicial_auto_{k}")
         for j in G.successors(i):
             tipo_auto = C.iloc[k, 1]   
-            factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0]
-            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto], name=f"Energia_{j}_{k}")
+            factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0] #  Tiene que ser entre 0% y 10% (1 y 1.1)
+            m.addConstr(E_jk[j, k] * X_ijk[i, j, k] == (E_jk[i, k] - e_ij[i, j] * factor_consumo + R_ik[i, k] * g_iv[i, tipo_auto])
+                        * X_ijk[i, j, k] - U_ik[i, k], name=f"E arista({i},{j}) auto {k}")
 
-# Restriction 3: La energia final en el nodo final es mayor o igual al minimo requerido
-# Solo se puede cargar en un nodo si es electrolinera
+# Esta restriccion es para que el auto k no pueda cargar en un nodo que no sea electrolinera
 for i in G.nodes():
-    for k in range(cantidad_autos):
+    for k in range(cantidad_autos): 
         for v in range(1, cantidad_de_tipos_de_autos + 1):
             m.addConstr(R_ik[i, k] <= BIG_M * es_electrolinera[i], name=f"Tiempo_Carga_{i}_{k+1}")
 
-# Restriction 4: Se limita la temperatura, pero para la cota inferior.
+
+
+# 7. Primero,  se limita la  + 1temperafor i, j in G.edges():or, pero para la cota inferior.
 # for i in G.nodes():
 #     for k in range(cantidad_autos):
 #         for v in range(1, cantidad_de_tipos_de_autos + 1):
-#             m.addConstr(F_ik[i, k] <= V.iloc[v-1, 5]* Y_vk[v, k] +
-#                         BIG_M * U_ik[i, k], name=f"Temperatura_nodo_{i}auto_{k}")
+#             m.addConstr(F_ik[i, k] <= V.iloc[v-1, 5]*Y_vk[v, k] +
+#                         BIG_M * U_ik[i, k], name=f"Temperatura_{i}_{k}_v")
 
 
-# Restriction 5: Siguiendo la misma idea anterior, pero para la cota inferior
+# # 8. Siguiendo la misma idea anterior, pero para la cota inferior
 # for i in G.nodes():
 #     for k in range(cantidad_autos):
 #         for v in range(1, cantidad_de_tipos_de_autos + 1):
-#             m.addConstr(F_ik[i, k] >= V.iloc[v-1, 5]* Y_vk[v, k] + BIG_M * U_ik[i, k] +
-#                         LITLLE_M + BIG_M * (1 - U_ik[i, k]), name=f"Temperatura_nodo_{i}_auto_{k}")
+#             m.addConstr(F_ik[i, k] >= V.iloc[v-1, 5]*Y_vk[v, k] + BIG_M * U_ik[i, k] +
+#                         LITLLE_M + BIG_M * (1 - U_ik[i, k]), name=f"Temperatura_{i}_{k}_v")
 
-# Restriction 6: Se relaciona las variables Uk de manera que el valor m ́aximo que puede tomar es cuando Xij toma el valor de uno,
-# pues solo si es parte del camino elegido Uk puede tomar valor uno.
+# # 9. Se relaciona las variables Uk de manera que el valor m ́aximo que puede tomar es cuando Xij toma el valor de uno,
+# # pues solo si es parte del camino elegido Uk puede tomar valor uno.
 # for k in range(cantidad_autos):
 #     for i, j in G.edges():
 #         m.addConstr(U_ik[i, k] <= X_ijk[i, j, k], name=f"U_{i}_{k}")
 
 
-# Restriction 7: Se define el aumento y disminucion de temperatura
+# # 10. Se define el aumento y disminucion de temperatura
 # for k in range(cantidad_autos):
 #     for i in G.nodes():
 #         if i == 1:
-#             m.addConstr(F_ik[i, k] == C.iloc[k, 2], name=f"Temperatura_inicial_{i}_{k}")
+#             m.addConstr(F_ik[i, k] == C.iloc[k, 2],
+#                         name=f"Temperatura_inicial_{i}_{k}")
+#             continue
 #         for j in G.successors(i):
-#             m.addConstr(F_ik[j, k] == F_ik[i, k] + w_ij[i, j], name=f"Temperatura_{j}_{k}")
+#             m.addConstr(F_ik[j, k] == F_ik[i, k] + w_ij[i, j],
+#                         name=f"Temperatura_{j}_{k}")
 
-# Restriction 8: Se relaciona la variable Fik con la Xijk de manera que cuando no escoja el camino la temperatura
-# no cambia y cuando se elige tomar a un valor maximo teórico
+# # 11. Se relaciona la variable Fik con la Xijk de manera que cuando no escoja el camino la temperatura
+# # no cambia y cuando se elige tomar a un valor maximo teórico
 # for k in range(cantidad_autos):
 #     for i, j in G.edges():
-#         m.addConstr(F_ik[j, k] <= BIG_M * X_ijk[i, j, k], name=f"Temperatura_{j}_{k}_1")
+#         m.addConstr(F_ik[j, k] <= T_max * X_ijk[i, j, k],
+#                     name=f"Temperatura_{j}_{k}_1")
+
 
 # Optimize model
 try:
@@ -224,11 +234,11 @@ except gp.GurobiError as e:
 # Si el modelo es inviable, procede a calcular el IIS
 if m.status == gp.GRB.INFEASIBLE:
     # Imprimir todas las restricciones
-    #for constr in m.getConstrs():
-    #    print(f"{constr.ConstrName}: {constr.Sense} {constr.RHS}")
+    # for constr in m.getConstrs():
+        # print(f"{constr.ConstrName}: {constr.Sense} {constr.RHS}")
     print("Modelo inviable. Calculando el conjunto irreducible de restricciones infeasibles...")
     m.computeIIS()  # Calcula el IIS
-    m.write("model.ilp")  # Escribe el IIS a un archivo
+    m.write("main.ilp")  # Escribe el IIS a un archivo
     print("El archivo 'model.ilp' ha sido creado con las restricciones infeasibles.")
 else:
     print("El modelo es factible.")
@@ -237,7 +247,7 @@ else:
 print(f"Objetivo: {m.objVal}")
 
 for k in range(cantidad_autos):
-    print(f"\n\n\n ### CAMINO ESCOGIDO AUTO {k+1} ### \n")
+    print(f"\nCAMINO AUTO {k+1}:")
     camino = []
     nodo_actual = 1  # Nodo inicial
     while nodo_actual != cantidad_nodos:  # Nodo final
@@ -249,13 +259,10 @@ for k in range(cantidad_autos):
     camino.append(cantidad_nodos)
     print(" -> ".join(map(str, camino)))
     energia_final = E_jk[cantidad_nodos, k].x
+    print(f"Energía final en el nodo {cantidad_nodos}: {(energia_final*100):.2f}%")
     
     # Imprimir R_ik
+    print(f"Tiempo de carga en electrolineras seleccionadas: ")
     for i in G.nodes():
-        if R_ik[i, k].x > 0:
-            print(f"Tiempo de recarga en electrolinera {i}: {R_ik[i, k].x:.0f} minutos")
-    print(f"Energía final en el nodo {cantidad_nodos}: {(energia_final*100):.2f}%")
-
-    # # Imprimir temperatura
-    # for i in G.nodes():
-    #     print(f"Temperatura en nodo {i}: {F_ik[i, k].x:.2f}°C")
+        if R_ik[i, k].x > 0.0:
+            print(f"Tiempo de carga en nodo {i}: {R_ik[i, k].x:.2f} minutos")
