@@ -163,49 +163,6 @@ for i in G.nodes():
         for v in range(1, cantidad_de_tipos_de_autos + 1):
             m.addConstr(R_ik[i, k] <= BIG_M * es_electrolinera[i], name=f"Tiempo_Carga_{i}_{k+1}")
 
-
-
-# 7. Primero,  se limita la  + 1temperafor i, j in G.edges():or, pero para la cota inferior.
-# for i in G.nodes():
-#     for k in range(cantidad_autos):
-#         for v in range(1, cantidad_de_tipos_de_autos + 1):
-#             m.addConstr(F_ik[i, k] <= V.iloc[v-1, 5]*Y_vk[v, k] +
-#                         BIG_M * U_ik[i, k], name=f"Temperatura_{i}_{k}_v")
-
-
-# # 8. Siguiendo la misma idea anterior, pero para la cota inferior
-# for i in G.nodes():
-#     for k in range(cantidad_autos):
-#         for v in range(1, cantidad_de_tipos_de_autos + 1):
-#             m.addConstr(F_ik[i, k] >= V.iloc[v-1, 5]*Y_vk[v, k] + BIG_M * U_ik[i, k] +
-#                         LITLLE_M + BIG_M * (1 - U_ik[i, k]), name=f"Temperatura_{i}_{k}_v")
-
-# # 9. Se relaciona las variables Uk de manera que el valor m ́aximo que puede tomar es cuando Xij toma el valor de uno,
-# # pues solo si es parte del camino elegido Uk puede tomar valor uno.
-# for k in range(cantidad_autos):
-#     for i, j in G.edges():
-#         m.addConstr(U_ik[i, k] <= X_ijk[i, j, k], name=f"U_{i}_{k}")
-
-
-# # 10. Se define el aumento y disminucion de temperatura
-# for k in range(cantidad_autos):
-#     for i in G.nodes():
-#         if i == 1:
-#             m.addConstr(F_ik[i, k] == C.iloc[k, 2],
-#                         name=f"Temperatura_inicial_{i}_{k}")
-#             continue
-#         for j in G.successors(i):
-#             m.addConstr(F_ik[j, k] == F_ik[i, k] + w_ij[i, j],
-#                         name=f"Temperatura_{j}_{k}")
-
-# # 11. Se relaciona la variable Fik con la Xijk de manera que cuando no escoja el camino la temperatura
-# # no cambia y cuando se elige tomar a un valor maximo teórico
-# for k in range(cantidad_autos):
-#     for i, j in G.edges():
-#         m.addConstr(F_ik[j, k] <= T_max * X_ijk[i, j, k],
-#                     name=f"Temperatura_{j}_{k}_1")
-# Optimize model
-# Asegúrate de que tu modelo ya está construido y que intentaste resolverlo.
 try:
     m.optimize()
 except gp.GurobiError as e:
