@@ -81,7 +81,7 @@ for k in range(cantidad_autos):
 # Indicador de si el vehiculo k se puede cargar en la electrolinera i porque cumple
 # con que la potencia de carga del vehiculo es mayor o igual a la potencia de carga
 # entregada en el nodo i.
-
+print(cantidad_nodos)
 Z_ik = np.zeros((cantidad_nodos + 1, cantidad_autos + 1))
 for k in range(cantidad_autos):
     for i in range(1, cantidad_nodos + 1):
@@ -130,7 +130,7 @@ E_jk = m.addVars(G.nodes(), range(cantidad_autos),
 
 # Se define variable F_ik: temperatura de la batería del auto k en el nodo i
 F_ik = m.addVars(G.nodes(), range(cantidad_autos),
-                 vtype=gp.GRB.CONTINUOUS, name="F", lb=0, ub=100)
+                 vtype=gp.GRB.CONTINUOUS, name="F")
 
 # Se define variable R_ik: tiempo de carga en el punto de carga i del auto k
 R_ik = m.addVars(G.nodes(), range(cantidad_autos),
@@ -173,14 +173,16 @@ for k in range(cantidad_autos):
         for j in G.successors(i):
             tipo_auto = C.iloc[k, 1]   
             factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0] #  Tiene que ser entre 0% y 10% (1 y 1.1)
-            m.addConstr(E_jk[j, k] * X_ijk[i, j, k] == (E_jk[i, k] - e_ij[i, j] * factor_consumo + R_ik[i, k] * g_iv[i, tipo_auto] - 
-                        U_ik[i, k]) * X_ijk[i, j, k], name=f"E arista({i},{j}) auto {k}")
+            m.addConstr(E_jk[j, k] * X_ijk[i, j, k] == (E_jk[i, k] - e_ij[i, j] * factor_consumo + R_ik[i, k] * g_iv[i, tipo_auto])
+                        * X_ijk[i, j, k] - U_ik[i, k], name=f"E arista({i},{j}) auto {k}")
 
 # Esta restriccion es para que el auto k no pueda cargar en un nodo que no sea electrolinera
 for i in G.nodes():
     for k in range(cantidad_autos): 
         for v in range(1, cantidad_de_tipos_de_autos + 1):
             m.addConstr(R_ik[i, k] <= BIG_M * es_electrolinera[i], name=f"Tiempo_Carga_{i}_{k+1}")
+
+
 
 # 7. Primero,  se limita la  + 1temperafor i, j in G.edges():or, pero para la cota inferior.
 # for i in G.nodes():
@@ -197,26 +199,30 @@ for i in G.nodes():
 #             m.addConstr(F_ik[i, k] >= V.iloc[v-1, 5]*Y_vk[v, k] + BIG_M * U_ik[i, k] +
 #                         LITLLE_M + BIG_M * (1 - U_ik[i, k]), name=f"Temperatura_{i}_{k}_v")
 
-# 9. Se relaciona las variables Uk de manera que el valor m ́aximo que puede tomar es cuando Xij toma el valor de uno,
-# pues solo si es parte del camino elegido Uk puede tomar valor uno.
-for k in range(cantidad_autos):
-    for i, j in G.edges():
-        m.addConstr(U_ik[i, k] <= X_ijk[i, j, k], name=f"U_{i}_{k}")
-
-
-# 10. Se define el aumento y disminucion de temperatura
-for k in range(cantidad_autos):
-    for i in G.nodes():
-        if i == 1:
-            m.addConstr(F_ik[i, k] == C.iloc[k, 2], name=f"Temperatura_inicial_{i}_{k}")
-        for j in G.successors(i):
-            m.addConstr(F_ik[j, k] * X_ijk[i, j, k] == (F_ik[i, k] + w_ij[i, j]) * X_ijk[i, j, k], name=f"Temperatura_{j}_{k}")
-
-# 11. Se relaciona la variable Fik con la Xijk de manera que cuando no escoja el camino la temperatura
-# no cambia y cuando se elige tomar a un valor maximo teórico
+# # 9. Se relaciona las variables Uk de manera que el valor m ́aximo que puede tomar es cuando Xij toma el valor de uno,
+# # pues solo si es parte del camino elegido Uk puede tomar valor uno.
 # for k in range(cantidad_autos):
 #     for i, j in G.edges():
-#         m.addConstr(F_ik[j, k] <= T_max * X_ijk[i, j, k], name=f"Temperatura_{j}_{k}_1")
+#         m.addConstr(U_ik[i, k] <= X_ijk[i, j, k], name=f"U_{i}_{k}")
+
+
+# # 10. Se define el aumento y disminucion de temperatura
+# for k in range(cantidad_autos):
+#     for i in G.nodes():
+#         if i == 1:
+#             m.addConstr(F_ik[i, k] == C.iloc[k, 2],
+#                         name=f"Temperatura_inicial_{i}_{k}")
+#             continue
+#         for j in G.successors(i):
+#             m.addConstr(F_ik[j, k] == F_ik[i, k] + w_ij[i, j],
+#                         name=f"Temperatura_{j}_{k}")
+
+# # 11. Se relaciona la variable Fik con la Xijk de manera que cuando no escoja el camino la temperatura
+# # no cambia y cuando se elige tomar a un valor maximo teórico
+# for k in range(cantidad_autos):
+#     for i, j in G.edges():
+#         m.addConstr(F_ik[j, k] <= T_max * X_ijk[i, j, k],
+#                     name=f"Temperatura_{j}_{k}_1")
 
 
 # Optimize model
@@ -232,8 +238,8 @@ if m.status == gp.GRB.INFEASIBLE:
         # print(f"{constr.ConstrName}: {constr.Sense} {constr.RHS}")
     print("Modelo inviable. Calculando el conjunto irreducible de restricciones infeasibles...")
     m.computeIIS()  # Calcula el IIS
-    m.write("debug.ilp")  # Escribe el IIS a un archivo
-    print("El archivo 'debug.ilp' ha sido creado con las restricciones infeasibles.")
+    m.write("main.ilp")  # Escribe el IIS a un archivo
+    print("El archivo 'model.ilp' ha sido creado con las restricciones infeasibles.")
 else:
     print("El modelo es factible.")
 
@@ -260,8 +266,3 @@ for k in range(cantidad_autos):
     for i in G.nodes():
         if R_ik[i, k].x > 0.0:
             print(f"Tiempo de carga en nodo {i}: {R_ik[i, k].x:.2f} minutos")
-
-    # Imprimir temperatura
-    for i in G.nodes():
-        if i in camino:
-            print(f"Temperatura auto {k+1} en nodo {i}: {F_ik[i, k].x:.2f}°C")

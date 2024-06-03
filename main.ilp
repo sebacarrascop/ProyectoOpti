@@ -1,9 +1,0 @@
-\ Model electric_cars_copy
-\ LP format - for model browsing. Use MPS format to capture full model detail.
-Minimize
- 
-Subject To
- Energia_inicial_auto_0: E[1,0] = 67.52
-Bounds
- -infinity <= E[1,0] <= 0.8
-End
