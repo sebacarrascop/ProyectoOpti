@@ -6,9 +6,9 @@ import numpy as np
 import networkx as nx
 
 # Variables globales
-BIG_M = 9999999  # El big M parecia no funcionar como lo teníamos antes, por eso lo dejé así.
-LITLLE_M = 1e-3
-path_to_data = os.path.join(os.getcwd(), 'data', 'simple')
+BIG_M = 9999999999
+LITLLE_M = 0.0000000001
+path_to_data = os.path.join(os.getcwd(), 'data', 'complejo')
 
 # Conjunto de nodos
 # nodo_id,x,y
@@ -55,6 +55,13 @@ tipos_de_autos = V['tipo'].values.tolist()
 C = pd.read_csv(os.path.join(path_to_data, 'autos.csv'))
 cantidad_autos = len(C)
 
+# Obtenemos parametros
+# porcentaje_max_bateria,porcentaje_min_bateria
+parametros = pd.read_csv(os.path.join(path_to_data, 'parametros.csv'))
+B_max = parametros.iloc[0, 0]
+B_min = parametros.iloc[0, 1]
+T_max = parametros.iloc[0, 2]
+
 
 ## PARAMETROS ##
 
@@ -71,6 +78,17 @@ for k in range(cantidad_autos):
         if C.iloc[k, 1] == V.iloc[v, 0]:
             Y_vk[v+1, k+1] = 1
 
+# Indicador de si el vehiculo k se puede cargar en la electrolinera i porque cumple
+# con que la potencia de carga del vehiculo es mayor o igual a la potencia de carga
+# entregada en el nodo i.
+print(cantidad_nodos)
+Z_ik = np.zeros((cantidad_nodos + 1, cantidad_autos + 1))
+for k in range(cantidad_autos):
+    for i in range(1, cantidad_nodos + 1):
+        if G.nodes[i]['electrolinera']:
+            if V.iloc[C.iloc[k, 1]-1, 1] >= E[E['nodo_id'] == i]['potencia_de_carga'].values[0]:
+                Z_ik[i, k+1] = 1
+
 # Constante de porcentaje de carga por unidad de tiempo, donde la posicion i,v es
 # la constante de carga de la electrolinera i para el tipo de auto v
 g_iv = np.zeros((cantidad_nodos + 1, cantidad_de_tipos_de_autos + 1))
@@ -81,6 +99,7 @@ for nodo_electrolinera in electrolineras:
         C_v = V['tamano_bateria'][V['tipo'] == tipo_auto].values[0]
         constante_tiempo = 60  # [min/hora]
         g_iv[nodo_electrolinera, tipo_auto] = (r_i) / (C_v * constante_tiempo)
+
 
 e_ij = np.zeros((cantidad_nodos + 1, cantidad_nodos + 1))
 for i, j, data in G.edges(data=True):
@@ -109,6 +128,9 @@ X_ijk = m.addVars(G.edges(), range(cantidad_autos),
 E_jk = m.addVars(G.nodes(), range(cantidad_autos),
                  vtype=gp.GRB.CONTINUOUS, name="E", lb=0.2, ub=0.8)
 
+# Se define variable F_ik: temperatura de la batería del auto k en el nodo i
+F_ik = m.addVars(G.nodes(), range(cantidad_autos),
+                 vtype=gp.GRB.CONTINUOUS, name="F")
 
 # Se define variable R_ik: tiempo de carga en el punto de carga i del auto k
 R_ik = m.addVars(G.nodes(), range(cantidad_autos),
@@ -142,14 +164,7 @@ for k in range(cantidad_autos):
 
 
 # Restriccion 2: Energia
-"""
-Por el momento solo considerare:
-1. Gasto de energia entre nodos
-2. Carga en electrolineras segun tiempo asignado por el modelo
-Falta considerar:
-1. Z_ik: 1 si el auto k puede cargar en la electrolinera i por potencia
-2. Temperatura.
-"""
+
 # Funciona pero no está linealizado.
 for k in range(cantidad_autos):
     for i in G.nodes():
@@ -208,8 +223,9 @@ for i in G.nodes():
 #     for i, j in G.edges():
 #         m.addConstr(F_ik[j, k] <= T_max * X_ijk[i, j, k],
 #                     name=f"Temperatura_{j}_{k}_1")
+
+
 # Optimize model
-# Asegúrate de que tu modelo ya está construido y que intentaste resolverlo.
 try:
     m.optimize()
 except gp.GurobiError as e:
@@ -246,6 +262,7 @@ for k in range(cantidad_autos):
     print(f"Energía final en el nodo {cantidad_nodos}: {(energia_final*100):.2f}%")
     
     # Imprimir R_ik
-    print(f"Tiempo de carga:")
+    print(f"Tiempo de carga en electrolineras seleccionadas: ")
     for i in G.nodes():
-        print(f"Tiempo de carga en nodo {i}: {R_ik[i, k].x:.2f} horas")
+        if R_ik[i, k].x > 0:
+            print(f"Tiempo de carga en nodo {i}: {R_ik[i, k].x:.2f} minutos")

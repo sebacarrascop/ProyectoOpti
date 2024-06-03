@@ -151,15 +151,15 @@ m.setObjective(obj, gp.GRB.MINIMIZE)
 for k in range(cantidad_autos):
     for node in G.nodes():
         out_flow = quicksum(X_ijk[node, j, k] for j in G.successors(node) if (node, j) in G.edges())
-        in_flow = quicksum(X_ijk[j, node, k] for j in G.predecessors(
-            node) if (j, node) in G.edges())
+        in_flow = quicksum(X_ijk[j, node, k] for j in G.predecessors( node) if (j, node) in G.edges())
 
         if node == 1:
             m.addConstr(out_flow - in_flow == 1, f"flow_cons_{node}_{k}")
         elif node == cantidad_nodos:
             m.addConstr(out_flow - in_flow == -1, f"flow_cons_{node}_{k}")
         else:
-            m.addConstr(out_flow - in_flow == 0, f"flow_cons_{node}_{k}")
+            m.addConstr(out_flow == in_flow,  f"flow_cons_{node}_{k}")
+
 
 # Restriccion 2: Energia
 # Energia inicial es equivalente al porcentaje inicial de la bateria del auto
@@ -168,10 +168,9 @@ for k in range(cantidad_autos):
         if i == 1:
             m.addConstr(E_jk[i, k] == C.iloc[k, 3], name=f"Energia_inicial_auto_{k}")
         for j in G.successors(i):
-            tipo_auto = C.iloc[k, 1]  
+            tipo_auto = C.iloc[k, 1]   
             factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0]
-            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * factor_consumo * X_ijk[i, j, k] + 
-                        R_ik[i, k] * g_iv[i, tipo_auto], name=f"Energia_auto{k}_nodo{j}")
+            m.addConstr(E_jk[j, k] == E_jk[i, k] - e_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k] * g_iv[i, tipo_auto], name=f"Energia_{j}_{k}")
 
 # Restriction 3: La energia final en el nodo final es mayor o igual al minimo requerido
 # Solo se puede cargar en un nodo si es electrolinera
@@ -254,7 +253,7 @@ for k in range(cantidad_autos):
     # Imprimir R_ik
     for i in G.nodes():
         if R_ik[i, k].x > 0:
-            print(f"Tiempo de recarga en electrolinera {i}: {R_ik[i, k].x:.2f} minutos")
+            print(f"Tiempo de recarga en electrolinera {i}: {R_ik[i, k].x:.0f} minutos")
     print(f"Energía final en el nodo {cantidad_nodos}: {(energia_final*100):.2f}%")
 
     # # Imprimir temperatura
