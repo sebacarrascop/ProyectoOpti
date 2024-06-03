@@ -111,6 +111,7 @@ for i, j, data in G.edges(data=True):
     w_ij[i, j] = A["variacion_temperatura"][A["nodo1"]
                                             == i][A["nodo2"] == j].values[0]
 
+
 ### MODELO DE OPTIMIZACION ###
 
 m = gp.Model("electric_cars")
@@ -237,31 +238,35 @@ if m.status == gp.GRB.INFEASIBLE:
 else:
     print("El modelo es factible.")
 
-# Print the objective value
-print(f"Objetivo:j {m.objVal}")
+file_name = "resultados.txt"
 
-for k in range(cantidad_autos):
-    print(f"\nCAMINO AUTO {k+1}:")
-    camino = []
-    nodo_actual = 1  # Nodo inicial
-    while nodo_actual != cantidad_nodos:  # Nodo final
-        camino.append(nodo_actual)
-        for i, j in G.edges():
-            if X_ijk[i, j, k].x > 0.5 and i == nodo_actual:
-                nodo_actual = j
-                break
-    camino.append(cantidad_nodos)
-    print(" -> ".join(map(str, camino)))
-    energia_final = E_jk[cantidad_nodos, k].x
-    print(f"Energía final en el nodo {cantidad_nodos}: {(energia_final*100):.2f}%")
-    
-    # Imprimir R_ik
-    print(f"Tiempo de carga en electrolineras seleccionadas: ")
-    for i in G.nodes():
-        if R_ik[i, k].x > 0.0:
-            print(f"Tiempo de carga en nodo {i}: {R_ik[i, k].x:.2f} minutos")
+# Print the objective value in the file
+with open(file_name, "w") as f:
+    f.write(f"Objetivo: {m.objVal}\n")
 
-    # Imprimir temperatura
-    for i in G.nodes():
-        if i in camino:
-            print(f"Temperatura auto {k+1} en nodo {i}: {F_ik[i, k].x:.2f}°C")
+    for k in range(cantidad_autos):
+        f.write(f"\nCAMINO AUTO {k+1}:\n")
+        camino = []
+        nodo_actual = 1  # Nodo inicial
+        while nodo_actual != cantidad_nodos:  # Nodo final
+            camino.append(nodo_actual)
+            for i, j in G.edges():
+                if X_ijk[i, j, k].x > 0.5 and i == nodo_actual:
+                    nodo_actual = j
+                    break
+        camino.append(cantidad_nodos)
+        f.write(" -> ".join(map(str, camino)))
+        f.write("\n")
+        energia_final = E_jk[cantidad_nodos, k].x
+        f.write(f"Energía final en el nodo {cantidad_nodos}: {(energia_final*100):.2f}%\n")
+
+        # Imprimir R_ik
+        f.write(f"Tiempo de carga en electrolineras seleccionadas: \n")
+        for i in G.nodes():
+            if R_ik[i, k].x > 0.0:
+                f.write(f"Tiempo de carga en nodo {i}: {R_ik[i, k].x:.2f} minutos\n")
+
+        # Imprimir temperatura
+        for i in G.nodes():
+            if i in camino:
+                f.write(f"Temperatura auto {k+1} en nodo {i}: {F_ik[i, k].x:.2f}°C\n")
