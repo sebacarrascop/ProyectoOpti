@@ -6,9 +6,9 @@ import numpy as np
 import networkx as nx
 
 # Variables globales
-BIG_M = 99999999999999  # El big M parecia no funcionar como lo teníamos antes, por eso lo dejé así.
+BIG_M = 9999999  # El big M parecia no funcionar como lo teníamos antes, por eso lo dejé así.
 LITLLE_M = 1e-3
-path_to_data = os.path.join(os.getcwd(), 'simple')
+path_to_data = os.path.join(os.getcwd(), 'data', 'simple')
 
 # Conjunto de nodos
 # nodo_id,x,y
@@ -114,6 +114,9 @@ E_jk = m.addVars(G.nodes(), range(cantidad_autos),
 R_ik = m.addVars(G.nodes(), range(cantidad_autos),
                  vtype=gp.GRB.CONTINUOUS, name="R", lb=0)
 
+# Se define la variable U_ik: 1 si la tempertura de la bateria del auto k supera la tempertura ideal de operación en el nodo i
+U_ik = m.addVars(G.nodes(), range(cantidad_autos),
+                 vtype=gp.GRB.BINARY, name="U")
 
 
 # Define the objective function
@@ -154,8 +157,9 @@ for k in range(cantidad_autos):
             m.addConstr(E_jk[i, k] == C.iloc[k, 3], name=f"Energia_inicial_auto_{k}")
         for j in G.successors(i):
             tipo_auto = C.iloc[k, 1]   
-            factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0]
-            m.addConstr(E_jk[j, k] * X_ijk[i, j, k] == (E_jk[i, k] - e_ij[i, j]  + R_ik[i, k] * g_iv[i, tipo_auto]) * X_ijk[i, j, k], name=f"E arista({i},{j}) auto {k}")
+            factor_consumo = V[V['tipo'] == (tipo_auto)]['factor_consumo'].values[0] #  Tiene que ser entre 0% y 10% (1 y 1.1)
+            m.addConstr(E_jk[j, k] * X_ijk[i, j, k] == (E_jk[i, k] - e_ij[i, j] * factor_consumo + R_ik[i, k] * g_iv[i, tipo_auto])
+                        * X_ijk[i, j, k] - U_ik[i, k], name=f"E arista({i},{j}) auto {k}")
 
 # Esta restriccion es para que el auto k no pueda cargar en un nodo que no sea electrolinera
 for i in G.nodes():
@@ -218,7 +222,7 @@ if m.status == gp.GRB.INFEASIBLE:
         print(f"{constr.ConstrName}: {constr.Sense} {constr.RHS}")
     print("Modelo inviable. Calculando el conjunto irreducible de restricciones infeasibles...")
     m.computeIIS()  # Calcula el IIS
-    m.write("model.ilp")  # Escribe el IIS a un archivo
+    m.write("octa.ilp")  # Escribe el IIS a un archivo
     print("El archivo 'model.ilp' ha sido creado con las restricciones infeasibles.")
 else:
     print("El modelo es factible.")

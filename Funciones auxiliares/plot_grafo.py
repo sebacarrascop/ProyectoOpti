@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-path_to_data = 'simple'
+path_to_data = os.path.join(os.getcwd(), 'data', 'complejo')
 
 # Conjunto de nodos
 # nodo_id,x,y
@@ -30,8 +30,7 @@ A = pd.read_csv(os.path.join(path_to_data, 'aristas.csv'))
 
 # Pasamos las aristas a un objeto networkx
 for I in range(len(A)):
-    G.add_edge(A.iloc[I, 0], A.iloc[I, 1], tiempo=A.iloc[I, 2],
-               energia=A.iloc[I, 3], temperatura=A.iloc[I, 4])
+    G.add_edge(A.iloc[I, 0], A.iloc[I, 1])
 
 # electrolineras de color rojo
 # nodos normales de color azul
