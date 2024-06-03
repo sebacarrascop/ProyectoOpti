@@ -10,7 +10,7 @@ DISTACIA_MAXIMA = 8
 path_to_data = os.path.join('data', 'complejo')
 nodos_file = os.path.join(path_to_data, 'nodos.csv')
 electrolineras_file = os.path.join(path_to_data, 'electrolineras.csv')
-output_file = os.path.join(path_to_data, 'aristas.csv')
+output_file = os.path.join(path_to_data, 'aristas2.csv')
 
 # Calcular tiempo, energía requerida y variación de temperatura
 def tiempo(distancia):

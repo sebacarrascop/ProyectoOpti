@@ -63,10 +63,10 @@ def distancia_manhattan(nodo1, nodo2):
 aristas_df['distancia'] = aristas_df.apply(lambda x: distancia_manhattan(x['nodo1'], x['nodo2']), axis=1)
 
 # Calcular el tiempo, energía requerida y variación de temperatura
-aristas_df['tiempo'] = aristas_df['distancia'] / 15
+aristas_df['tiempo'] = aristas_df['distancia'] / 8
 # Que sea random en cada entrada
 for i in range(len(aristas_df)):
-    aristas_df.loc[i, 'energia_requerida'] = 0.05 + random.uniform(-0.001, 0.001)
+    aristas_df.loc[i, 'energia_requerida'] = 0.05 + random.uniform(-0.04, 0.04)
 aristas_df['variacion_temperatura'] = aristas_df.apply(lambda x: -1 if x['nodo1'] in electrolineras['nodo_id'].values else 1, axis=1)
 
 # quitar columnas de distancia

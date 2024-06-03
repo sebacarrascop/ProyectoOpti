@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-path_to_data = os.path.join(os.getcwd(), 'data', 'LasCondes')
+path_to_data = os.path.join(os.getcwd(), 'data', 'simple')
 
 # Conjunto de nodos
 # nodo_id,x,y
@@ -35,15 +35,34 @@ for I in range(len(A)):
 # electrolineras de color rojo
 # nodos normales de color azul
 pos = nx.get_node_attributes(G, 'pos')
-node_colors = ['red' if G.nodes[node]['electrolinera'] else 'blue' for node in G.nodes]
-edge_colors = ['red' if G.nodes[node]['electrolinera'] else 'blue' for node in G.nodes]
+node_colors = ['green' if G.nodes[node]['electrolinera'] else 'gold' for node in G.nodes]
+edge_colors = ['green' if G.nodes[node]['electrolinera'] else 'gold' for node in G.nodes]
+
+# PINTA AMARILLO EL NODO INICIAL Y VERDE EL NODO FINAL
+node_colors[0] = 'red'
+node_colors[-1] = 'blue'
+
+nodos_size = []
+nodo_inicial = 1
+nodo_final = len(N)
+
+node_sizes = []
+for node in G.nodes:
+    size = 50   # Tamaño para nodos normales
+    # Ajuste específico para nodos iniciales y finales
+    if node == nodo_inicial or node == nodo_final:
+        size = 100
+    
+
+    node_sizes.append(size)
+
 plt.figure(figsize=(10, 8))
 ax = plt.gca()
 ax.patch.set_alpha(0)  # Fondo transparente
 
-nx.draw(G, pos, with_labels=False, node_size=50, node_color=node_colors,
+nx.draw(G, pos, with_labels=True, node_color=node_colors,
         edgecolors=edge_colors, arrows=True, arrowstyle='-|>', arrowsize=5,
-        width=1, edge_color='grey', alpha=0.7)
+        width=1, edge_color='grey', alpha=0.7, node_size=node_sizes)
 
 ax.xaxis.set_visible(True)  # Muestra el eje X
 ax.yaxis.set_visible(True)  # Muestra el eje Y
