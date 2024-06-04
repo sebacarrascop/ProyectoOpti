@@ -66,7 +66,7 @@ B_min = parametros.iloc[0, 1]
 T_max = parametros.iloc[0, 2]
 
 
-## 2. PARAMETROS ##
+## 3. PARAMETROS ##
 
 # Se generan matrices para poder trabajar con los datos de manera más eficiente.
 
@@ -124,7 +124,7 @@ for i, j, data in G.edges(data=True):
 m = gp.Model("electric_cars")
 
 
-## VARIABLES ##
+## 4. VARIABLES ##
 
 # Se define variable X_ij: 1 si el nodo i y el nodo j pertenecen al camino elegido del auto k
 # Suponemos que cantidad_autos es el rango para k y G es tu grafo
@@ -155,9 +155,9 @@ obj = gp.quicksum(T_ij[i, j] * X_ijk[i, j, k] + R_ik[i, k]
 # Set the objective to minimize
 m.setObjective(obj, gp.GRB.MINIMIZE)
 
-## RESTRICCIONES ##
+## 5. RESTRICCIONES ##
 
-# Restriccion 1: hay un camino solucion para cada auto
+# Hay un camino solucion para cada auto
 for k in range(cantidad_autos):
     for node in G.nodes():
         out_flow = quicksum(X_ijk[node, j, k]
@@ -174,7 +174,7 @@ for k in range(cantidad_autos):
         else:
             m.addConstr(out_flow == in_flow,  f"flow_cons_{node}_{k}")
 
-# Restriccion 2: Energia
+# Energia
 for k in range(cantidad_autos):
     for i in G.nodes():
         if i == 1:
@@ -193,7 +193,7 @@ for k in range(cantidad_autos):
                         X_ijk[i, j, k], name=f"E arista({i},{j}) auto {k}")
 
 
-# Restriccion 3: Se relaciona la variable E_jk con la X_ijk que cuando no escoja el camino la energía
+# Se relaciona la variable E_jk con la X_ijk que cuando no escoja el camino la energía
 # gastada es cero y cuando se elige tomar a un valor maximo teórico
 # for k in range(cantidad_autos):
 #     for i, j in G.edges():
@@ -201,7 +201,7 @@ for k in range(cantidad_autos):
 #                     name=f"Energia_{j}_{k}_1")
 
 
-# Restriccion 4: Esta restriccion es para que el auto k no pueda cargar en un nodo que no sea electrolinera
+# Esta restriccion es para que el auto k no pueda cargar en un nodo que no sea electrolinera
 for i in G.nodes():
     for k in range(cantidad_autos):
         for v in range(1, cantidad_de_tipos_de_autos + 1):
@@ -209,13 +209,13 @@ for i in G.nodes():
                         name=f"Tiempo_Carga_{i}_{k+1}")
 
 
-# Restriccion 5: Se limita la carga de la batería para aumentar la vida util de la batería.
+# Se limita la carga de la batería para aumentar la vida util de la batería.
 # for k in range(cantidad_autos):
 #     for i in G.nodes():
 #         m.addConstr(E_jk[i, k] <= B_max, name=f"Max_Bateria_{i}_{k}")
 #         m.addConstr(E_jk[i, k] >= B_min, name=f"Min_Bateria_{i}_{k}")
 
-# Restriccion 6: Se define que solo se puede cargar en electrolineras y que el tiempo total de recarga no excederá
+# Se define que solo se puede cargar en electrolineras y que el tiempo total de recarga no excederá
 # jamás el tiempo que tomaría cargar la batería por completo.
 # for i in G.nodes():
 #     for k in range(cantidad_autos):
@@ -223,7 +223,7 @@ for i in G.nodes():
 #             m.addConstr(g_iv[i, v] * R_ik[i, k] <= B_max *
 #                         Z_ik[i, k], name=f"Tiempo_Carga_{i}_{k}")
 
-# Restriccion 7: Primero,  se limita la  + 1temperafor i, j in G.edges():or, pero para la cota inferior.
+# Primero,  se limita la  + 1temperafor i, j in G.edges():or, pero para la cota inferior.
 # for i in G.nodes():
 #     for k in range(cantidad_autos):
 #         for v in range(1, cantidad_de_tipos_de_autos + 1):
@@ -231,21 +231,21 @@ for i in G.nodes():
 #                         BIG_M * U_ik[i, k], name=f"Temperatura_{i}_{k}_v")
 
 
-# Restriccion 8: Siguiendo la misma idea anterior, pero para la cota inferior
+# Siguiendo la misma idea anterior, pero para la cota inferior
 # for i in G.nodes():
 #     for k in range(cantidad_autos):
 #         for v in range(1, cantidad_de_tipos_de_autos + 1):
 #             m.addConstr(F_ik[i, k] >= V.iloc[v-1, 5]*Y_vk[v, k] + BIG_M * U_ik[i, k] +
 #                         LITLLE_M + BIG_M * (1 - U_ik[i, k]), name=f"Temperatura_{i}_{k}_v")
 
-# Restriccion 9: Se relaciona las variables Uk de manera que el valor m ́aximo que puede tomar es cuando Xij toma el valor de uno,
+# Se relaciona las variables Uk de manera que el valor m ́aximo que puede tomar es cuando Xij toma el valor de uno,
 # pues solo si es parte del camino elegido Uk puede tomar valor uno.
 for k in range(cantidad_autos):
     for i, j in G.edges():
         m.addConstr(U_ik[i, k] <= X_ijk[i, j, k], name=f"U_{i}_{k}")
 
 
-# 10. Se define el aumento y disminucion de temperatura
+# Se define el aumento y disminucion de temperatura
 for k in range(cantidad_autos):
     for i in G.nodes():
         if i == 1:
@@ -255,7 +255,7 @@ for k in range(cantidad_autos):
             m.addConstr(F_ik[j, k] * X_ijk[i, j, k] == (F_ik[i, k] +
                         w_ij[i, j]) * X_ijk[i, j, k], name=f"Temperatura_{j}_{k}")
 
-# 11. Se relaciona la variable Fik con la Xijk de manera que cuando no escoja el camino la temperatura
+# Se relaciona la variable Fik con la Xijk de manera que cuando no escoja el camino la temperatura
 # no cambia y cuando se elige tomar a un valor maximo teórico
 # for k in range(cantidad_autos):
 #     for i, j in G.edges():
