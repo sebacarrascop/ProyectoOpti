@@ -8,7 +8,7 @@ from matplotlib.lines import Line2D
 
 # Leer los caminos desde el archivo resultados-final.txt
 caminos = []
-with open('resultados-final.txt') as f:
+with open('resultados.txt') as f:
     for line in f:
         if line.startswith('1'):
             camino = [int(nodo) for nodo in line.strip().split(' -> ')]
