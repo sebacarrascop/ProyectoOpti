@@ -138,7 +138,7 @@ E_jk = m.addVars(G.nodes(), range(cantidad_autos),
 
 # Se define variable F_ik: temperatura de la batería del auto k en el nodo i
 F_ik = m.addVars(G.nodes(), range(cantidad_autos),
-                 vtype=gp.GRB.CONTINUOUS, name="F", lb=0, ub=100)
+                 vtype=gp.GRB.CONTINUOUS, name="F", lb=0, ub=40)
 
 # Se define variable R_ik: tiempo de carga en el punto de carga i del auto k
 R_ik = m.addVars(G.nodes(), range(cantidad_autos),
