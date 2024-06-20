@@ -1,52 +1,70 @@
-Objetivo: 255464.86811878046
+Objetivo: 348713.43318413553
 
 CAMINO AUTO 1:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 406.99 minutos
+Tiempo de carga en nodo 232: 2145.90 minutos
 Temperatura auto 1 en nodo 1: 18.26°C
-Temperatura auto 1 en nodo 84: 23.26°C
-Temperatura auto 1 en nodo 97: 22.26°C
-Temperatura auto 1 en nodo 118: 23.26°C
-Temperatura auto 1 en nodo 141: 20.26°C
-Temperatura auto 1 en nodo 170: 21.26°C
-Temperatura auto 1 en nodo 187: 19.26°C
-Temperatura auto 1 en nodo 214: 24.26°C
-Temperatura auto 1 en nodo 217: 24.26°C
-Temperatura auto 1 en nodo 244: 23.26°C
+Temperatura auto 1 en nodo 31: 25.26°C
+Temperatura auto 1 en nodo 43: 28.26°C
+Temperatura auto 1 en nodo 68: 24.26°C
+Temperatura auto 1 en nodo 110: 20.26°C
+Temperatura auto 1 en nodo 113: 21.26°C
+Temperatura auto 1 en nodo 116: 22.26°C
+Temperatura auto 1 en nodo 120: 26.26°C
+Temperatura auto 1 en nodo 125: 27.26°C
+Temperatura auto 1 en nodo 156: 22.26°C
+Temperatura auto 1 en nodo 172: 24.26°C
+Temperatura auto 1 en nodo 175: 23.26°C
+Temperatura auto 1 en nodo 185: 19.26°C
+Temperatura auto 1 en nodo 226: 25.26°C
+Temperatura auto 1 en nodo 232: 23.26°C
+Temperatura auto 1 en nodo 244: 29.26°C
 
 CAMINO AUTO 2:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 206.99 minutos
+Tiempo de carga en nodo 232: 1945.90 minutos
 Temperatura auto 2 en nodo 1: 19.89°C
-Temperatura auto 2 en nodo 84: 24.89°C
-Temperatura auto 2 en nodo 97: 23.89°C
-Temperatura auto 2 en nodo 118: 24.89°C
-Temperatura auto 2 en nodo 141: 21.89°C
-Temperatura auto 2 en nodo 170: 22.89°C
-Temperatura auto 2 en nodo 187: 20.89°C
-Temperatura auto 2 en nodo 214: 25.89°C
-Temperatura auto 2 en nodo 217: 25.89°C
-Temperatura auto 2 en nodo 244: 24.89°C
+Temperatura auto 2 en nodo 31: 26.89°C
+Temperatura auto 2 en nodo 43: 29.89°C
+Temperatura auto 2 en nodo 68: 25.89°C
+Temperatura auto 2 en nodo 110: 21.89°C
+Temperatura auto 2 en nodo 113: 22.89°C
+Temperatura auto 2 en nodo 116: 23.89°C
+Temperatura auto 2 en nodo 120: 27.89°C
+Temperatura auto 2 en nodo 125: 28.89°C
+Temperatura auto 2 en nodo 156: 23.89°C
+Temperatura auto 2 en nodo 172: 25.89°C
+Temperatura auto 2 en nodo 175: 24.89°C
+Temperatura auto 2 en nodo 185: 20.89°C
+Temperatura auto 2 en nodo 226: 26.89°C
+Temperatura auto 2 en nodo 232: 24.89°C
+Temperatura auto 2 en nodo 244: 30.89°C
 
 CAMINO AUTO 3:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 373.65 minutos
+Tiempo de carga en nodo 232: 2112.57 minutos
 Temperatura auto 3 en nodo 1: 18.58°C
-Temperatura auto 3 en nodo 84: 23.58°C
-Temperatura auto 3 en nodo 97: 22.58°C
-Temperatura auto 3 en nodo 118: 23.58°C
-Temperatura auto 3 en nodo 141: 20.58°C
-Temperatura auto 3 en nodo 170: 21.58°C
-Temperatura auto 3 en nodo 187: 19.58°C
-Temperatura auto 3 en nodo 214: 24.58°C
-Temperatura auto 3 en nodo 217: 24.58°C
-Temperatura auto 3 en nodo 244: 23.58°C
+Temperatura auto 3 en nodo 31: 25.58°C
+Temperatura auto 3 en nodo 43: 28.58°C
+Temperatura auto 3 en nodo 68: 24.58°C
+Temperatura auto 3 en nodo 110: 20.58°C
+Temperatura auto 3 en nodo 113: 21.58°C
+Temperatura auto 3 en nodo 116: 22.58°C
+Temperatura auto 3 en nodo 120: 26.58°C
+Temperatura auto 3 en nodo 125: 27.58°C
+Temperatura auto 3 en nodo 156: 22.58°C
+Temperatura auto 3 en nodo 172: 24.58°C
+Temperatura auto 3 en nodo 175: 23.58°C
+Temperatura auto 3 en nodo 185: 19.58°C
+Temperatura auto 3 en nodo 226: 25.58°C
+Temperatura auto 3 en nodo 232: 23.58°C
+Temperatura auto 3 en nodo 244: 29.58°C
 
 CAMINO AUTO 4:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -66,7 +84,7 @@ Temperatura auto 4 en nodo 244: 24.37°C
 
 CAMINO AUTO 5:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 35.85%
+Energía final en el nodo 244: 23.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 5 en nodo 1: 21.99°C
 Temperatura auto 5 en nodo 8: 22.99°C
@@ -80,7 +98,7 @@ Temperatura auto 5 en nodo 244: 23.99°C
 
 CAMINO AUTO 6:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 38.85%
+Energía final en el nodo 244: 26.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 6 en nodo 1: 20.41°C
 Temperatura auto 6 en nodo 8: 21.41°C
@@ -342,20 +360,26 @@ Temperatura auto 15 en nodo 238: 26.99°C
 Temperatura auto 15 en nodo 244: 26.99°C
 
 CAMINO AUTO 16:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 373.65 minutos
+Tiempo de carga en nodo 232: 2112.57 minutos
 Temperatura auto 16 en nodo 1: 18.88°C
-Temperatura auto 16 en nodo 84: 23.88°C
-Temperatura auto 16 en nodo 97: 22.88°C
-Temperatura auto 16 en nodo 118: 23.88°C
-Temperatura auto 16 en nodo 141: 20.88°C
-Temperatura auto 16 en nodo 170: 21.88°C
-Temperatura auto 16 en nodo 187: 19.88°C
-Temperatura auto 16 en nodo 214: 24.88°C
-Temperatura auto 16 en nodo 217: 24.88°C
-Temperatura auto 16 en nodo 244: 23.88°C
+Temperatura auto 16 en nodo 31: 25.88°C
+Temperatura auto 16 en nodo 43: 28.88°C
+Temperatura auto 16 en nodo 68: 24.88°C
+Temperatura auto 16 en nodo 110: 20.88°C
+Temperatura auto 16 en nodo 113: 21.88°C
+Temperatura auto 16 en nodo 116: 22.88°C
+Temperatura auto 16 en nodo 120: 26.88°C
+Temperatura auto 16 en nodo 125: 27.88°C
+Temperatura auto 16 en nodo 156: 22.88°C
+Temperatura auto 16 en nodo 172: 24.88°C
+Temperatura auto 16 en nodo 175: 23.88°C
+Temperatura auto 16 en nodo 185: 19.88°C
+Temperatura auto 16 en nodo 226: 25.88°C
+Temperatura auto 16 en nodo 232: 23.88°C
+Temperatura auto 16 en nodo 244: 29.88°C
 
 CAMINO AUTO 17:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -416,20 +440,26 @@ Temperatura auto 18 en nodo 238: 29.80°C
 Temperatura auto 18 en nodo 244: 29.80°C
 
 CAMINO AUTO 19:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 373.65 minutos
+Tiempo de carga en nodo 232: 2112.57 minutos
 Temperatura auto 19 en nodo 1: 18.51°C
-Temperatura auto 19 en nodo 84: 23.51°C
-Temperatura auto 19 en nodo 97: 22.51°C
-Temperatura auto 19 en nodo 118: 23.51°C
-Temperatura auto 19 en nodo 141: 20.51°C
-Temperatura auto 19 en nodo 170: 21.51°C
-Temperatura auto 19 en nodo 187: 19.51°C
-Temperatura auto 19 en nodo 214: 24.51°C
-Temperatura auto 19 en nodo 217: 24.51°C
-Temperatura auto 19 en nodo 244: 23.51°C
+Temperatura auto 19 en nodo 31: 25.51°C
+Temperatura auto 19 en nodo 43: 28.51°C
+Temperatura auto 19 en nodo 68: 24.51°C
+Temperatura auto 19 en nodo 110: 20.51°C
+Temperatura auto 19 en nodo 113: 21.51°C
+Temperatura auto 19 en nodo 116: 22.51°C
+Temperatura auto 19 en nodo 120: 26.51°C
+Temperatura auto 19 en nodo 125: 27.51°C
+Temperatura auto 19 en nodo 156: 22.51°C
+Temperatura auto 19 en nodo 172: 24.51°C
+Temperatura auto 19 en nodo 175: 23.51°C
+Temperatura auto 19 en nodo 185: 19.51°C
+Temperatura auto 19 en nodo 226: 25.51°C
+Temperatura auto 19 en nodo 232: 23.51°C
+Temperatura auto 19 en nodo 244: 29.51°C
 
 CAMINO AUTO 20:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -477,18 +507,20 @@ Temperatura auto 21 en nodo 217: 27.58°C
 Temperatura auto 21 en nodo 244: 26.58°C
 
 CAMINO AUTO 22:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 29.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 292.42 minutos
 Temperatura auto 22 en nodo 1: 20.66°C
-Temperatura auto 22 en nodo 8: 21.66°C
-Temperatura auto 22 en nodo 36: 23.66°C
-Temperatura auto 22 en nodo 121: 22.66°C
-Temperatura auto 22 en nodo 164: 21.66°C
-Temperatura auto 22 en nodo 207: 22.66°C
-Temperatura auto 22 en nodo 228: 24.66°C
-Temperatura auto 22 en nodo 233: 23.66°C
-Temperatura auto 22 en nodo 244: 22.66°C
+Temperatura auto 22 en nodo 84: 25.66°C
+Temperatura auto 22 en nodo 97: 24.66°C
+Temperatura auto 22 en nodo 118: 25.66°C
+Temperatura auto 22 en nodo 141: 22.66°C
+Temperatura auto 22 en nodo 170: 23.66°C
+Temperatura auto 22 en nodo 187: 21.66°C
+Temperatura auto 22 en nodo 214: 26.66°C
+Temperatura auto 22 en nodo 217: 26.66°C
+Temperatura auto 22 en nodo 244: 25.66°C
 
 CAMINO AUTO 23:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -549,20 +581,26 @@ Temperatura auto 24 en nodo 238: 29.34°C
 Temperatura auto 24 en nodo 244: 29.34°C
 
 CAMINO AUTO 25:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 340.32 minutos
+Tiempo de carga en nodo 232: 2079.24 minutos
 Temperatura auto 25 en nodo 1: 19.72°C
-Temperatura auto 25 en nodo 84: 24.72°C
-Temperatura auto 25 en nodo 97: 23.72°C
-Temperatura auto 25 en nodo 118: 24.72°C
-Temperatura auto 25 en nodo 141: 21.72°C
-Temperatura auto 25 en nodo 170: 22.72°C
-Temperatura auto 25 en nodo 187: 20.72°C
-Temperatura auto 25 en nodo 214: 25.72°C
-Temperatura auto 25 en nodo 217: 25.72°C
-Temperatura auto 25 en nodo 244: 24.72°C
+Temperatura auto 25 en nodo 31: 26.72°C
+Temperatura auto 25 en nodo 43: 29.72°C
+Temperatura auto 25 en nodo 68: 25.72°C
+Temperatura auto 25 en nodo 110: 21.72°C
+Temperatura auto 25 en nodo 113: 22.72°C
+Temperatura auto 25 en nodo 116: 23.72°C
+Temperatura auto 25 en nodo 120: 27.72°C
+Temperatura auto 25 en nodo 125: 28.72°C
+Temperatura auto 25 en nodo 156: 23.72°C
+Temperatura auto 25 en nodo 172: 25.72°C
+Temperatura auto 25 en nodo 175: 24.72°C
+Temperatura auto 25 en nodo 185: 20.72°C
+Temperatura auto 25 en nodo 226: 26.72°C
+Temperatura auto 25 en nodo 232: 24.72°C
+Temperatura auto 25 en nodo 244: 30.72°C
 
 CAMINO AUTO 26:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -618,7 +656,7 @@ Temperatura auto 27 en nodo 244: 32.68°C
 
 CAMINO AUTO 28:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 35.85%
+Energía final en el nodo 244: 23.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 28 en nodo 1: 20.78°C
 Temperatura auto 28 en nodo 8: 21.78°C
@@ -763,22 +801,25 @@ Temperatura auto 33 en nodo 238: 29.33°C
 Temperatura auto 33 en nodo 244: 29.33°C
 
 CAMINO AUTO 34:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 28.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 108.66 minutos
+Tiempo de carga en nodo 217: 217.09 minutos
 Temperatura auto 34 en nodo 1: 21.97°C
-Temperatura auto 34 en nodo 8: 22.97°C
-Temperatura auto 34 en nodo 36: 24.97°C
-Temperatura auto 34 en nodo 121: 23.97°C
-Temperatura auto 34 en nodo 164: 22.97°C
-Temperatura auto 34 en nodo 207: 23.97°C
-Temperatura auto 34 en nodo 228: 25.97°C
-Temperatura auto 34 en nodo 233: 24.97°C
-Temperatura auto 34 en nodo 244: 23.97°C
+Temperatura auto 34 en nodo 84: 26.97°C
+Temperatura auto 34 en nodo 97: 25.97°C
+Temperatura auto 34 en nodo 118: 26.97°C
+Temperatura auto 34 en nodo 141: 23.97°C
+Temperatura auto 34 en nodo 170: 24.97°C
+Temperatura auto 34 en nodo 187: 22.97°C
+Temperatura auto 34 en nodo 214: 27.97°C
+Temperatura auto 34 en nodo 217: 27.97°C
+Temperatura auto 34 en nodo 244: 26.97°C
 
 CAMINO AUTO 35:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 37.85%
+Energía final en el nodo 244: 25.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 35 en nodo 1: 21.17°C
 Temperatura auto 35 en nodo 8: 22.17°C
@@ -911,34 +952,42 @@ Temperatura auto 40 en nodo 238: 26.15°C
 Temperatura auto 40 en nodo 244: 26.15°C
 
 CAMINO AUTO 41:
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 232: 2079.24 minutos
+Temperatura auto 41 en nodo 1: 21.26°C
+Temperatura auto 41 en nodo 31: 28.26°C
+Temperatura auto 41 en nodo 43: 31.26°C
+Temperatura auto 41 en nodo 68: 27.26°C
+Temperatura auto 41 en nodo 110: 23.26°C
+Temperatura auto 41 en nodo 113: 24.26°C
+Temperatura auto 41 en nodo 116: 25.26°C
+Temperatura auto 41 en nodo 120: 29.26°C
+Temperatura auto 41 en nodo 125: 30.26°C
+Temperatura auto 41 en nodo 156: 25.26°C
+Temperatura auto 41 en nodo 172: 27.26°C
+Temperatura auto 41 en nodo 175: 26.26°C
+Temperatura auto 41 en nodo 185: 22.26°C
+Temperatura auto 41 en nodo 226: 28.26°C
+Temperatura auto 41 en nodo 232: 26.26°C
+Temperatura auto 41 en nodo 244: 32.26°C
+
+CAMINO AUTO 42:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 340.32 minutos
-Temperatura auto 41 en nodo 1: 21.26°C
-Temperatura auto 41 en nodo 84: 26.26°C
-Temperatura auto 41 en nodo 97: 25.26°C
-Temperatura auto 41 en nodo 118: 26.26°C
-Temperatura auto 41 en nodo 141: 23.26°C
-Temperatura auto 41 en nodo 170: 24.26°C
-Temperatura auto 41 en nodo 187: 22.26°C
-Temperatura auto 41 en nodo 214: 27.26°C
-Temperatura auto 41 en nodo 217: 27.26°C
-Temperatura auto 41 en nodo 244: 26.26°C
-
-CAMINO AUTO 42:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 20.85%
-Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 592.42 minutos
 Temperatura auto 42 en nodo 1: 21.05°C
-Temperatura auto 42 en nodo 8: 22.05°C
-Temperatura auto 42 en nodo 36: 24.05°C
-Temperatura auto 42 en nodo 121: 23.05°C
-Temperatura auto 42 en nodo 164: 22.05°C
-Temperatura auto 42 en nodo 207: 23.05°C
-Temperatura auto 42 en nodo 228: 25.05°C
-Temperatura auto 42 en nodo 233: 24.05°C
-Temperatura auto 42 en nodo 244: 23.05°C
+Temperatura auto 42 en nodo 84: 26.05°C
+Temperatura auto 42 en nodo 97: 25.05°C
+Temperatura auto 42 en nodo 118: 26.05°C
+Temperatura auto 42 en nodo 141: 23.05°C
+Temperatura auto 42 en nodo 170: 24.05°C
+Temperatura auto 42 en nodo 187: 22.05°C
+Temperatura auto 42 en nodo 214: 27.05°C
+Temperatura auto 42 en nodo 217: 27.05°C
+Temperatura auto 42 en nodo 244: 26.05°C
 
 CAMINO AUTO 43:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -961,9 +1010,11 @@ CAMINO AUTO 44:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 504.27 minutos
-Tiempo de carga en nodo 218: 174.14 minutos
-Tiempo de carga en nodo 219: 1630.36 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 165.43 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 44 en nodo 1: 18.42°C
 Temperatura auto 44 en nodo 13: 23.42°C
 Temperatura auto 44 en nodo 37: 25.42°C
@@ -1019,20 +1070,26 @@ Temperatura auto 46 en nodo 217: 26.83°C
 Temperatura auto 46 en nodo 244: 25.83°C
 
 CAMINO AUTO 47:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 340.32 minutos
+Tiempo de carga en nodo 232: 2079.24 minutos
 Temperatura auto 47 en nodo 1: 19.82°C
-Temperatura auto 47 en nodo 84: 24.82°C
-Temperatura auto 47 en nodo 97: 23.82°C
-Temperatura auto 47 en nodo 118: 24.82°C
-Temperatura auto 47 en nodo 141: 21.82°C
-Temperatura auto 47 en nodo 170: 22.82°C
-Temperatura auto 47 en nodo 187: 20.82°C
-Temperatura auto 47 en nodo 214: 25.82°C
-Temperatura auto 47 en nodo 217: 25.82°C
-Temperatura auto 47 en nodo 244: 24.82°C
+Temperatura auto 47 en nodo 31: 26.82°C
+Temperatura auto 47 en nodo 43: 29.82°C
+Temperatura auto 47 en nodo 68: 25.82°C
+Temperatura auto 47 en nodo 110: 21.82°C
+Temperatura auto 47 en nodo 113: 22.82°C
+Temperatura auto 47 en nodo 116: 23.82°C
+Temperatura auto 47 en nodo 120: 27.82°C
+Temperatura auto 47 en nodo 125: 28.82°C
+Temperatura auto 47 en nodo 156: 23.82°C
+Temperatura auto 47 en nodo 172: 25.82°C
+Temperatura auto 47 en nodo 175: 24.82°C
+Temperatura auto 47 en nodo 185: 20.82°C
+Temperatura auto 47 en nodo 226: 26.82°C
+Temperatura auto 47 en nodo 232: 24.82°C
+Temperatura auto 47 en nodo 244: 30.82°C
 
 CAMINO AUTO 48:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -1080,40 +1137,47 @@ Temperatura auto 49 en nodo 238: 29.46°C
 Temperatura auto 49 en nodo 244: 29.46°C
 
 CAMINO AUTO 50:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 21.85%
-Tiempo de carga en electrolineras seleccionadas: 
-Temperatura auto 50 en nodo 1: 18.78°C
-Temperatura auto 50 en nodo 8: 19.78°C
-Temperatura auto 50 en nodo 36: 21.78°C
-Temperatura auto 50 en nodo 121: 20.78°C
-Temperatura auto 50 en nodo 164: 19.78°C
-Temperatura auto 50 en nodo 207: 20.78°C
-Temperatura auto 50 en nodo 228: 22.78°C
-Temperatura auto 50 en nodo 233: 21.78°C
-Temperatura auto 50 en nodo 244: 20.78°C
-
-CAMINO AUTO 51:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1563.52 minutos
+Tiempo de carga en nodo 214: 559.08 minutos
+Temperatura auto 50 en nodo 1: 18.78°C
+Temperatura auto 50 en nodo 84: 23.78°C
+Temperatura auto 50 en nodo 97: 22.78°C
+Temperatura auto 50 en nodo 118: 23.78°C
+Temperatura auto 50 en nodo 141: 20.78°C
+Temperatura auto 50 en nodo 170: 21.78°C
+Temperatura auto 50 en nodo 187: 19.78°C
+Temperatura auto 50 en nodo 214: 24.78°C
+Temperatura auto 50 en nodo 217: 24.78°C
+Temperatura auto 50 en nodo 244: 23.78°C
+
+CAMINO AUTO 51:
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1496.13 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 51 en nodo 1: 20.79°C
-Temperatura auto 51 en nodo 31: 27.79°C
-Temperatura auto 51 en nodo 43: 30.79°C
-Temperatura auto 51 en nodo 68: 26.79°C
-Temperatura auto 51 en nodo 110: 22.79°C
-Temperatura auto 51 en nodo 113: 23.79°C
-Temperatura auto 51 en nodo 116: 24.79°C
-Temperatura auto 51 en nodo 120: 28.79°C
-Temperatura auto 51 en nodo 125: 29.79°C
-Temperatura auto 51 en nodo 156: 24.79°C
-Temperatura auto 51 en nodo 172: 26.79°C
-Temperatura auto 51 en nodo 175: 25.79°C
-Temperatura auto 51 en nodo 185: 21.79°C
-Temperatura auto 51 en nodo 226: 27.79°C
-Temperatura auto 51 en nodo 232: 25.79°C
-Temperatura auto 51 en nodo 244: 31.79°C
+Temperatura auto 51 en nodo 13: 25.79°C
+Temperatura auto 51 en nodo 37: 27.79°C
+Temperatura auto 51 en nodo 42: 25.79°C
+Temperatura auto 51 en nodo 52: 23.79°C
+Temperatura auto 51 en nodo 78: 20.79°C
+Temperatura auto 51 en nodo 88: 21.79°C
+Temperatura auto 51 en nodo 94: 22.79°C
+Temperatura auto 51 en nodo 95: 21.79°C
+Temperatura auto 51 en nodo 126: 21.79°C
+Temperatura auto 51 en nodo 166: 27.79°C
+Temperatura auto 51 en nodo 177: 26.79°C
+Temperatura auto 51 en nodo 189: 24.79°C
+Temperatura auto 51 en nodo 208: 22.79°C
+Temperatura auto 51 en nodo 218: 26.79°C
+Temperatura auto 51 en nodo 219: 21.79°C
+Temperatura auto 51 en nodo 231: 22.79°C
+Temperatura auto 51 en nodo 238: 28.79°C
+Temperatura auto 51 en nodo 244: 28.79°C
 
 CAMINO AUTO 52:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -1168,40 +1232,49 @@ Temperatura auto 53 en nodo 238: 27.60°C
 Temperatura auto 53 en nodo 244: 27.60°C
 
 CAMINO AUTO 54:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 25.85%
-Tiempo de carga en electrolineras seleccionadas: 
-Temperatura auto 54 en nodo 1: 18.01°C
-Temperatura auto 54 en nodo 8: 19.01°C
-Temperatura auto 54 en nodo 36: 21.01°C
-Temperatura auto 54 en nodo 121: 20.01°C
-Temperatura auto 54 en nodo 164: 19.01°C
-Temperatura auto 54 en nodo 207: 20.01°C
-Temperatura auto 54 en nodo 228: 22.01°C
-Temperatura auto 54 en nodo 233: 21.01°C
-Temperatura auto 54 en nodo 244: 20.01°C
-
-CAMINO AUTO 55:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1663.52 minutos
+Tiempo de carga en nodo 214: 425.75 minutos
+Temperatura auto 54 en nodo 1: 18.01°C
+Temperatura auto 54 en nodo 84: 23.01°C
+Temperatura auto 54 en nodo 97: 22.01°C
+Temperatura auto 54 en nodo 118: 23.01°C
+Temperatura auto 54 en nodo 141: 20.01°C
+Temperatura auto 54 en nodo 170: 21.01°C
+Temperatura auto 54 en nodo 187: 19.01°C
+Temperatura auto 54 en nodo 214: 24.01°C
+Temperatura auto 54 en nodo 217: 24.01°C
+Temperatura auto 54 en nodo 244: 23.01°C
+
+CAMINO AUTO 55:
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 32.09 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 55 en nodo 1: 19.79°C
-Temperatura auto 55 en nodo 31: 26.79°C
-Temperatura auto 55 en nodo 43: 29.79°C
-Temperatura auto 55 en nodo 68: 25.79°C
-Temperatura auto 55 en nodo 110: 21.79°C
-Temperatura auto 55 en nodo 113: 22.79°C
-Temperatura auto 55 en nodo 116: 23.79°C
-Temperatura auto 55 en nodo 120: 27.79°C
-Temperatura auto 55 en nodo 125: 28.79°C
-Temperatura auto 55 en nodo 156: 23.79°C
-Temperatura auto 55 en nodo 172: 25.79°C
-Temperatura auto 55 en nodo 175: 24.79°C
-Temperatura auto 55 en nodo 185: 20.79°C
-Temperatura auto 55 en nodo 226: 26.79°C
-Temperatura auto 55 en nodo 232: 24.79°C
-Temperatura auto 55 en nodo 244: 30.79°C
+Temperatura auto 55 en nodo 13: 24.79°C
+Temperatura auto 55 en nodo 37: 26.79°C
+Temperatura auto 55 en nodo 42: 24.79°C
+Temperatura auto 55 en nodo 52: 22.79°C
+Temperatura auto 55 en nodo 78: 19.79°C
+Temperatura auto 55 en nodo 88: 20.79°C
+Temperatura auto 55 en nodo 94: 21.79°C
+Temperatura auto 55 en nodo 95: 20.79°C
+Temperatura auto 55 en nodo 126: 20.79°C
+Temperatura auto 55 en nodo 166: 26.79°C
+Temperatura auto 55 en nodo 177: 25.79°C
+Temperatura auto 55 en nodo 189: 23.79°C
+Temperatura auto 55 en nodo 208: 21.79°C
+Temperatura auto 55 en nodo 218: 25.79°C
+Temperatura auto 55 en nodo 219: 20.79°C
+Temperatura auto 55 en nodo 231: 21.79°C
+Temperatura auto 55 en nodo 238: 27.79°C
+Temperatura auto 55 en nodo 244: 27.79°C
 
 CAMINO AUTO 56:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -1343,7 +1416,7 @@ Temperatura auto 61 en nodo 244: 31.51°C
 
 CAMINO AUTO 62:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 38.85%
+Energía final en el nodo 244: 26.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 62 en nodo 1: 20.61°C
 Temperatura auto 62 en nodo 8: 21.61°C
@@ -1447,20 +1520,26 @@ Temperatura auto 66 en nodo 238: 27.95°C
 Temperatura auto 66 en nodo 244: 27.95°C
 
 CAMINO AUTO 67:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 273.65 minutos
+Tiempo de carga en nodo 232: 2012.57 minutos
 Temperatura auto 67 en nodo 1: 20.70°C
-Temperatura auto 67 en nodo 84: 25.70°C
-Temperatura auto 67 en nodo 97: 24.70°C
-Temperatura auto 67 en nodo 118: 25.70°C
-Temperatura auto 67 en nodo 141: 22.70°C
-Temperatura auto 67 en nodo 170: 23.70°C
-Temperatura auto 67 en nodo 187: 21.70°C
-Temperatura auto 67 en nodo 214: 26.70°C
-Temperatura auto 67 en nodo 217: 26.70°C
-Temperatura auto 67 en nodo 244: 25.70°C
+Temperatura auto 67 en nodo 31: 27.70°C
+Temperatura auto 67 en nodo 43: 30.70°C
+Temperatura auto 67 en nodo 68: 26.70°C
+Temperatura auto 67 en nodo 110: 22.70°C
+Temperatura auto 67 en nodo 113: 23.70°C
+Temperatura auto 67 en nodo 116: 24.70°C
+Temperatura auto 67 en nodo 120: 28.70°C
+Temperatura auto 67 en nodo 125: 29.70°C
+Temperatura auto 67 en nodo 156: 24.70°C
+Temperatura auto 67 en nodo 172: 26.70°C
+Temperatura auto 67 en nodo 175: 25.70°C
+Temperatura auto 67 en nodo 185: 21.70°C
+Temperatura auto 67 en nodo 226: 27.70°C
+Temperatura auto 67 en nodo 232: 25.70°C
+Temperatura auto 67 en nodo 244: 31.70°C
 
 CAMINO AUTO 68:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -1479,32 +1558,36 @@ Temperatura auto 68 en nodo 217: 24.66°C
 Temperatura auto 68 en nodo 244: 23.66°C
 
 CAMINO AUTO 69:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 24.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 459.08 minutos
 Temperatura auto 69 en nodo 1: 18.75°C
-Temperatura auto 69 en nodo 8: 19.75°C
-Temperatura auto 69 en nodo 36: 21.75°C
-Temperatura auto 69 en nodo 121: 20.75°C
-Temperatura auto 69 en nodo 164: 19.75°C
-Temperatura auto 69 en nodo 207: 20.75°C
-Temperatura auto 69 en nodo 228: 22.75°C
-Temperatura auto 69 en nodo 233: 21.75°C
-Temperatura auto 69 en nodo 244: 20.75°C
+Temperatura auto 69 en nodo 84: 23.75°C
+Temperatura auto 69 en nodo 97: 22.75°C
+Temperatura auto 69 en nodo 118: 23.75°C
+Temperatura auto 69 en nodo 141: 20.75°C
+Temperatura auto 69 en nodo 170: 21.75°C
+Temperatura auto 69 en nodo 187: 19.75°C
+Temperatura auto 69 en nodo 214: 24.75°C
+Temperatura auto 69 en nodo 217: 24.75°C
+Temperatura auto 69 en nodo 244: 23.75°C
 
 CAMINO AUTO 70:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 25.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 425.75 minutos
 Temperatura auto 70 en nodo 1: 21.52°C
-Temperatura auto 70 en nodo 8: 22.52°C
-Temperatura auto 70 en nodo 36: 24.52°C
-Temperatura auto 70 en nodo 121: 23.52°C
-Temperatura auto 70 en nodo 164: 22.52°C
-Temperatura auto 70 en nodo 207: 23.52°C
-Temperatura auto 70 en nodo 228: 25.52°C
-Temperatura auto 70 en nodo 233: 24.52°C
-Temperatura auto 70 en nodo 244: 23.52°C
+Temperatura auto 70 en nodo 84: 26.52°C
+Temperatura auto 70 en nodo 97: 25.52°C
+Temperatura auto 70 en nodo 118: 26.52°C
+Temperatura auto 70 en nodo 141: 23.52°C
+Temperatura auto 70 en nodo 170: 24.52°C
+Temperatura auto 70 en nodo 187: 22.52°C
+Temperatura auto 70 en nodo 214: 27.52°C
+Temperatura auto 70 en nodo 217: 27.52°C
+Temperatura auto 70 en nodo 244: 26.52°C
 
 CAMINO AUTO 71:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -1665,50 +1748,69 @@ Temperatura auto 77 en nodo 217: 24.67°C
 Temperatura auto 77 en nodo 244: 23.67°C
 
 CAMINO AUTO 78:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 240.32 minutos
+Tiempo de carga en nodo 232: 1979.24 minutos
 Temperatura auto 78 en nodo 1: 21.80°C
-Temperatura auto 78 en nodo 84: 26.80°C
-Temperatura auto 78 en nodo 97: 25.80°C
-Temperatura auto 78 en nodo 118: 26.80°C
-Temperatura auto 78 en nodo 141: 23.80°C
-Temperatura auto 78 en nodo 170: 24.80°C
-Temperatura auto 78 en nodo 187: 22.80°C
-Temperatura auto 78 en nodo 214: 27.80°C
-Temperatura auto 78 en nodo 217: 27.80°C
-Temperatura auto 78 en nodo 244: 26.80°C
+Temperatura auto 78 en nodo 31: 28.80°C
+Temperatura auto 78 en nodo 43: 31.80°C
+Temperatura auto 78 en nodo 68: 27.80°C
+Temperatura auto 78 en nodo 110: 23.80°C
+Temperatura auto 78 en nodo 113: 24.80°C
+Temperatura auto 78 en nodo 116: 25.80°C
+Temperatura auto 78 en nodo 120: 29.80°C
+Temperatura auto 78 en nodo 125: 30.80°C
+Temperatura auto 78 en nodo 156: 25.80°C
+Temperatura auto 78 en nodo 172: 27.80°C
+Temperatura auto 78 en nodo 175: 26.80°C
+Temperatura auto 78 en nodo 185: 22.80°C
+Temperatura auto 78 en nodo 226: 28.80°C
+Temperatura auto 78 en nodo 232: 26.80°C
+Temperatura auto 78 en nodo 244: 32.80°C
 
 CAMINO AUTO 79:
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1396.13 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
+Temperatura auto 79 en nodo 1: 20.20°C
+Temperatura auto 79 en nodo 13: 25.20°C
+Temperatura auto 79 en nodo 37: 27.20°C
+Temperatura auto 79 en nodo 42: 25.20°C
+Temperatura auto 79 en nodo 52: 23.20°C
+Temperatura auto 79 en nodo 78: 20.20°C
+Temperatura auto 79 en nodo 88: 21.20°C
+Temperatura auto 79 en nodo 94: 22.20°C
+Temperatura auto 79 en nodo 95: 21.20°C
+Temperatura auto 79 en nodo 126: 21.20°C
+Temperatura auto 79 en nodo 166: 27.20°C
+Temperatura auto 79 en nodo 177: 26.20°C
+Temperatura auto 79 en nodo 189: 24.20°C
+Temperatura auto 79 en nodo 208: 22.20°C
+Temperatura auto 79 en nodo 218: 26.20°C
+Temperatura auto 79 en nodo 219: 21.20°C
+Temperatura auto 79 en nodo 231: 22.20°C
+Temperatura auto 79 en nodo 238: 28.20°C
+Temperatura auto 79 en nodo 244: 28.20°C
+
+CAMINO AUTO 80:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 473.65 minutos
-Temperatura auto 79 en nodo 1: 20.20°C
-Temperatura auto 79 en nodo 84: 25.20°C
-Temperatura auto 79 en nodo 97: 24.20°C
-Temperatura auto 79 en nodo 118: 25.20°C
-Temperatura auto 79 en nodo 141: 22.20°C
-Temperatura auto 79 en nodo 170: 23.20°C
-Temperatura auto 79 en nodo 187: 21.20°C
-Temperatura auto 79 en nodo 214: 26.20°C
-Temperatura auto 79 en nodo 217: 26.20°C
-Temperatura auto 79 en nodo 244: 25.20°C
-
-CAMINO AUTO 80:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 29.85%
-Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 292.42 minutos
 Temperatura auto 80 en nodo 1: 21.36°C
-Temperatura auto 80 en nodo 8: 22.36°C
-Temperatura auto 80 en nodo 36: 24.36°C
-Temperatura auto 80 en nodo 121: 23.36°C
-Temperatura auto 80 en nodo 164: 22.36°C
-Temperatura auto 80 en nodo 207: 23.36°C
-Temperatura auto 80 en nodo 228: 25.36°C
-Temperatura auto 80 en nodo 233: 24.36°C
-Temperatura auto 80 en nodo 244: 23.36°C
+Temperatura auto 80 en nodo 84: 26.36°C
+Temperatura auto 80 en nodo 97: 25.36°C
+Temperatura auto 80 en nodo 118: 26.36°C
+Temperatura auto 80 en nodo 141: 23.36°C
+Temperatura auto 80 en nodo 170: 24.36°C
+Temperatura auto 80 en nodo 187: 22.36°C
+Temperatura auto 80 en nodo 214: 27.36°C
+Temperatura auto 80 en nodo 217: 27.36°C
+Temperatura auto 80 en nodo 244: 26.36°C
 
 CAMINO AUTO 81:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -1799,7 +1901,7 @@ Temperatura auto 83 en nodo 244: 29.11°C
 
 CAMINO AUTO 84:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 33.85%
+Energía final en el nodo 244: 21.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 84 en nodo 1: 19.31°C
 Temperatura auto 84 en nodo 8: 20.31°C
@@ -1902,22 +2004,24 @@ Temperatura auto 88 en nodo 217: 24.46°C
 Temperatura auto 88 en nodo 244: 23.46°C
 
 CAMINO AUTO 89:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 24.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 459.08 minutos
 Temperatura auto 89 en nodo 1: 18.42°C
-Temperatura auto 89 en nodo 8: 19.42°C
-Temperatura auto 89 en nodo 36: 21.42°C
-Temperatura auto 89 en nodo 121: 20.42°C
-Temperatura auto 89 en nodo 164: 19.42°C
-Temperatura auto 89 en nodo 207: 20.42°C
-Temperatura auto 89 en nodo 228: 22.42°C
-Temperatura auto 89 en nodo 233: 21.42°C
-Temperatura auto 89 en nodo 244: 20.42°C
+Temperatura auto 89 en nodo 84: 23.42°C
+Temperatura auto 89 en nodo 97: 22.42°C
+Temperatura auto 89 en nodo 118: 23.42°C
+Temperatura auto 89 en nodo 141: 20.42°C
+Temperatura auto 89 en nodo 170: 21.42°C
+Temperatura auto 89 en nodo 187: 19.42°C
+Temperatura auto 89 en nodo 214: 24.42°C
+Temperatura auto 89 en nodo 217: 24.42°C
+Temperatura auto 89 en nodo 244: 23.42°C
 
 CAMINO AUTO 90:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 35.85%
+Energía final en el nodo 244: 23.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 90 en nodo 1: 21.17°C
 Temperatura auto 90 en nodo 8: 22.17°C
@@ -1975,18 +2079,20 @@ Temperatura auto 92 en nodo 217: 25.46°C
 Temperatura auto 92 en nodo 244: 24.46°C
 
 CAMINO AUTO 93:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 26.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 392.42 minutos
 Temperatura auto 93 en nodo 1: 18.06°C
-Temperatura auto 93 en nodo 8: 19.06°C
-Temperatura auto 93 en nodo 36: 21.06°C
-Temperatura auto 93 en nodo 121: 20.06°C
-Temperatura auto 93 en nodo 164: 19.06°C
-Temperatura auto 93 en nodo 207: 20.06°C
-Temperatura auto 93 en nodo 228: 22.06°C
-Temperatura auto 93 en nodo 233: 21.06°C
-Temperatura auto 93 en nodo 244: 20.06°C
+Temperatura auto 93 en nodo 84: 23.06°C
+Temperatura auto 93 en nodo 97: 22.06°C
+Temperatura auto 93 en nodo 118: 23.06°C
+Temperatura auto 93 en nodo 141: 20.06°C
+Temperatura auto 93 en nodo 170: 21.06°C
+Temperatura auto 93 en nodo 187: 19.06°C
+Temperatura auto 93 en nodo 214: 24.06°C
+Temperatura auto 93 en nodo 217: 24.06°C
+Temperatura auto 93 en nodo 244: 23.06°C
 
 CAMINO AUTO 94:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -2018,34 +2124,42 @@ Temperatura auto 94 en nodo 238: 26.38°C
 Temperatura auto 94 en nodo 244: 26.38°C
 
 CAMINO AUTO 95:
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 232: 1979.24 minutos
+Temperatura auto 95 en nodo 1: 19.74°C
+Temperatura auto 95 en nodo 31: 26.74°C
+Temperatura auto 95 en nodo 43: 29.74°C
+Temperatura auto 95 en nodo 68: 25.74°C
+Temperatura auto 95 en nodo 110: 21.74°C
+Temperatura auto 95 en nodo 113: 22.74°C
+Temperatura auto 95 en nodo 116: 23.74°C
+Temperatura auto 95 en nodo 120: 27.74°C
+Temperatura auto 95 en nodo 125: 28.74°C
+Temperatura auto 95 en nodo 156: 23.74°C
+Temperatura auto 95 en nodo 172: 25.74°C
+Temperatura auto 95 en nodo 175: 24.74°C
+Temperatura auto 95 en nodo 185: 20.74°C
+Temperatura auto 95 en nodo 226: 26.74°C
+Temperatura auto 95 en nodo 232: 24.74°C
+Temperatura auto 95 en nodo 244: 30.74°C
+
+CAMINO AUTO 96:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 240.32 minutos
-Temperatura auto 95 en nodo 1: 19.74°C
-Temperatura auto 95 en nodo 84: 24.74°C
-Temperatura auto 95 en nodo 97: 23.74°C
-Temperatura auto 95 en nodo 118: 24.74°C
-Temperatura auto 95 en nodo 141: 21.74°C
-Temperatura auto 95 en nodo 170: 22.74°C
-Temperatura auto 95 en nodo 187: 20.74°C
-Temperatura auto 95 en nodo 214: 25.74°C
-Temperatura auto 95 en nodo 217: 25.74°C
-Temperatura auto 95 en nodo 244: 24.74°C
-
-CAMINO AUTO 96:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 22.85%
-Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 525.75 minutos
 Temperatura auto 96 en nodo 1: 20.71°C
-Temperatura auto 96 en nodo 8: 21.71°C
-Temperatura auto 96 en nodo 36: 23.71°C
-Temperatura auto 96 en nodo 121: 22.71°C
-Temperatura auto 96 en nodo 164: 21.71°C
-Temperatura auto 96 en nodo 207: 22.71°C
-Temperatura auto 96 en nodo 228: 24.71°C
-Temperatura auto 96 en nodo 233: 23.71°C
-Temperatura auto 96 en nodo 244: 22.71°C
+Temperatura auto 96 en nodo 84: 25.71°C
+Temperatura auto 96 en nodo 97: 24.71°C
+Temperatura auto 96 en nodo 118: 25.71°C
+Temperatura auto 96 en nodo 141: 22.71°C
+Temperatura auto 96 en nodo 170: 23.71°C
+Temperatura auto 96 en nodo 187: 21.71°C
+Temperatura auto 96 en nodo 214: 26.71°C
+Temperatura auto 96 en nodo 217: 26.71°C
+Temperatura auto 96 en nodo 244: 25.71°C
 
 CAMINO AUTO 97:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -2210,7 +2324,7 @@ Temperatura auto 102 en nodo 244: 26.57°C
 
 CAMINO AUTO 103:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 35.85%
+Energía final en el nodo 244: 23.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 103 en nodo 1: 18.03°C
 Temperatura auto 103 en nodo 8: 19.03°C
@@ -2226,9 +2340,11 @@ CAMINO AUTO 104:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 504.27 minutos
-Tiempo de carga en nodo 218: 174.14 minutos
-Tiempo de carga en nodo 219: 1530.36 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 65.43 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 104 en nodo 1: 20.40°C
 Temperatura auto 104 en nodo 13: 25.40°C
 Temperatura auto 104 en nodo 37: 27.40°C
@@ -2250,18 +2366,20 @@ Temperatura auto 104 en nodo 238: 28.40°C
 Temperatura auto 104 en nodo 244: 28.40°C
 
 CAMINO AUTO 105:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 29.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 292.42 minutos
 Temperatura auto 105 en nodo 1: 21.82°C
-Temperatura auto 105 en nodo 8: 22.82°C
-Temperatura auto 105 en nodo 36: 24.82°C
-Temperatura auto 105 en nodo 121: 23.82°C
-Temperatura auto 105 en nodo 164: 22.82°C
-Temperatura auto 105 en nodo 207: 23.82°C
-Temperatura auto 105 en nodo 228: 25.82°C
-Temperatura auto 105 en nodo 233: 24.82°C
-Temperatura auto 105 en nodo 244: 23.82°C
+Temperatura auto 105 en nodo 84: 26.82°C
+Temperatura auto 105 en nodo 97: 25.82°C
+Temperatura auto 105 en nodo 118: 26.82°C
+Temperatura auto 105 en nodo 141: 23.82°C
+Temperatura auto 105 en nodo 170: 24.82°C
+Temperatura auto 105 en nodo 187: 22.82°C
+Temperatura auto 105 en nodo 214: 27.82°C
+Temperatura auto 105 en nodo 217: 27.82°C
+Temperatura auto 105 en nodo 244: 26.82°C
 
 CAMINO AUTO 106:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -2348,26 +2466,33 @@ Temperatura auto 109 en nodo 238: 28.97°C
 Temperatura auto 109 en nodo 244: 28.97°C
 
 CAMINO AUTO 110:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1663.52 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 32.09 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 110 en nodo 1: 18.24°C
-Temperatura auto 110 en nodo 31: 25.24°C
-Temperatura auto 110 en nodo 43: 28.24°C
-Temperatura auto 110 en nodo 68: 24.24°C
-Temperatura auto 110 en nodo 110: 20.24°C
-Temperatura auto 110 en nodo 113: 21.24°C
-Temperatura auto 110 en nodo 116: 22.24°C
-Temperatura auto 110 en nodo 120: 26.24°C
-Temperatura auto 110 en nodo 125: 27.24°C
-Temperatura auto 110 en nodo 156: 22.24°C
-Temperatura auto 110 en nodo 172: 24.24°C
-Temperatura auto 110 en nodo 175: 23.24°C
-Temperatura auto 110 en nodo 185: 19.24°C
-Temperatura auto 110 en nodo 226: 25.24°C
-Temperatura auto 110 en nodo 232: 23.24°C
-Temperatura auto 110 en nodo 244: 29.24°C
+Temperatura auto 110 en nodo 13: 23.24°C
+Temperatura auto 110 en nodo 37: 25.24°C
+Temperatura auto 110 en nodo 42: 23.24°C
+Temperatura auto 110 en nodo 52: 21.24°C
+Temperatura auto 110 en nodo 78: 18.24°C
+Temperatura auto 110 en nodo 88: 19.24°C
+Temperatura auto 110 en nodo 94: 20.24°C
+Temperatura auto 110 en nodo 95: 19.24°C
+Temperatura auto 110 en nodo 126: 19.24°C
+Temperatura auto 110 en nodo 166: 25.24°C
+Temperatura auto 110 en nodo 177: 24.24°C
+Temperatura auto 110 en nodo 189: 22.24°C
+Temperatura auto 110 en nodo 208: 20.24°C
+Temperatura auto 110 en nodo 218: 24.24°C
+Temperatura auto 110 en nodo 219: 19.24°C
+Temperatura auto 110 en nodo 231: 20.24°C
+Temperatura auto 110 en nodo 238: 26.24°C
+Temperatura auto 110 en nodo 244: 26.24°C
 
 CAMINO AUTO 111:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -2497,7 +2622,7 @@ Temperatura auto 115 en nodo 244: 29.35°C
 
 CAMINO AUTO 116:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 38.85%
+Energía final en el nodo 244: 26.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 116 en nodo 1: 21.34°C
 Temperatura auto 116 en nodo 8: 22.34°C
@@ -2511,7 +2636,7 @@ Temperatura auto 116 en nodo 244: 23.34°C
 
 CAMINO AUTO 117:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 33.85%
+Energía final en el nodo 244: 21.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 117 en nodo 1: 18.96°C
 Temperatura auto 117 en nodo 8: 19.96°C
@@ -2524,38 +2649,51 @@ Temperatura auto 117 en nodo 233: 21.96°C
 Temperatura auto 117 en nodo 244: 20.96°C
 
 CAMINO AUTO 118:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 21.85%
-Tiempo de carga en electrolineras seleccionadas: 
-Temperatura auto 118 en nodo 1: 20.39°C
-Temperatura auto 118 en nodo 8: 21.39°C
-Temperatura auto 118 en nodo 36: 23.39°C
-Temperatura auto 118 en nodo 121: 22.39°C
-Temperatura auto 118 en nodo 164: 21.39°C
-Temperatura auto 118 en nodo 207: 22.39°C
-Temperatura auto 118 en nodo 228: 24.39°C
-Temperatura auto 118 en nodo 233: 23.39°C
-Temperatura auto 118 en nodo 244: 22.39°C
-
-CAMINO AUTO 119:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 473.65 minutos
+Tiempo de carga en nodo 214: 559.08 minutos
+Temperatura auto 118 en nodo 1: 20.39°C
+Temperatura auto 118 en nodo 84: 25.39°C
+Temperatura auto 118 en nodo 97: 24.39°C
+Temperatura auto 118 en nodo 118: 25.39°C
+Temperatura auto 118 en nodo 141: 22.39°C
+Temperatura auto 118 en nodo 170: 23.39°C
+Temperatura auto 118 en nodo 187: 21.39°C
+Temperatura auto 118 en nodo 214: 26.39°C
+Temperatura auto 118 en nodo 217: 26.39°C
+Temperatura auto 118 en nodo 244: 25.39°C
+
+CAMINO AUTO 119:
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1396.13 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 119 en nodo 1: 21.13°C
-Temperatura auto 119 en nodo 84: 26.13°C
-Temperatura auto 119 en nodo 97: 25.13°C
-Temperatura auto 119 en nodo 118: 26.13°C
-Temperatura auto 119 en nodo 141: 23.13°C
-Temperatura auto 119 en nodo 170: 24.13°C
-Temperatura auto 119 en nodo 187: 22.13°C
-Temperatura auto 119 en nodo 214: 27.13°C
-Temperatura auto 119 en nodo 217: 27.13°C
-Temperatura auto 119 en nodo 244: 26.13°C
+Temperatura auto 119 en nodo 13: 26.13°C
+Temperatura auto 119 en nodo 37: 28.13°C
+Temperatura auto 119 en nodo 42: 26.13°C
+Temperatura auto 119 en nodo 52: 24.13°C
+Temperatura auto 119 en nodo 78: 21.13°C
+Temperatura auto 119 en nodo 88: 22.13°C
+Temperatura auto 119 en nodo 94: 23.13°C
+Temperatura auto 119 en nodo 95: 22.13°C
+Temperatura auto 119 en nodo 126: 22.13°C
+Temperatura auto 119 en nodo 166: 28.13°C
+Temperatura auto 119 en nodo 177: 27.13°C
+Temperatura auto 119 en nodo 189: 25.13°C
+Temperatura auto 119 en nodo 208: 23.13°C
+Temperatura auto 119 en nodo 218: 27.13°C
+Temperatura auto 119 en nodo 219: 22.13°C
+Temperatura auto 119 en nodo 231: 23.13°C
+Temperatura auto 119 en nodo 238: 29.13°C
+Temperatura auto 119 en nodo 244: 29.13°C
 
 CAMINO AUTO 120:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 38.85%
+Energía final en el nodo 244: 26.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 120 en nodo 1: 21.33°C
 Temperatura auto 120 en nodo 8: 22.33°C
@@ -2613,20 +2751,26 @@ Temperatura auto 122 en nodo 238: 29.78°C
 Temperatura auto 122 en nodo 244: 29.78°C
 
 CAMINO AUTO 123:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 306.99 minutos
+Tiempo de carga en nodo 232: 2045.90 minutos
 Temperatura auto 123 en nodo 1: 18.44°C
-Temperatura auto 123 en nodo 84: 23.44°C
-Temperatura auto 123 en nodo 97: 22.44°C
-Temperatura auto 123 en nodo 118: 23.44°C
-Temperatura auto 123 en nodo 141: 20.44°C
-Temperatura auto 123 en nodo 170: 21.44°C
-Temperatura auto 123 en nodo 187: 19.44°C
-Temperatura auto 123 en nodo 214: 24.44°C
-Temperatura auto 123 en nodo 217: 24.44°C
-Temperatura auto 123 en nodo 244: 23.44°C
+Temperatura auto 123 en nodo 31: 25.44°C
+Temperatura auto 123 en nodo 43: 28.44°C
+Temperatura auto 123 en nodo 68: 24.44°C
+Temperatura auto 123 en nodo 110: 20.44°C
+Temperatura auto 123 en nodo 113: 21.44°C
+Temperatura auto 123 en nodo 116: 22.44°C
+Temperatura auto 123 en nodo 120: 26.44°C
+Temperatura auto 123 en nodo 125: 27.44°C
+Temperatura auto 123 en nodo 156: 22.44°C
+Temperatura auto 123 en nodo 172: 24.44°C
+Temperatura auto 123 en nodo 175: 23.44°C
+Temperatura auto 123 en nodo 185: 19.44°C
+Temperatura auto 123 en nodo 226: 25.44°C
+Temperatura auto 123 en nodo 232: 23.44°C
+Temperatura auto 123 en nodo 244: 29.44°C
 
 CAMINO AUTO 124:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -2645,20 +2789,26 @@ Temperatura auto 124 en nodo 217: 24.25°C
 Temperatura auto 124 en nodo 244: 23.25°C
 
 CAMINO AUTO 125:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 340.32 minutos
+Tiempo de carga en nodo 232: 2079.24 minutos
 Temperatura auto 125 en nodo 1: 18.09°C
-Temperatura auto 125 en nodo 84: 23.09°C
-Temperatura auto 125 en nodo 97: 22.09°C
-Temperatura auto 125 en nodo 118: 23.09°C
-Temperatura auto 125 en nodo 141: 20.09°C
-Temperatura auto 125 en nodo 170: 21.09°C
-Temperatura auto 125 en nodo 187: 19.09°C
-Temperatura auto 125 en nodo 214: 24.09°C
-Temperatura auto 125 en nodo 217: 24.09°C
-Temperatura auto 125 en nodo 244: 23.09°C
+Temperatura auto 125 en nodo 31: 25.09°C
+Temperatura auto 125 en nodo 43: 28.09°C
+Temperatura auto 125 en nodo 68: 24.09°C
+Temperatura auto 125 en nodo 110: 20.09°C
+Temperatura auto 125 en nodo 113: 21.09°C
+Temperatura auto 125 en nodo 116: 22.09°C
+Temperatura auto 125 en nodo 120: 26.09°C
+Temperatura auto 125 en nodo 125: 27.09°C
+Temperatura auto 125 en nodo 156: 22.09°C
+Temperatura auto 125 en nodo 172: 24.09°C
+Temperatura auto 125 en nodo 175: 23.09°C
+Temperatura auto 125 en nodo 185: 19.09°C
+Temperatura auto 125 en nodo 226: 25.09°C
+Temperatura auto 125 en nodo 232: 23.09°C
+Temperatura auto 125 en nodo 244: 29.09°C
 
 CAMINO AUTO 126:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -2778,27 +2928,31 @@ Temperatura auto 131 en nodo 217: 24.98°C
 Temperatura auto 131 en nodo 244: 23.98°C
 
 CAMINO AUTO 132:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 28.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 108.66 minutos
+Tiempo de carga en nodo 217: 217.09 minutos
 Temperatura auto 132 en nodo 1: 19.29°C
-Temperatura auto 132 en nodo 8: 20.29°C
-Temperatura auto 132 en nodo 36: 22.29°C
-Temperatura auto 132 en nodo 121: 21.29°C
-Temperatura auto 132 en nodo 164: 20.29°C
-Temperatura auto 132 en nodo 207: 21.29°C
-Temperatura auto 132 en nodo 228: 23.29°C
-Temperatura auto 132 en nodo 233: 22.29°C
-Temperatura auto 132 en nodo 244: 21.29°C
+Temperatura auto 132 en nodo 84: 24.29°C
+Temperatura auto 132 en nodo 97: 23.29°C
+Temperatura auto 132 en nodo 118: 24.29°C
+Temperatura auto 132 en nodo 141: 21.29°C
+Temperatura auto 132 en nodo 170: 22.29°C
+Temperatura auto 132 en nodo 187: 20.29°C
+Temperatura auto 132 en nodo 214: 25.29°C
+Temperatura auto 132 en nodo 217: 25.29°C
+Temperatura auto 132 en nodo 244: 24.29°C
 
 CAMINO AUTO 133:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 337.95 minutos
-Tiempo de carga en nodo 218: 667.24 minutos
-Tiempo de carga en nodo 231: 1004.39 minutos
-Tiempo de carga en nodo 238: 332.52 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 198.76 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 133 en nodo 1: 19.05°C
 Temperatura auto 133 en nodo 13: 24.05°C
 Temperatura auto 133 en nodo 37: 26.05°C
@@ -2837,32 +2991,36 @@ Temperatura auto 134 en nodo 217: 26.07°C
 Temperatura auto 134 en nodo 244: 25.07°C
 
 CAMINO AUTO 135:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 21.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 559.08 minutos
 Temperatura auto 135 en nodo 1: 18.92°C
-Temperatura auto 135 en nodo 8: 19.92°C
-Temperatura auto 135 en nodo 36: 21.92°C
-Temperatura auto 135 en nodo 121: 20.92°C
-Temperatura auto 135 en nodo 164: 19.92°C
-Temperatura auto 135 en nodo 207: 20.92°C
-Temperatura auto 135 en nodo 228: 22.92°C
-Temperatura auto 135 en nodo 233: 21.92°C
-Temperatura auto 135 en nodo 244: 20.92°C
+Temperatura auto 135 en nodo 84: 23.92°C
+Temperatura auto 135 en nodo 97: 22.92°C
+Temperatura auto 135 en nodo 118: 23.92°C
+Temperatura auto 135 en nodo 141: 20.92°C
+Temperatura auto 135 en nodo 170: 21.92°C
+Temperatura auto 135 en nodo 187: 19.92°C
+Temperatura auto 135 en nodo 214: 24.92°C
+Temperatura auto 135 en nodo 217: 24.92°C
+Temperatura auto 135 en nodo 244: 23.92°C
 
 CAMINO AUTO 136:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 29.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 292.42 minutos
 Temperatura auto 136 en nodo 1: 20.38°C
-Temperatura auto 136 en nodo 8: 21.38°C
-Temperatura auto 136 en nodo 36: 23.38°C
-Temperatura auto 136 en nodo 121: 22.38°C
-Temperatura auto 136 en nodo 164: 21.38°C
-Temperatura auto 136 en nodo 207: 22.38°C
-Temperatura auto 136 en nodo 228: 24.38°C
-Temperatura auto 136 en nodo 233: 23.38°C
-Temperatura auto 136 en nodo 244: 22.38°C
+Temperatura auto 136 en nodo 84: 25.38°C
+Temperatura auto 136 en nodo 97: 24.38°C
+Temperatura auto 136 en nodo 118: 25.38°C
+Temperatura auto 136 en nodo 141: 22.38°C
+Temperatura auto 136 en nodo 170: 23.38°C
+Temperatura auto 136 en nodo 187: 21.38°C
+Temperatura auto 136 en nodo 214: 26.38°C
+Temperatura auto 136 en nodo 217: 26.38°C
+Temperatura auto 136 en nodo 244: 25.38°C
 
 CAMINO AUTO 137:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -2891,9 +3049,11 @@ CAMINO AUTO 138:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 504.27 minutos
-Tiempo de carga en nodo 218: 174.14 minutos
-Tiempo de carga en nodo 219: 1630.36 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 165.43 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 138 en nodo 1: 21.26°C
 Temperatura auto 138 en nodo 13: 26.26°C
 Temperatura auto 138 en nodo 37: 28.26°C
@@ -2915,62 +3075,79 @@ Temperatura auto 138 en nodo 238: 29.26°C
 Temperatura auto 138 en nodo 244: 29.26°C
 
 CAMINO AUTO 139:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 21.85%
-Tiempo de carga en electrolineras seleccionadas: 
-Temperatura auto 139 en nodo 1: 21.17°C
-Temperatura auto 139 en nodo 8: 22.17°C
-Temperatura auto 139 en nodo 36: 24.17°C
-Temperatura auto 139 en nodo 121: 23.17°C
-Temperatura auto 139 en nodo 164: 22.17°C
-Temperatura auto 139 en nodo 207: 23.17°C
-Temperatura auto 139 en nodo 228: 25.17°C
-Temperatura auto 139 en nodo 233: 24.17°C
-Temperatura auto 139 en nodo 244: 23.17°C
-
-CAMINO AUTO 140:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 31.85%
-Tiempo de carga en electrolineras seleccionadas: 
-Temperatura auto 140 en nodo 1: 21.21°C
-Temperatura auto 140 en nodo 8: 22.21°C
-Temperatura auto 140 en nodo 36: 24.21°C
-Temperatura auto 140 en nodo 121: 23.21°C
-Temperatura auto 140 en nodo 164: 22.21°C
-Temperatura auto 140 en nodo 207: 23.21°C
-Temperatura auto 140 en nodo 228: 25.21°C
-Temperatura auto 140 en nodo 233: 24.21°C
-Temperatura auto 140 en nodo 244: 23.21°C
-
-CAMINO AUTO 141:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 30.85%
-Tiempo de carga en electrolineras seleccionadas: 
-Temperatura auto 141 en nodo 1: 18.91°C
-Temperatura auto 141 en nodo 8: 19.91°C
-Temperatura auto 141 en nodo 36: 21.91°C
-Temperatura auto 141 en nodo 121: 20.91°C
-Temperatura auto 141 en nodo 164: 19.91°C
-Temperatura auto 141 en nodo 207: 20.91°C
-Temperatura auto 141 en nodo 228: 22.91°C
-Temperatura auto 141 en nodo 233: 21.91°C
-Temperatura auto 141 en nodo 244: 20.91°C
-
-CAMINO AUTO 142:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 473.65 minutos
+Tiempo de carga en nodo 214: 559.08 minutos
+Temperatura auto 139 en nodo 1: 21.17°C
+Temperatura auto 139 en nodo 84: 26.17°C
+Temperatura auto 139 en nodo 97: 25.17°C
+Temperatura auto 139 en nodo 118: 26.17°C
+Temperatura auto 139 en nodo 141: 23.17°C
+Temperatura auto 139 en nodo 170: 24.17°C
+Temperatura auto 139 en nodo 187: 22.17°C
+Temperatura auto 139 en nodo 214: 27.17°C
+Temperatura auto 139 en nodo 217: 27.17°C
+Temperatura auto 139 en nodo 244: 26.17°C
+
+CAMINO AUTO 140:
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 225.75 minutos
+Temperatura auto 140 en nodo 1: 21.21°C
+Temperatura auto 140 en nodo 84: 26.21°C
+Temperatura auto 140 en nodo 97: 25.21°C
+Temperatura auto 140 en nodo 118: 26.21°C
+Temperatura auto 140 en nodo 141: 23.21°C
+Temperatura auto 140 en nodo 170: 24.21°C
+Temperatura auto 140 en nodo 187: 22.21°C
+Temperatura auto 140 en nodo 214: 27.21°C
+Temperatura auto 140 en nodo 217: 27.21°C
+Temperatura auto 140 en nodo 244: 26.21°C
+
+CAMINO AUTO 141:
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 259.08 minutos
+Temperatura auto 141 en nodo 1: 18.91°C
+Temperatura auto 141 en nodo 84: 23.91°C
+Temperatura auto 141 en nodo 97: 22.91°C
+Temperatura auto 141 en nodo 118: 23.91°C
+Temperatura auto 141 en nodo 141: 20.91°C
+Temperatura auto 141 en nodo 170: 21.91°C
+Temperatura auto 141 en nodo 187: 19.91°C
+Temperatura auto 141 en nodo 214: 24.91°C
+Temperatura auto 141 en nodo 217: 24.91°C
+Temperatura auto 141 en nodo 244: 23.91°C
+
+CAMINO AUTO 142:
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1396.13 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 142 en nodo 1: 20.39°C
-Temperatura auto 142 en nodo 84: 25.39°C
-Temperatura auto 142 en nodo 97: 24.39°C
-Temperatura auto 142 en nodo 118: 25.39°C
-Temperatura auto 142 en nodo 141: 22.39°C
-Temperatura auto 142 en nodo 170: 23.39°C
-Temperatura auto 142 en nodo 187: 21.39°C
-Temperatura auto 142 en nodo 214: 26.39°C
-Temperatura auto 142 en nodo 217: 26.39°C
-Temperatura auto 142 en nodo 244: 25.39°C
+Temperatura auto 142 en nodo 13: 25.39°C
+Temperatura auto 142 en nodo 37: 27.39°C
+Temperatura auto 142 en nodo 42: 25.39°C
+Temperatura auto 142 en nodo 52: 23.39°C
+Temperatura auto 142 en nodo 78: 20.39°C
+Temperatura auto 142 en nodo 88: 21.39°C
+Temperatura auto 142 en nodo 94: 22.39°C
+Temperatura auto 142 en nodo 95: 21.39°C
+Temperatura auto 142 en nodo 126: 21.39°C
+Temperatura auto 142 en nodo 166: 27.39°C
+Temperatura auto 142 en nodo 177: 26.39°C
+Temperatura auto 142 en nodo 189: 24.39°C
+Temperatura auto 142 en nodo 208: 22.39°C
+Temperatura auto 142 en nodo 218: 26.39°C
+Temperatura auto 142 en nodo 219: 21.39°C
+Temperatura auto 142 en nodo 231: 22.39°C
+Temperatura auto 142 en nodo 238: 28.39°C
+Temperatura auto 142 en nodo 244: 28.39°C
 
 CAMINO AUTO 143:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -3060,18 +3237,20 @@ Temperatura auto 145 en nodo 238: 26.94°C
 Temperatura auto 145 en nodo 244: 26.94°C
 
 CAMINO AUTO 146:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 26.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 392.42 minutos
 Temperatura auto 146 en nodo 1: 21.29°C
-Temperatura auto 146 en nodo 8: 22.29°C
-Temperatura auto 146 en nodo 36: 24.29°C
-Temperatura auto 146 en nodo 121: 23.29°C
-Temperatura auto 146 en nodo 164: 22.29°C
-Temperatura auto 146 en nodo 207: 23.29°C
-Temperatura auto 146 en nodo 228: 25.29°C
-Temperatura auto 146 en nodo 233: 24.29°C
-Temperatura auto 146 en nodo 244: 23.29°C
+Temperatura auto 146 en nodo 84: 26.29°C
+Temperatura auto 146 en nodo 97: 25.29°C
+Temperatura auto 146 en nodo 118: 26.29°C
+Temperatura auto 146 en nodo 141: 23.29°C
+Temperatura auto 146 en nodo 170: 24.29°C
+Temperatura auto 146 en nodo 187: 22.29°C
+Temperatura auto 146 en nodo 214: 27.29°C
+Temperatura auto 146 en nodo 217: 27.29°C
+Temperatura auto 146 en nodo 244: 26.29°C
 
 CAMINO AUTO 147:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -3165,7 +3344,7 @@ Temperatura auto 150 en nodo 244: 25.63°C
 
 CAMINO AUTO 151:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 37.85%
+Energía final en el nodo 244: 25.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 151 en nodo 1: 18.41°C
 Temperatura auto 151 en nodo 8: 19.41°C
@@ -3178,18 +3357,20 @@ Temperatura auto 151 en nodo 233: 21.41°C
 Temperatura auto 151 en nodo 244: 20.41°C
 
 CAMINO AUTO 152:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 21.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 559.08 minutos
 Temperatura auto 152 en nodo 1: 20.12°C
-Temperatura auto 152 en nodo 8: 21.12°C
-Temperatura auto 152 en nodo 36: 23.12°C
-Temperatura auto 152 en nodo 121: 22.12°C
-Temperatura auto 152 en nodo 164: 21.12°C
-Temperatura auto 152 en nodo 207: 22.12°C
-Temperatura auto 152 en nodo 228: 24.12°C
-Temperatura auto 152 en nodo 233: 23.12°C
-Temperatura auto 152 en nodo 244: 22.12°C
+Temperatura auto 152 en nodo 84: 25.12°C
+Temperatura auto 152 en nodo 97: 24.12°C
+Temperatura auto 152 en nodo 118: 25.12°C
+Temperatura auto 152 en nodo 141: 22.12°C
+Temperatura auto 152 en nodo 170: 23.12°C
+Temperatura auto 152 en nodo 187: 21.12°C
+Temperatura auto 152 en nodo 214: 26.12°C
+Temperatura auto 152 en nodo 217: 26.12°C
+Temperatura auto 152 en nodo 244: 25.12°C
 
 CAMINO AUTO 153:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -3244,20 +3425,26 @@ Temperatura auto 154 en nodo 238: 26.65°C
 Temperatura auto 154 en nodo 244: 26.65°C
 
 CAMINO AUTO 155:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 373.65 minutos
+Tiempo de carga en nodo 232: 2112.57 minutos
 Temperatura auto 155 en nodo 1: 19.18°C
-Temperatura auto 155 en nodo 84: 24.18°C
-Temperatura auto 155 en nodo 97: 23.18°C
-Temperatura auto 155 en nodo 118: 24.18°C
-Temperatura auto 155 en nodo 141: 21.18°C
-Temperatura auto 155 en nodo 170: 22.18°C
-Temperatura auto 155 en nodo 187: 20.18°C
-Temperatura auto 155 en nodo 214: 25.18°C
-Temperatura auto 155 en nodo 217: 25.18°C
-Temperatura auto 155 en nodo 244: 24.18°C
+Temperatura auto 155 en nodo 31: 26.18°C
+Temperatura auto 155 en nodo 43: 29.18°C
+Temperatura auto 155 en nodo 68: 25.18°C
+Temperatura auto 155 en nodo 110: 21.18°C
+Temperatura auto 155 en nodo 113: 22.18°C
+Temperatura auto 155 en nodo 116: 23.18°C
+Temperatura auto 155 en nodo 120: 27.18°C
+Temperatura auto 155 en nodo 125: 28.18°C
+Temperatura auto 155 en nodo 156: 23.18°C
+Temperatura auto 155 en nodo 172: 25.18°C
+Temperatura auto 155 en nodo 175: 24.18°C
+Temperatura auto 155 en nodo 185: 20.18°C
+Temperatura auto 155 en nodo 226: 26.18°C
+Temperatura auto 155 en nodo 232: 24.18°C
+Temperatura auto 155 en nodo 244: 30.18°C
 
 CAMINO AUTO 156:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -3336,7 +3523,7 @@ Temperatura auto 158 en nodo 244: 29.06°C
 
 CAMINO AUTO 159:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 32.85%
+Energía final en el nodo 244: 20.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 159 en nodo 1: 21.89°C
 Temperatura auto 159 en nodo 8: 22.89°C
@@ -3349,26 +3536,33 @@ Temperatura auto 159 en nodo 233: 24.89°C
 Temperatura auto 159 en nodo 244: 23.89°C
 
 CAMINO AUTO 160:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1663.52 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 32.09 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 160 en nodo 1: 20.17°C
-Temperatura auto 160 en nodo 31: 27.17°C
-Temperatura auto 160 en nodo 43: 30.17°C
-Temperatura auto 160 en nodo 68: 26.17°C
-Temperatura auto 160 en nodo 110: 22.17°C
-Temperatura auto 160 en nodo 113: 23.17°C
-Temperatura auto 160 en nodo 116: 24.17°C
-Temperatura auto 160 en nodo 120: 28.17°C
-Temperatura auto 160 en nodo 125: 29.17°C
-Temperatura auto 160 en nodo 156: 24.17°C
-Temperatura auto 160 en nodo 172: 26.17°C
-Temperatura auto 160 en nodo 175: 25.17°C
-Temperatura auto 160 en nodo 185: 21.17°C
-Temperatura auto 160 en nodo 226: 27.17°C
-Temperatura auto 160 en nodo 232: 25.17°C
-Temperatura auto 160 en nodo 244: 31.17°C
+Temperatura auto 160 en nodo 13: 25.17°C
+Temperatura auto 160 en nodo 37: 27.17°C
+Temperatura auto 160 en nodo 42: 25.17°C
+Temperatura auto 160 en nodo 52: 23.17°C
+Temperatura auto 160 en nodo 78: 20.17°C
+Temperatura auto 160 en nodo 88: 21.17°C
+Temperatura auto 160 en nodo 94: 22.17°C
+Temperatura auto 160 en nodo 95: 21.17°C
+Temperatura auto 160 en nodo 126: 21.17°C
+Temperatura auto 160 en nodo 166: 27.17°C
+Temperatura auto 160 en nodo 177: 26.17°C
+Temperatura auto 160 en nodo 189: 24.17°C
+Temperatura auto 160 en nodo 208: 22.17°C
+Temperatura auto 160 en nodo 218: 26.17°C
+Temperatura auto 160 en nodo 219: 21.17°C
+Temperatura auto 160 en nodo 231: 22.17°C
+Temperatura auto 160 en nodo 238: 28.17°C
+Temperatura auto 160 en nodo 244: 28.17°C
 
 CAMINO AUTO 161:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -3429,18 +3623,20 @@ Temperatura auto 162 en nodo 238: 29.01°C
 Temperatura auto 162 en nodo 244: 29.01°C
 
 CAMINO AUTO 163:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 26.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 392.42 minutos
 Temperatura auto 163 en nodo 1: 18.38°C
-Temperatura auto 163 en nodo 8: 19.38°C
-Temperatura auto 163 en nodo 36: 21.38°C
-Temperatura auto 163 en nodo 121: 20.38°C
-Temperatura auto 163 en nodo 164: 19.38°C
-Temperatura auto 163 en nodo 207: 20.38°C
-Temperatura auto 163 en nodo 228: 22.38°C
-Temperatura auto 163 en nodo 233: 21.38°C
-Temperatura auto 163 en nodo 244: 20.38°C
+Temperatura auto 163 en nodo 84: 23.38°C
+Temperatura auto 163 en nodo 97: 22.38°C
+Temperatura auto 163 en nodo 118: 23.38°C
+Temperatura auto 163 en nodo 141: 20.38°C
+Temperatura auto 163 en nodo 170: 21.38°C
+Temperatura auto 163 en nodo 187: 19.38°C
+Temperatura auto 163 en nodo 214: 24.38°C
+Temperatura auto 163 en nodo 217: 24.38°C
+Temperatura auto 163 en nodo 244: 23.38°C
 
 CAMINO AUTO 164:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -3489,7 +3685,7 @@ Temperatura auto 165 en nodo 244: 24.02°C
 
 CAMINO AUTO 166:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 38.85%
+Energía final en el nodo 244: 26.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 166 en nodo 1: 18.28°C
 Temperatura auto 166 en nodo 8: 19.28°C
@@ -3560,26 +3756,31 @@ Temperatura auto 168 en nodo 238: 26.91°C
 Temperatura auto 168 en nodo 244: 26.91°C
 
 CAMINO AUTO 169:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1496.85 minutos
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1429.46 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 169 en nodo 1: 20.08°C
-Temperatura auto 169 en nodo 31: 27.08°C
-Temperatura auto 169 en nodo 43: 30.08°C
-Temperatura auto 169 en nodo 68: 26.08°C
-Temperatura auto 169 en nodo 110: 22.08°C
-Temperatura auto 169 en nodo 113: 23.08°C
-Temperatura auto 169 en nodo 116: 24.08°C
-Temperatura auto 169 en nodo 120: 28.08°C
-Temperatura auto 169 en nodo 125: 29.08°C
-Temperatura auto 169 en nodo 156: 24.08°C
-Temperatura auto 169 en nodo 172: 26.08°C
-Temperatura auto 169 en nodo 175: 25.08°C
-Temperatura auto 169 en nodo 185: 21.08°C
-Temperatura auto 169 en nodo 226: 27.08°C
-Temperatura auto 169 en nodo 232: 25.08°C
-Temperatura auto 169 en nodo 244: 31.08°C
+Temperatura auto 169 en nodo 13: 25.08°C
+Temperatura auto 169 en nodo 37: 27.08°C
+Temperatura auto 169 en nodo 42: 25.08°C
+Temperatura auto 169 en nodo 52: 23.08°C
+Temperatura auto 169 en nodo 78: 20.08°C
+Temperatura auto 169 en nodo 88: 21.08°C
+Temperatura auto 169 en nodo 94: 22.08°C
+Temperatura auto 169 en nodo 95: 21.08°C
+Temperatura auto 169 en nodo 126: 21.08°C
+Temperatura auto 169 en nodo 166: 27.08°C
+Temperatura auto 169 en nodo 177: 26.08°C
+Temperatura auto 169 en nodo 189: 24.08°C
+Temperatura auto 169 en nodo 208: 22.08°C
+Temperatura auto 169 en nodo 218: 26.08°C
+Temperatura auto 169 en nodo 219: 21.08°C
+Temperatura auto 169 en nodo 231: 22.08°C
+Temperatura auto 169 en nodo 238: 28.08°C
+Temperatura auto 169 en nodo 244: 28.08°C
 
 CAMINO AUTO 170:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -3627,20 +3828,26 @@ Temperatura auto 171 en nodo 217: 25.36°C
 Temperatura auto 171 en nodo 244: 24.36°C
 
 CAMINO AUTO 172:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 406.99 minutos
+Tiempo de carga en nodo 232: 2145.90 minutos
 Temperatura auto 172 en nodo 1: 19.43°C
-Temperatura auto 172 en nodo 84: 24.43°C
-Temperatura auto 172 en nodo 97: 23.43°C
-Temperatura auto 172 en nodo 118: 24.43°C
-Temperatura auto 172 en nodo 141: 21.43°C
-Temperatura auto 172 en nodo 170: 22.43°C
-Temperatura auto 172 en nodo 187: 20.43°C
-Temperatura auto 172 en nodo 214: 25.43°C
-Temperatura auto 172 en nodo 217: 25.43°C
-Temperatura auto 172 en nodo 244: 24.43°C
+Temperatura auto 172 en nodo 31: 26.43°C
+Temperatura auto 172 en nodo 43: 29.43°C
+Temperatura auto 172 en nodo 68: 25.43°C
+Temperatura auto 172 en nodo 110: 21.43°C
+Temperatura auto 172 en nodo 113: 22.43°C
+Temperatura auto 172 en nodo 116: 23.43°C
+Temperatura auto 172 en nodo 120: 27.43°C
+Temperatura auto 172 en nodo 125: 28.43°C
+Temperatura auto 172 en nodo 156: 23.43°C
+Temperatura auto 172 en nodo 172: 25.43°C
+Temperatura auto 172 en nodo 175: 24.43°C
+Temperatura auto 172 en nodo 185: 20.43°C
+Temperatura auto 172 en nodo 226: 26.43°C
+Temperatura auto 172 en nodo 232: 24.43°C
+Temperatura auto 172 en nodo 244: 30.43°C
 
 CAMINO AUTO 173:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -3666,26 +3873,31 @@ Temperatura auto 173 en nodo 232: 25.35°C
 Temperatura auto 173 en nodo 244: 31.35°C
 
 CAMINO AUTO 174:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1563.52 minutos
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1496.13 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 174 en nodo 1: 18.96°C
-Temperatura auto 174 en nodo 31: 25.96°C
-Temperatura auto 174 en nodo 43: 28.96°C
-Temperatura auto 174 en nodo 68: 24.96°C
-Temperatura auto 174 en nodo 110: 20.96°C
-Temperatura auto 174 en nodo 113: 21.96°C
-Temperatura auto 174 en nodo 116: 22.96°C
-Temperatura auto 174 en nodo 120: 26.96°C
-Temperatura auto 174 en nodo 125: 27.96°C
-Temperatura auto 174 en nodo 156: 22.96°C
-Temperatura auto 174 en nodo 172: 24.96°C
-Temperatura auto 174 en nodo 175: 23.96°C
-Temperatura auto 174 en nodo 185: 19.96°C
-Temperatura auto 174 en nodo 226: 25.96°C
-Temperatura auto 174 en nodo 232: 23.96°C
-Temperatura auto 174 en nodo 244: 29.96°C
+Temperatura auto 174 en nodo 13: 23.96°C
+Temperatura auto 174 en nodo 37: 25.96°C
+Temperatura auto 174 en nodo 42: 23.96°C
+Temperatura auto 174 en nodo 52: 21.96°C
+Temperatura auto 174 en nodo 78: 18.96°C
+Temperatura auto 174 en nodo 88: 19.96°C
+Temperatura auto 174 en nodo 94: 20.96°C
+Temperatura auto 174 en nodo 95: 19.96°C
+Temperatura auto 174 en nodo 126: 19.96°C
+Temperatura auto 174 en nodo 166: 25.96°C
+Temperatura auto 174 en nodo 177: 24.96°C
+Temperatura auto 174 en nodo 189: 22.96°C
+Temperatura auto 174 en nodo 208: 20.96°C
+Temperatura auto 174 en nodo 218: 24.96°C
+Temperatura auto 174 en nodo 219: 19.96°C
+Temperatura auto 174 en nodo 231: 20.96°C
+Temperatura auto 174 en nodo 238: 26.96°C
+Temperatura auto 174 en nodo 244: 26.96°C
 
 CAMINO AUTO 175:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -3775,20 +3987,26 @@ Temperatura auto 177 en nodo 238: 28.39°C
 Temperatura auto 177 en nodo 244: 28.39°C
 
 CAMINO AUTO 178:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 406.99 minutos
+Tiempo de carga en nodo 232: 2145.90 minutos
 Temperatura auto 178 en nodo 1: 21.36°C
-Temperatura auto 178 en nodo 84: 26.36°C
-Temperatura auto 178 en nodo 97: 25.36°C
-Temperatura auto 178 en nodo 118: 26.36°C
-Temperatura auto 178 en nodo 141: 23.36°C
-Temperatura auto 178 en nodo 170: 24.36°C
-Temperatura auto 178 en nodo 187: 22.36°C
-Temperatura auto 178 en nodo 214: 27.36°C
-Temperatura auto 178 en nodo 217: 27.36°C
-Temperatura auto 178 en nodo 244: 26.36°C
+Temperatura auto 178 en nodo 31: 28.36°C
+Temperatura auto 178 en nodo 43: 31.36°C
+Temperatura auto 178 en nodo 68: 27.36°C
+Temperatura auto 178 en nodo 110: 23.36°C
+Temperatura auto 178 en nodo 113: 24.36°C
+Temperatura auto 178 en nodo 116: 25.36°C
+Temperatura auto 178 en nodo 120: 29.36°C
+Temperatura auto 178 en nodo 125: 30.36°C
+Temperatura auto 178 en nodo 156: 25.36°C
+Temperatura auto 178 en nodo 172: 27.36°C
+Temperatura auto 178 en nodo 175: 26.36°C
+Temperatura auto 178 en nodo 185: 22.36°C
+Temperatura auto 178 en nodo 226: 28.36°C
+Temperatura auto 178 en nodo 232: 26.36°C
+Temperatura auto 178 en nodo 244: 32.36°C
 
 CAMINO AUTO 179:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -3866,20 +4084,26 @@ Temperatura auto 181 en nodo 238: 27.08°C
 Temperatura auto 181 en nodo 244: 27.08°C
 
 CAMINO AUTO 182:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 240.32 minutos
+Tiempo de carga en nodo 232: 1979.24 minutos
 Temperatura auto 182 en nodo 1: 21.21°C
-Temperatura auto 182 en nodo 84: 26.21°C
-Temperatura auto 182 en nodo 97: 25.21°C
-Temperatura auto 182 en nodo 118: 26.21°C
-Temperatura auto 182 en nodo 141: 23.21°C
-Temperatura auto 182 en nodo 170: 24.21°C
-Temperatura auto 182 en nodo 187: 22.21°C
-Temperatura auto 182 en nodo 214: 27.21°C
-Temperatura auto 182 en nodo 217: 27.21°C
-Temperatura auto 182 en nodo 244: 26.21°C
+Temperatura auto 182 en nodo 31: 28.21°C
+Temperatura auto 182 en nodo 43: 31.21°C
+Temperatura auto 182 en nodo 68: 27.21°C
+Temperatura auto 182 en nodo 110: 23.21°C
+Temperatura auto 182 en nodo 113: 24.21°C
+Temperatura auto 182 en nodo 116: 25.21°C
+Temperatura auto 182 en nodo 120: 29.21°C
+Temperatura auto 182 en nodo 125: 30.21°C
+Temperatura auto 182 en nodo 156: 25.21°C
+Temperatura auto 182 en nodo 172: 27.21°C
+Temperatura auto 182 en nodo 175: 26.21°C
+Temperatura auto 182 en nodo 185: 22.21°C
+Temperatura auto 182 en nodo 226: 28.21°C
+Temperatura auto 182 en nodo 232: 26.21°C
+Temperatura auto 182 en nodo 244: 32.21°C
 
 CAMINO AUTO 183:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -3905,54 +4129,63 @@ Temperatura auto 183 en nodo 232: 25.51°C
 Temperatura auto 183 en nodo 244: 31.51°C
 
 CAMINO AUTO 184:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 26.85%
-Tiempo de carga en electrolineras seleccionadas: 
-Temperatura auto 184 en nodo 1: 21.23°C
-Temperatura auto 184 en nodo 8: 22.23°C
-Temperatura auto 184 en nodo 36: 24.23°C
-Temperatura auto 184 en nodo 121: 23.23°C
-Temperatura auto 184 en nodo 164: 22.23°C
-Temperatura auto 184 en nodo 207: 23.23°C
-Temperatura auto 184 en nodo 228: 25.23°C
-Temperatura auto 184 en nodo 233: 24.23°C
-Temperatura auto 184 en nodo 244: 23.23°C
-
-CAMINO AUTO 185:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1530.18 minutos
+Tiempo de carga en nodo 214: 392.42 minutos
+Temperatura auto 184 en nodo 1: 21.23°C
+Temperatura auto 184 en nodo 84: 26.23°C
+Temperatura auto 184 en nodo 97: 25.23°C
+Temperatura auto 184 en nodo 118: 26.23°C
+Temperatura auto 184 en nodo 141: 23.23°C
+Temperatura auto 184 en nodo 170: 24.23°C
+Temperatura auto 184 en nodo 187: 22.23°C
+Temperatura auto 184 en nodo 214: 27.23°C
+Temperatura auto 184 en nodo 217: 27.23°C
+Temperatura auto 184 en nodo 244: 26.23°C
+
+CAMINO AUTO 185:
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1462.80 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 185 en nodo 1: 21.57°C
-Temperatura auto 185 en nodo 31: 28.57°C
-Temperatura auto 185 en nodo 43: 31.57°C
-Temperatura auto 185 en nodo 68: 27.57°C
-Temperatura auto 185 en nodo 110: 23.57°C
-Temperatura auto 185 en nodo 113: 24.57°C
-Temperatura auto 185 en nodo 116: 25.57°C
-Temperatura auto 185 en nodo 120: 29.57°C
-Temperatura auto 185 en nodo 125: 30.57°C
-Temperatura auto 185 en nodo 156: 25.57°C
-Temperatura auto 185 en nodo 172: 27.57°C
-Temperatura auto 185 en nodo 175: 26.57°C
-Temperatura auto 185 en nodo 185: 22.57°C
-Temperatura auto 185 en nodo 226: 28.57°C
-Temperatura auto 185 en nodo 232: 26.57°C
-Temperatura auto 185 en nodo 244: 32.57°C
+Temperatura auto 185 en nodo 13: 26.57°C
+Temperatura auto 185 en nodo 37: 28.57°C
+Temperatura auto 185 en nodo 42: 26.57°C
+Temperatura auto 185 en nodo 52: 24.57°C
+Temperatura auto 185 en nodo 78: 21.57°C
+Temperatura auto 185 en nodo 88: 22.57°C
+Temperatura auto 185 en nodo 94: 23.57°C
+Temperatura auto 185 en nodo 95: 22.57°C
+Temperatura auto 185 en nodo 126: 22.57°C
+Temperatura auto 185 en nodo 166: 28.57°C
+Temperatura auto 185 en nodo 177: 27.57°C
+Temperatura auto 185 en nodo 189: 25.57°C
+Temperatura auto 185 en nodo 208: 23.57°C
+Temperatura auto 185 en nodo 218: 27.57°C
+Temperatura auto 185 en nodo 219: 22.57°C
+Temperatura auto 185 en nodo 231: 23.57°C
+Temperatura auto 185 en nodo 238: 29.57°C
+Temperatura auto 185 en nodo 244: 29.57°C
 
 CAMINO AUTO 186:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 29.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 292.42 minutos
 Temperatura auto 186 en nodo 1: 20.19°C
-Temperatura auto 186 en nodo 8: 21.19°C
-Temperatura auto 186 en nodo 36: 23.19°C
-Temperatura auto 186 en nodo 121: 22.19°C
-Temperatura auto 186 en nodo 164: 21.19°C
-Temperatura auto 186 en nodo 207: 22.19°C
-Temperatura auto 186 en nodo 228: 24.19°C
-Temperatura auto 186 en nodo 233: 23.19°C
-Temperatura auto 186 en nodo 244: 22.19°C
+Temperatura auto 186 en nodo 84: 25.19°C
+Temperatura auto 186 en nodo 97: 24.19°C
+Temperatura auto 186 en nodo 118: 25.19°C
+Temperatura auto 186 en nodo 141: 22.19°C
+Temperatura auto 186 en nodo 170: 23.19°C
+Temperatura auto 186 en nodo 187: 21.19°C
+Temperatura auto 186 en nodo 214: 26.19°C
+Temperatura auto 186 en nodo 217: 26.19°C
+Temperatura auto 186 en nodo 244: 25.19°C
 
 CAMINO AUTO 187:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -4033,7 +4266,7 @@ Temperatura auto 190 en nodo 244: 25.55°C
 
 CAMINO AUTO 191:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 37.85%
+Energía final en el nodo 244: 25.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 191 en nodo 1: 21.22°C
 Temperatura auto 191 en nodo 8: 22.22°C
@@ -4046,18 +4279,20 @@ Temperatura auto 191 en nodo 233: 24.22°C
 Temperatura auto 191 en nodo 244: 23.22°C
 
 CAMINO AUTO 192:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 25.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 425.75 minutos
 Temperatura auto 192 en nodo 1: 19.49°C
-Temperatura auto 192 en nodo 8: 20.49°C
-Temperatura auto 192 en nodo 36: 22.49°C
-Temperatura auto 192 en nodo 121: 21.49°C
-Temperatura auto 192 en nodo 164: 20.49°C
-Temperatura auto 192 en nodo 207: 21.49°C
-Temperatura auto 192 en nodo 228: 23.49°C
-Temperatura auto 192 en nodo 233: 22.49°C
-Temperatura auto 192 en nodo 244: 21.49°C
+Temperatura auto 192 en nodo 84: 24.49°C
+Temperatura auto 192 en nodo 97: 23.49°C
+Temperatura auto 192 en nodo 118: 24.49°C
+Temperatura auto 192 en nodo 141: 21.49°C
+Temperatura auto 192 en nodo 170: 22.49°C
+Temperatura auto 192 en nodo 187: 20.49°C
+Temperatura auto 192 en nodo 214: 25.49°C
+Temperatura auto 192 en nodo 217: 25.49°C
+Temperatura auto 192 en nodo 244: 24.49°C
 
 CAMINO AUTO 193:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -4083,20 +4318,26 @@ Temperatura auto 193 en nodo 232: 25.62°C
 Temperatura auto 193 en nodo 244: 31.62°C
 
 CAMINO AUTO 194:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 373.65 minutos
+Tiempo de carga en nodo 232: 2112.57 minutos
 Temperatura auto 194 en nodo 1: 19.54°C
-Temperatura auto 194 en nodo 84: 24.54°C
-Temperatura auto 194 en nodo 97: 23.54°C
-Temperatura auto 194 en nodo 118: 24.54°C
-Temperatura auto 194 en nodo 141: 21.54°C
-Temperatura auto 194 en nodo 170: 22.54°C
-Temperatura auto 194 en nodo 187: 20.54°C
-Temperatura auto 194 en nodo 214: 25.54°C
-Temperatura auto 194 en nodo 217: 25.54°C
-Temperatura auto 194 en nodo 244: 24.54°C
+Temperatura auto 194 en nodo 31: 26.54°C
+Temperatura auto 194 en nodo 43: 29.54°C
+Temperatura auto 194 en nodo 68: 25.54°C
+Temperatura auto 194 en nodo 110: 21.54°C
+Temperatura auto 194 en nodo 113: 22.54°C
+Temperatura auto 194 en nodo 116: 23.54°C
+Temperatura auto 194 en nodo 120: 27.54°C
+Temperatura auto 194 en nodo 125: 28.54°C
+Temperatura auto 194 en nodo 156: 23.54°C
+Temperatura auto 194 en nodo 172: 25.54°C
+Temperatura auto 194 en nodo 175: 24.54°C
+Temperatura auto 194 en nodo 185: 20.54°C
+Temperatura auto 194 en nodo 226: 26.54°C
+Temperatura auto 194 en nodo 232: 24.54°C
+Temperatura auto 194 en nodo 244: 30.54°C
 
 CAMINO AUTO 195:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -4175,7 +4416,7 @@ Temperatura auto 197 en nodo 244: 26.21°C
 
 CAMINO AUTO 198:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 32.85%
+Energía final en el nodo 244: 20.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 198 en nodo 1: 18.01°C
 Temperatura auto 198 en nodo 8: 19.01°C
@@ -4302,10 +4543,11 @@ CAMINO AUTO 205:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 337.95 minutos
-Tiempo de carga en nodo 218: 667.24 minutos
-Tiempo de carga en nodo 231: 1004.39 minutos
-Tiempo de carga en nodo 238: 332.52 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 198.76 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 205 en nodo 1: 20.56°C
 Temperatura auto 205 en nodo 13: 25.56°C
 Temperatura auto 205 en nodo 37: 27.56°C
@@ -4327,20 +4569,26 @@ Temperatura auto 205 en nodo 238: 28.56°C
 Temperatura auto 205 en nodo 244: 28.56°C
 
 CAMINO AUTO 206:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 206.99 minutos
+Tiempo de carga en nodo 232: 1945.90 minutos
 Temperatura auto 206 en nodo 1: 20.89°C
-Temperatura auto 206 en nodo 84: 25.89°C
-Temperatura auto 206 en nodo 97: 24.89°C
-Temperatura auto 206 en nodo 118: 25.89°C
-Temperatura auto 206 en nodo 141: 22.89°C
-Temperatura auto 206 en nodo 170: 23.89°C
-Temperatura auto 206 en nodo 187: 21.89°C
-Temperatura auto 206 en nodo 214: 26.89°C
-Temperatura auto 206 en nodo 217: 26.89°C
-Temperatura auto 206 en nodo 244: 25.89°C
+Temperatura auto 206 en nodo 31: 27.89°C
+Temperatura auto 206 en nodo 43: 30.89°C
+Temperatura auto 206 en nodo 68: 26.89°C
+Temperatura auto 206 en nodo 110: 22.89°C
+Temperatura auto 206 en nodo 113: 23.89°C
+Temperatura auto 206 en nodo 116: 24.89°C
+Temperatura auto 206 en nodo 120: 28.89°C
+Temperatura auto 206 en nodo 125: 29.89°C
+Temperatura auto 206 en nodo 156: 24.89°C
+Temperatura auto 206 en nodo 172: 26.89°C
+Temperatura auto 206 en nodo 175: 25.89°C
+Temperatura auto 206 en nodo 185: 21.89°C
+Temperatura auto 206 en nodo 226: 27.89°C
+Temperatura auto 206 en nodo 232: 25.89°C
+Temperatura auto 206 en nodo 244: 31.89°C
 
 CAMINO AUTO 207:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -4406,20 +4654,26 @@ Temperatura auto 209 en nodo 217: 24.58°C
 Temperatura auto 209 en nodo 244: 23.58°C
 
 CAMINO AUTO 210:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 373.65 minutos
+Tiempo de carga en nodo 232: 2112.57 minutos
 Temperatura auto 210 en nodo 1: 19.41°C
-Temperatura auto 210 en nodo 84: 24.41°C
-Temperatura auto 210 en nodo 97: 23.41°C
-Temperatura auto 210 en nodo 118: 24.41°C
-Temperatura auto 210 en nodo 141: 21.41°C
-Temperatura auto 210 en nodo 170: 22.41°C
-Temperatura auto 210 en nodo 187: 20.41°C
-Temperatura auto 210 en nodo 214: 25.41°C
-Temperatura auto 210 en nodo 217: 25.41°C
-Temperatura auto 210 en nodo 244: 24.41°C
+Temperatura auto 210 en nodo 31: 26.41°C
+Temperatura auto 210 en nodo 43: 29.41°C
+Temperatura auto 210 en nodo 68: 25.41°C
+Temperatura auto 210 en nodo 110: 21.41°C
+Temperatura auto 210 en nodo 113: 22.41°C
+Temperatura auto 210 en nodo 116: 23.41°C
+Temperatura auto 210 en nodo 120: 27.41°C
+Temperatura auto 210 en nodo 125: 28.41°C
+Temperatura auto 210 en nodo 156: 23.41°C
+Temperatura auto 210 en nodo 172: 25.41°C
+Temperatura auto 210 en nodo 175: 24.41°C
+Temperatura auto 210 en nodo 185: 20.41°C
+Temperatura auto 210 en nodo 226: 26.41°C
+Temperatura auto 210 en nodo 232: 24.41°C
+Temperatura auto 210 en nodo 244: 30.41°C
 
 CAMINO AUTO 211:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -4574,18 +4828,21 @@ Temperatura auto 217 en nodo 217: 26.04°C
 Temperatura auto 217 en nodo 244: 25.04°C
 
 CAMINO AUTO 218:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 28.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 108.66 minutos
+Tiempo de carga en nodo 217: 217.09 minutos
 Temperatura auto 218 en nodo 1: 21.71°C
-Temperatura auto 218 en nodo 8: 22.71°C
-Temperatura auto 218 en nodo 36: 24.71°C
-Temperatura auto 218 en nodo 121: 23.71°C
-Temperatura auto 218 en nodo 164: 22.71°C
-Temperatura auto 218 en nodo 207: 23.71°C
-Temperatura auto 218 en nodo 228: 25.71°C
-Temperatura auto 218 en nodo 233: 24.71°C
-Temperatura auto 218 en nodo 244: 23.71°C
+Temperatura auto 218 en nodo 84: 26.71°C
+Temperatura auto 218 en nodo 97: 25.71°C
+Temperatura auto 218 en nodo 118: 26.71°C
+Temperatura auto 218 en nodo 141: 23.71°C
+Temperatura auto 218 en nodo 170: 24.71°C
+Temperatura auto 218 en nodo 187: 22.71°C
+Temperatura auto 218 en nodo 214: 27.71°C
+Temperatura auto 218 en nodo 217: 27.71°C
+Temperatura auto 218 en nodo 244: 26.71°C
 
 CAMINO AUTO 219:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -4627,34 +4884,42 @@ Temperatura auto 220 en nodo 232: 26.47°C
 Temperatura auto 220 en nodo 244: 32.47°C
 
 CAMINO AUTO 221:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 21.85%
-Tiempo de carga en electrolineras seleccionadas: 
-Temperatura auto 221 en nodo 1: 19.71°C
-Temperatura auto 221 en nodo 8: 20.71°C
-Temperatura auto 221 en nodo 36: 22.71°C
-Temperatura auto 221 en nodo 121: 21.71°C
-Temperatura auto 221 en nodo 164: 20.71°C
-Temperatura auto 221 en nodo 207: 21.71°C
-Temperatura auto 221 en nodo 228: 23.71°C
-Temperatura auto 221 en nodo 233: 22.71°C
-Temperatura auto 221 en nodo 244: 21.71°C
-
-CAMINO AUTO 222:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 340.32 minutos
+Tiempo de carga en nodo 214: 559.08 minutos
+Temperatura auto 221 en nodo 1: 19.71°C
+Temperatura auto 221 en nodo 84: 24.71°C
+Temperatura auto 221 en nodo 97: 23.71°C
+Temperatura auto 221 en nodo 118: 24.71°C
+Temperatura auto 221 en nodo 141: 21.71°C
+Temperatura auto 221 en nodo 170: 22.71°C
+Temperatura auto 221 en nodo 187: 20.71°C
+Temperatura auto 221 en nodo 214: 25.71°C
+Temperatura auto 221 en nodo 217: 25.71°C
+Temperatura auto 221 en nodo 244: 24.71°C
+
+CAMINO AUTO 222:
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 232: 2079.24 minutos
 Temperatura auto 222 en nodo 1: 20.47°C
-Temperatura auto 222 en nodo 84: 25.47°C
-Temperatura auto 222 en nodo 97: 24.47°C
-Temperatura auto 222 en nodo 118: 25.47°C
-Temperatura auto 222 en nodo 141: 22.47°C
-Temperatura auto 222 en nodo 170: 23.47°C
-Temperatura auto 222 en nodo 187: 21.47°C
-Temperatura auto 222 en nodo 214: 26.47°C
-Temperatura auto 222 en nodo 217: 26.47°C
-Temperatura auto 222 en nodo 244: 25.47°C
+Temperatura auto 222 en nodo 31: 27.47°C
+Temperatura auto 222 en nodo 43: 30.47°C
+Temperatura auto 222 en nodo 68: 26.47°C
+Temperatura auto 222 en nodo 110: 22.47°C
+Temperatura auto 222 en nodo 113: 23.47°C
+Temperatura auto 222 en nodo 116: 24.47°C
+Temperatura auto 222 en nodo 120: 28.47°C
+Temperatura auto 222 en nodo 125: 29.47°C
+Temperatura auto 222 en nodo 156: 24.47°C
+Temperatura auto 222 en nodo 172: 26.47°C
+Temperatura auto 222 en nodo 175: 25.47°C
+Temperatura auto 222 en nodo 185: 21.47°C
+Temperatura auto 222 en nodo 226: 27.47°C
+Temperatura auto 222 en nodo 232: 25.47°C
+Temperatura auto 222 en nodo 244: 31.47°C
 
 CAMINO AUTO 223:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -4674,7 +4939,7 @@ Temperatura auto 223 en nodo 244: 24.04°C
 
 CAMINO AUTO 224:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 34.85%
+Energía final en el nodo 244: 22.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 224 en nodo 1: 21.26°C
 Temperatura auto 224 en nodo 8: 22.26°C
@@ -4703,22 +4968,24 @@ Temperatura auto 225 en nodo 217: 26.84°C
 Temperatura auto 225 en nodo 244: 25.84°C
 
 CAMINO AUTO 226:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 27.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 359.08 minutos
 Temperatura auto 226 en nodo 1: 20.92°C
-Temperatura auto 226 en nodo 8: 21.92°C
-Temperatura auto 226 en nodo 36: 23.92°C
-Temperatura auto 226 en nodo 121: 22.92°C
-Temperatura auto 226 en nodo 164: 21.92°C
-Temperatura auto 226 en nodo 207: 22.92°C
-Temperatura auto 226 en nodo 228: 24.92°C
-Temperatura auto 226 en nodo 233: 23.92°C
-Temperatura auto 226 en nodo 244: 22.92°C
+Temperatura auto 226 en nodo 84: 25.92°C
+Temperatura auto 226 en nodo 97: 24.92°C
+Temperatura auto 226 en nodo 118: 25.92°C
+Temperatura auto 226 en nodo 141: 22.92°C
+Temperatura auto 226 en nodo 170: 23.92°C
+Temperatura auto 226 en nodo 187: 21.92°C
+Temperatura auto 226 en nodo 214: 26.92°C
+Temperatura auto 226 en nodo 217: 26.92°C
+Temperatura auto 226 en nodo 244: 25.92°C
 
 CAMINO AUTO 227:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 36.85%
+Energía final en el nodo 244: 24.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 227 en nodo 1: 18.38°C
 Temperatura auto 227 en nodo 8: 19.38°C
@@ -4731,28 +4998,41 @@ Temperatura auto 227 en nodo 233: 21.38°C
 Temperatura auto 227 en nodo 244: 20.38°C
 
 CAMINO AUTO 228:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 440.32 minutos
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1362.80 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 228 en nodo 1: 21.75°C
-Temperatura auto 228 en nodo 84: 26.75°C
-Temperatura auto 228 en nodo 97: 25.75°C
-Temperatura auto 228 en nodo 118: 26.75°C
-Temperatura auto 228 en nodo 141: 23.75°C
-Temperatura auto 228 en nodo 170: 24.75°C
-Temperatura auto 228 en nodo 187: 22.75°C
-Temperatura auto 228 en nodo 214: 27.75°C
-Temperatura auto 228 en nodo 217: 27.75°C
-Temperatura auto 228 en nodo 244: 26.75°C
+Temperatura auto 228 en nodo 13: 26.75°C
+Temperatura auto 228 en nodo 37: 28.75°C
+Temperatura auto 228 en nodo 42: 26.75°C
+Temperatura auto 228 en nodo 52: 24.75°C
+Temperatura auto 228 en nodo 78: 21.75°C
+Temperatura auto 228 en nodo 88: 22.75°C
+Temperatura auto 228 en nodo 94: 23.75°C
+Temperatura auto 228 en nodo 95: 22.75°C
+Temperatura auto 228 en nodo 126: 22.75°C
+Temperatura auto 228 en nodo 166: 28.75°C
+Temperatura auto 228 en nodo 177: 27.75°C
+Temperatura auto 228 en nodo 189: 25.75°C
+Temperatura auto 228 en nodo 208: 23.75°C
+Temperatura auto 228 en nodo 218: 27.75°C
+Temperatura auto 228 en nodo 219: 22.75°C
+Temperatura auto 228 en nodo 231: 23.75°C
+Temperatura auto 228 en nodo 238: 29.75°C
+Temperatura auto 228 en nodo 244: 29.75°C
 
 CAMINO AUTO 229:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 504.27 minutos
-Tiempo de carga en nodo 219: 1563.69 minutos
-Tiempo de carga en nodo 231: 174.14 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 98.76 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 229 en nodo 1: 19.26°C
 Temperatura auto 229 en nodo 13: 24.26°C
 Temperatura auto 229 en nodo 37: 26.26°C
@@ -4774,32 +5054,36 @@ Temperatura auto 229 en nodo 238: 27.26°C
 Temperatura auto 229 en nodo 244: 27.26°C
 
 CAMINO AUTO 230:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 22.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 525.75 minutos
 Temperatura auto 230 en nodo 1: 21.59°C
-Temperatura auto 230 en nodo 8: 22.59°C
-Temperatura auto 230 en nodo 36: 24.59°C
-Temperatura auto 230 en nodo 121: 23.59°C
-Temperatura auto 230 en nodo 164: 22.59°C
-Temperatura auto 230 en nodo 207: 23.59°C
-Temperatura auto 230 en nodo 228: 25.59°C
-Temperatura auto 230 en nodo 233: 24.59°C
-Temperatura auto 230 en nodo 244: 23.59°C
+Temperatura auto 230 en nodo 84: 26.59°C
+Temperatura auto 230 en nodo 97: 25.59°C
+Temperatura auto 230 en nodo 118: 26.59°C
+Temperatura auto 230 en nodo 141: 23.59°C
+Temperatura auto 230 en nodo 170: 24.59°C
+Temperatura auto 230 en nodo 187: 22.59°C
+Temperatura auto 230 en nodo 214: 27.59°C
+Temperatura auto 230 en nodo 217: 27.59°C
+Temperatura auto 230 en nodo 244: 26.59°C
 
 CAMINO AUTO 231:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 27.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 359.08 minutos
 Temperatura auto 231 en nodo 1: 20.66°C
-Temperatura auto 231 en nodo 8: 21.66°C
-Temperatura auto 231 en nodo 36: 23.66°C
-Temperatura auto 231 en nodo 121: 22.66°C
-Temperatura auto 231 en nodo 164: 21.66°C
-Temperatura auto 231 en nodo 207: 22.66°C
-Temperatura auto 231 en nodo 228: 24.66°C
-Temperatura auto 231 en nodo 233: 23.66°C
-Temperatura auto 231 en nodo 244: 22.66°C
+Temperatura auto 231 en nodo 84: 25.66°C
+Temperatura auto 231 en nodo 97: 24.66°C
+Temperatura auto 231 en nodo 118: 25.66°C
+Temperatura auto 231 en nodo 141: 22.66°C
+Temperatura auto 231 en nodo 170: 23.66°C
+Temperatura auto 231 en nodo 187: 21.66°C
+Temperatura auto 231 en nodo 214: 26.66°C
+Temperatura auto 231 en nodo 217: 26.66°C
+Temperatura auto 231 en nodo 244: 25.66°C
 
 CAMINO AUTO 232:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -4900,18 +5184,20 @@ Temperatura auto 235 en nodo 238: 27.08°C
 Temperatura auto 235 en nodo 244: 27.08°C
 
 CAMINO AUTO 236:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 30.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 259.08 minutos
 Temperatura auto 236 en nodo 1: 20.37°C
-Temperatura auto 236 en nodo 8: 21.37°C
-Temperatura auto 236 en nodo 36: 23.37°C
-Temperatura auto 236 en nodo 121: 22.37°C
-Temperatura auto 236 en nodo 164: 21.37°C
-Temperatura auto 236 en nodo 207: 22.37°C
-Temperatura auto 236 en nodo 228: 24.37°C
-Temperatura auto 236 en nodo 233: 23.37°C
-Temperatura auto 236 en nodo 244: 22.37°C
+Temperatura auto 236 en nodo 84: 25.37°C
+Temperatura auto 236 en nodo 97: 24.37°C
+Temperatura auto 236 en nodo 118: 25.37°C
+Temperatura auto 236 en nodo 141: 22.37°C
+Temperatura auto 236 en nodo 170: 23.37°C
+Temperatura auto 236 en nodo 187: 21.37°C
+Temperatura auto 236 en nodo 214: 26.37°C
+Temperatura auto 236 en nodo 217: 26.37°C
+Temperatura auto 236 en nodo 244: 25.37°C
 
 CAMINO AUTO 237:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -4960,20 +5246,26 @@ Temperatura auto 238 en nodo 238: 26.27°C
 Temperatura auto 238 en nodo 244: 26.27°C
 
 CAMINO AUTO 239:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 406.99 minutos
+Tiempo de carga en nodo 232: 2145.90 minutos
 Temperatura auto 239 en nodo 1: 21.02°C
-Temperatura auto 239 en nodo 84: 26.02°C
-Temperatura auto 239 en nodo 97: 25.02°C
-Temperatura auto 239 en nodo 118: 26.02°C
-Temperatura auto 239 en nodo 141: 23.02°C
-Temperatura auto 239 en nodo 170: 24.02°C
-Temperatura auto 239 en nodo 187: 22.02°C
-Temperatura auto 239 en nodo 214: 27.02°C
-Temperatura auto 239 en nodo 217: 27.02°C
-Temperatura auto 239 en nodo 244: 26.02°C
+Temperatura auto 239 en nodo 31: 28.02°C
+Temperatura auto 239 en nodo 43: 31.02°C
+Temperatura auto 239 en nodo 68: 27.02°C
+Temperatura auto 239 en nodo 110: 23.02°C
+Temperatura auto 239 en nodo 113: 24.02°C
+Temperatura auto 239 en nodo 116: 25.02°C
+Temperatura auto 239 en nodo 120: 29.02°C
+Temperatura auto 239 en nodo 125: 30.02°C
+Temperatura auto 239 en nodo 156: 25.02°C
+Temperatura auto 239 en nodo 172: 27.02°C
+Temperatura auto 239 en nodo 175: 26.02°C
+Temperatura auto 239 en nodo 185: 22.02°C
+Temperatura auto 239 en nodo 226: 28.02°C
+Temperatura auto 239 en nodo 232: 26.02°C
+Temperatura auto 239 en nodo 244: 32.02°C
 
 CAMINO AUTO 240:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -5005,42 +5297,53 @@ Temperatura auto 240 en nodo 238: 28.19°C
 Temperatura auto 240 en nodo 244: 28.19°C
 
 CAMINO AUTO 241:
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
+Energía final en el nodo 244: 20.00%
+Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1462.80 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
+Temperatura auto 241 en nodo 1: 21.05°C
+Temperatura auto 241 en nodo 13: 26.05°C
+Temperatura auto 241 en nodo 37: 28.05°C
+Temperatura auto 241 en nodo 42: 26.05°C
+Temperatura auto 241 en nodo 52: 24.05°C
+Temperatura auto 241 en nodo 78: 21.05°C
+Temperatura auto 241 en nodo 88: 22.05°C
+Temperatura auto 241 en nodo 94: 23.05°C
+Temperatura auto 241 en nodo 95: 22.05°C
+Temperatura auto 241 en nodo 126: 22.05°C
+Temperatura auto 241 en nodo 166: 28.05°C
+Temperatura auto 241 en nodo 177: 27.05°C
+Temperatura auto 241 en nodo 189: 25.05°C
+Temperatura auto 241 en nodo 208: 23.05°C
+Temperatura auto 241 en nodo 218: 27.05°C
+Temperatura auto 241 en nodo 219: 22.05°C
+Temperatura auto 241 en nodo 231: 23.05°C
+Temperatura auto 241 en nodo 238: 29.05°C
+Temperatura auto 241 en nodo 244: 29.05°C
+
+CAMINO AUTO 242:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1530.18 minutos
-Temperatura auto 241 en nodo 1: 21.05°C
-Temperatura auto 241 en nodo 31: 28.05°C
-Temperatura auto 241 en nodo 43: 31.05°C
-Temperatura auto 241 en nodo 68: 27.05°C
-Temperatura auto 241 en nodo 110: 23.05°C
-Temperatura auto 241 en nodo 113: 24.05°C
-Temperatura auto 241 en nodo 116: 25.05°C
-Temperatura auto 241 en nodo 120: 29.05°C
-Temperatura auto 241 en nodo 125: 30.05°C
-Temperatura auto 241 en nodo 156: 25.05°C
-Temperatura auto 241 en nodo 172: 27.05°C
-Temperatura auto 241 en nodo 175: 26.05°C
-Temperatura auto 241 en nodo 185: 22.05°C
-Temperatura auto 241 en nodo 226: 28.05°C
-Temperatura auto 241 en nodo 232: 26.05°C
-Temperatura auto 241 en nodo 244: 32.05°C
-
-CAMINO AUTO 242:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
-Energía final en el nodo 244: 20.00%
-Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 240.32 minutos
+Tiempo de carga en nodo 232: 1979.24 minutos
 Temperatura auto 242 en nodo 1: 18.12°C
-Temperatura auto 242 en nodo 84: 23.12°C
-Temperatura auto 242 en nodo 97: 22.12°C
-Temperatura auto 242 en nodo 118: 23.12°C
-Temperatura auto 242 en nodo 141: 20.12°C
-Temperatura auto 242 en nodo 170: 21.12°C
-Temperatura auto 242 en nodo 187: 19.12°C
-Temperatura auto 242 en nodo 214: 24.12°C
-Temperatura auto 242 en nodo 217: 24.12°C
-Temperatura auto 242 en nodo 244: 23.12°C
+Temperatura auto 242 en nodo 31: 25.12°C
+Temperatura auto 242 en nodo 43: 28.12°C
+Temperatura auto 242 en nodo 68: 24.12°C
+Temperatura auto 242 en nodo 110: 20.12°C
+Temperatura auto 242 en nodo 113: 21.12°C
+Temperatura auto 242 en nodo 116: 22.12°C
+Temperatura auto 242 en nodo 120: 26.12°C
+Temperatura auto 242 en nodo 125: 27.12°C
+Temperatura auto 242 en nodo 156: 22.12°C
+Temperatura auto 242 en nodo 172: 24.12°C
+Temperatura auto 242 en nodo 175: 23.12°C
+Temperatura auto 242 en nodo 185: 19.12°C
+Temperatura auto 242 en nodo 226: 25.12°C
+Temperatura auto 242 en nodo 232: 23.12°C
+Temperatura auto 242 en nodo 244: 29.12°C
 
 CAMINO AUTO 243:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -5088,32 +5391,36 @@ Temperatura auto 244 en nodo 217: 27.36°C
 Temperatura auto 244 en nodo 244: 26.36°C
 
 CAMINO AUTO 245:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 26.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 392.42 minutos
 Temperatura auto 245 en nodo 1: 20.67°C
-Temperatura auto 245 en nodo 8: 21.67°C
-Temperatura auto 245 en nodo 36: 23.67°C
-Temperatura auto 245 en nodo 121: 22.67°C
-Temperatura auto 245 en nodo 164: 21.67°C
-Temperatura auto 245 en nodo 207: 22.67°C
-Temperatura auto 245 en nodo 228: 24.67°C
-Temperatura auto 245 en nodo 233: 23.67°C
-Temperatura auto 245 en nodo 244: 22.67°C
+Temperatura auto 245 en nodo 84: 25.67°C
+Temperatura auto 245 en nodo 97: 24.67°C
+Temperatura auto 245 en nodo 118: 25.67°C
+Temperatura auto 245 en nodo 141: 22.67°C
+Temperatura auto 245 en nodo 170: 23.67°C
+Temperatura auto 245 en nodo 187: 21.67°C
+Temperatura auto 245 en nodo 214: 26.67°C
+Temperatura auto 245 en nodo 217: 26.67°C
+Temperatura auto 245 en nodo 244: 25.67°C
 
 CAMINO AUTO 246:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 23.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 492.42 minutos
 Temperatura auto 246 en nodo 1: 18.39°C
-Temperatura auto 246 en nodo 8: 19.39°C
-Temperatura auto 246 en nodo 36: 21.39°C
-Temperatura auto 246 en nodo 121: 20.39°C
-Temperatura auto 246 en nodo 164: 19.39°C
-Temperatura auto 246 en nodo 207: 20.39°C
-Temperatura auto 246 en nodo 228: 22.39°C
-Temperatura auto 246 en nodo 233: 21.39°C
-Temperatura auto 246 en nodo 244: 20.39°C
+Temperatura auto 246 en nodo 84: 23.39°C
+Temperatura auto 246 en nodo 97: 22.39°C
+Temperatura auto 246 en nodo 118: 23.39°C
+Temperatura auto 246 en nodo 141: 20.39°C
+Temperatura auto 246 en nodo 170: 21.39°C
+Temperatura auto 246 en nodo 187: 19.39°C
+Temperatura auto 246 en nodo 214: 24.39°C
+Temperatura auto 246 en nodo 217: 24.39°C
+Temperatura auto 246 en nodo 244: 23.39°C
 
 CAMINO AUTO 247:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -5203,20 +5510,31 @@ Temperatura auto 249 en nodo 238: 27.80°C
 Temperatura auto 249 en nodo 244: 27.80°C
 
 CAMINO AUTO 250:
-1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 473.65 minutos
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1396.13 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 250 en nodo 1: 19.10°C
-Temperatura auto 250 en nodo 84: 24.10°C
-Temperatura auto 250 en nodo 97: 23.10°C
-Temperatura auto 250 en nodo 118: 24.10°C
-Temperatura auto 250 en nodo 141: 21.10°C
-Temperatura auto 250 en nodo 170: 22.10°C
-Temperatura auto 250 en nodo 187: 20.10°C
-Temperatura auto 250 en nodo 214: 25.10°C
-Temperatura auto 250 en nodo 217: 25.10°C
-Temperatura auto 250 en nodo 244: 24.10°C
+Temperatura auto 250 en nodo 13: 24.10°C
+Temperatura auto 250 en nodo 37: 26.10°C
+Temperatura auto 250 en nodo 42: 24.10°C
+Temperatura auto 250 en nodo 52: 22.10°C
+Temperatura auto 250 en nodo 78: 19.10°C
+Temperatura auto 250 en nodo 88: 20.10°C
+Temperatura auto 250 en nodo 94: 21.10°C
+Temperatura auto 250 en nodo 95: 20.10°C
+Temperatura auto 250 en nodo 126: 20.10°C
+Temperatura auto 250 en nodo 166: 26.10°C
+Temperatura auto 250 en nodo 177: 25.10°C
+Temperatura auto 250 en nodo 189: 23.10°C
+Temperatura auto 250 en nodo 208: 21.10°C
+Temperatura auto 250 en nodo 218: 25.10°C
+Temperatura auto 250 en nodo 219: 20.10°C
+Temperatura auto 250 en nodo 231: 21.10°C
+Temperatura auto 250 en nodo 238: 27.10°C
+Temperatura auto 250 en nodo 244: 27.10°C
 
 CAMINO AUTO 251:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -5248,18 +5566,20 @@ Temperatura auto 251 en nodo 238: 26.89°C
 Temperatura auto 251 en nodo 244: 26.89°C
 
 CAMINO AUTO 252:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 20.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 592.42 minutos
 Temperatura auto 252 en nodo 1: 21.27°C
-Temperatura auto 252 en nodo 8: 22.27°C
-Temperatura auto 252 en nodo 36: 24.27°C
-Temperatura auto 252 en nodo 121: 23.27°C
-Temperatura auto 252 en nodo 164: 22.27°C
-Temperatura auto 252 en nodo 207: 23.27°C
-Temperatura auto 252 en nodo 228: 25.27°C
-Temperatura auto 252 en nodo 233: 24.27°C
-Temperatura auto 252 en nodo 244: 23.27°C
+Temperatura auto 252 en nodo 84: 26.27°C
+Temperatura auto 252 en nodo 97: 25.27°C
+Temperatura auto 252 en nodo 118: 26.27°C
+Temperatura auto 252 en nodo 141: 23.27°C
+Temperatura auto 252 en nodo 170: 24.27°C
+Temperatura auto 252 en nodo 187: 22.27°C
+Temperatura auto 252 en nodo 214: 27.27°C
+Temperatura auto 252 en nodo 217: 27.27°C
+Temperatura auto 252 en nodo 244: 26.27°C
 
 CAMINO AUTO 253:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -5349,18 +5669,20 @@ Temperatura auto 255 en nodo 238: 27.90°C
 Temperatura auto 255 en nodo 244: 27.90°C
 
 CAMINO AUTO 256:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 24.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 459.08 minutos
 Temperatura auto 256 en nodo 1: 18.34°C
-Temperatura auto 256 en nodo 8: 19.34°C
-Temperatura auto 256 en nodo 36: 21.34°C
-Temperatura auto 256 en nodo 121: 20.34°C
-Temperatura auto 256 en nodo 164: 19.34°C
-Temperatura auto 256 en nodo 207: 20.34°C
-Temperatura auto 256 en nodo 228: 22.34°C
-Temperatura auto 256 en nodo 233: 21.34°C
-Temperatura auto 256 en nodo 244: 20.34°C
+Temperatura auto 256 en nodo 84: 23.34°C
+Temperatura auto 256 en nodo 97: 22.34°C
+Temperatura auto 256 en nodo 118: 23.34°C
+Temperatura auto 256 en nodo 141: 20.34°C
+Temperatura auto 256 en nodo 170: 21.34°C
+Temperatura auto 256 en nodo 187: 19.34°C
+Temperatura auto 256 en nodo 214: 24.34°C
+Temperatura auto 256 en nodo 217: 24.34°C
+Temperatura auto 256 en nodo 244: 23.34°C
 
 CAMINO AUTO 257:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -5576,10 +5898,11 @@ CAMINO AUTO 266:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 337.95 minutos
-Tiempo de carga en nodo 218: 667.24 minutos
-Tiempo de carga en nodo 231: 1004.39 minutos
-Tiempo de carga en nodo 238: 332.52 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 198.76 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 266 en nodo 1: 20.46°C
 Temperatura auto 266 en nodo 13: 25.46°C
 Temperatura auto 266 en nodo 37: 27.46°C
@@ -5602,7 +5925,7 @@ Temperatura auto 266 en nodo 244: 28.46°C
 
 CAMINO AUTO 267:
 1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 34.85%
+Energía final en el nodo 244: 22.81%
 Tiempo de carga en electrolineras seleccionadas: 
 Temperatura auto 267 en nodo 1: 19.36°C
 Temperatura auto 267 en nodo 8: 20.36°C
@@ -5647,7 +5970,7 @@ CAMINO AUTO 269:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 214: 173.65 minutos
+Tiempo de carga en nodo 214: 625.75 minutos
 Temperatura auto 269 en nodo 1: 19.03°C
 Temperatura auto 269 en nodo 84: 24.03°C
 Temperatura auto 269 en nodo 97: 23.03°C
@@ -5660,34 +5983,41 @@ Temperatura auto 269 en nodo 217: 25.03°C
 Temperatura auto 269 en nodo 244: 24.03°C
 
 CAMINO AUTO 270:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1563.52 minutos
+Tiempo de carga en nodo 218: 1299.70 minutos
+Tiempo de carga en nodo 219: 1496.13 minutos
+Tiempo de carga en nodo 231: 182.24 minutos
 Temperatura auto 270 en nodo 1: 18.45°C
-Temperatura auto 270 en nodo 31: 25.45°C
-Temperatura auto 270 en nodo 43: 28.45°C
-Temperatura auto 270 en nodo 68: 24.45°C
-Temperatura auto 270 en nodo 110: 20.45°C
-Temperatura auto 270 en nodo 113: 21.45°C
-Temperatura auto 270 en nodo 116: 22.45°C
-Temperatura auto 270 en nodo 120: 26.45°C
-Temperatura auto 270 en nodo 125: 27.45°C
-Temperatura auto 270 en nodo 156: 22.45°C
-Temperatura auto 270 en nodo 172: 24.45°C
-Temperatura auto 270 en nodo 175: 23.45°C
-Temperatura auto 270 en nodo 185: 19.45°C
-Temperatura auto 270 en nodo 226: 25.45°C
-Temperatura auto 270 en nodo 232: 23.45°C
-Temperatura auto 270 en nodo 244: 29.45°C
+Temperatura auto 270 en nodo 13: 23.45°C
+Temperatura auto 270 en nodo 37: 25.45°C
+Temperatura auto 270 en nodo 42: 23.45°C
+Temperatura auto 270 en nodo 52: 21.45°C
+Temperatura auto 270 en nodo 78: 18.45°C
+Temperatura auto 270 en nodo 88: 19.45°C
+Temperatura auto 270 en nodo 94: 20.45°C
+Temperatura auto 270 en nodo 95: 19.45°C
+Temperatura auto 270 en nodo 126: 19.45°C
+Temperatura auto 270 en nodo 166: 25.45°C
+Temperatura auto 270 en nodo 177: 24.45°C
+Temperatura auto 270 en nodo 189: 22.45°C
+Temperatura auto 270 en nodo 208: 20.45°C
+Temperatura auto 270 en nodo 218: 24.45°C
+Temperatura auto 270 en nodo 219: 19.45°C
+Temperatura auto 270 en nodo 231: 20.45°C
+Temperatura auto 270 en nodo 238: 26.45°C
+Temperatura auto 270 en nodo 244: 26.45°C
 
 CAMINO AUTO 271:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 504.27 minutos
-Tiempo de carga en nodo 218: 174.14 minutos
-Tiempo de carga en nodo 219: 1597.02 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 132.09 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 271 en nodo 1: 18.62°C
 Temperatura auto 271 en nodo 13: 23.62°C
 Temperatura auto 271 en nodo 37: 25.62°C
@@ -5809,10 +6139,11 @@ CAMINO AUTO 276:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 208: 337.95 minutos
-Tiempo de carga en nodo 218: 667.24 minutos
-Tiempo de carga en nodo 231: 1004.39 minutos
-Tiempo de carga en nodo 238: 332.52 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 198.76 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 276 en nodo 1: 18.23°C
 Temperatura auto 276 en nodo 13: 23.23°C
 Temperatura auto 276 en nodo 37: 25.23°C
@@ -5879,26 +6210,32 @@ Temperatura auto 278 en nodo 238: 29.67°C
 Temperatura auto 278 en nodo 244: 29.67°C
 
 CAMINO AUTO 279:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1630.18 minutos
+Tiempo de carga en nodo 208: 439.33 minutos
+Tiempo de carga en nodo 218: 394.11 minutos
+Tiempo de carga en nodo 231: 1779.01 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 279 en nodo 1: 18.19°C
-Temperatura auto 279 en nodo 31: 25.19°C
-Temperatura auto 279 en nodo 43: 28.19°C
-Temperatura auto 279 en nodo 68: 24.19°C
-Temperatura auto 279 en nodo 110: 20.19°C
-Temperatura auto 279 en nodo 113: 21.19°C
-Temperatura auto 279 en nodo 116: 22.19°C
-Temperatura auto 279 en nodo 120: 26.19°C
-Temperatura auto 279 en nodo 125: 27.19°C
-Temperatura auto 279 en nodo 156: 22.19°C
-Temperatura auto 279 en nodo 172: 24.19°C
-Temperatura auto 279 en nodo 175: 23.19°C
-Temperatura auto 279 en nodo 185: 19.19°C
-Temperatura auto 279 en nodo 226: 25.19°C
-Temperatura auto 279 en nodo 232: 23.19°C
-Temperatura auto 279 en nodo 244: 29.19°C
+Temperatura auto 279 en nodo 13: 23.19°C
+Temperatura auto 279 en nodo 37: 25.19°C
+Temperatura auto 279 en nodo 42: 23.19°C
+Temperatura auto 279 en nodo 52: 21.19°C
+Temperatura auto 279 en nodo 78: 18.19°C
+Temperatura auto 279 en nodo 88: 19.19°C
+Temperatura auto 279 en nodo 94: 20.19°C
+Temperatura auto 279 en nodo 95: 19.19°C
+Temperatura auto 279 en nodo 126: 19.19°C
+Temperatura auto 279 en nodo 166: 25.19°C
+Temperatura auto 279 en nodo 177: 24.19°C
+Temperatura auto 279 en nodo 189: 22.19°C
+Temperatura auto 279 en nodo 208: 20.19°C
+Temperatura auto 279 en nodo 218: 24.19°C
+Temperatura auto 279 en nodo 219: 19.19°C
+Temperatura auto 279 en nodo 231: 20.19°C
+Temperatura auto 279 en nodo 238: 26.19°C
+Temperatura auto 279 en nodo 244: 26.19°C
 
 CAMINO AUTO 280:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -5917,18 +6254,20 @@ Temperatura auto 280 en nodo 217: 24.05°C
 Temperatura auto 280 en nodo 244: 23.05°C
 
 CAMINO AUTO 281:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 22.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 525.75 minutos
 Temperatura auto 281 en nodo 1: 18.78°C
-Temperatura auto 281 en nodo 8: 19.78°C
-Temperatura auto 281 en nodo 36: 21.78°C
-Temperatura auto 281 en nodo 121: 20.78°C
-Temperatura auto 281 en nodo 164: 19.78°C
-Temperatura auto 281 en nodo 207: 20.78°C
-Temperatura auto 281 en nodo 228: 22.78°C
-Temperatura auto 281 en nodo 233: 21.78°C
-Temperatura auto 281 en nodo 244: 20.78°C
+Temperatura auto 281 en nodo 84: 23.78°C
+Temperatura auto 281 en nodo 97: 22.78°C
+Temperatura auto 281 en nodo 118: 23.78°C
+Temperatura auto 281 en nodo 141: 20.78°C
+Temperatura auto 281 en nodo 170: 21.78°C
+Temperatura auto 281 en nodo 187: 19.78°C
+Temperatura auto 281 en nodo 214: 24.78°C
+Temperatura auto 281 en nodo 217: 24.78°C
+Temperatura auto 281 en nodo 244: 23.78°C
 
 CAMINO AUTO 282:
 1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
@@ -6005,18 +6344,20 @@ Temperatura auto 284 en nodo 217: 24.98°C
 Temperatura auto 284 en nodo 244: 23.98°C
 
 CAMINO AUTO 285:
-1 -> 8 -> 207 -> 164 -> 121 -> 36 -> 228 -> 233 -> 244
-Energía final en el nodo 244: 26.85%
+1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
+Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
+Tiempo de carga en nodo 214: 392.42 minutos
 Temperatura auto 285 en nodo 1: 20.53°C
-Temperatura auto 285 en nodo 8: 21.53°C
-Temperatura auto 285 en nodo 36: 23.53°C
-Temperatura auto 285 en nodo 121: 22.53°C
-Temperatura auto 285 en nodo 164: 21.53°C
-Temperatura auto 285 en nodo 207: 22.53°C
-Temperatura auto 285 en nodo 228: 24.53°C
-Temperatura auto 285 en nodo 233: 23.53°C
-Temperatura auto 285 en nodo 244: 22.53°C
+Temperatura auto 285 en nodo 84: 25.53°C
+Temperatura auto 285 en nodo 97: 24.53°C
+Temperatura auto 285 en nodo 118: 25.53°C
+Temperatura auto 285 en nodo 141: 22.53°C
+Temperatura auto 285 en nodo 170: 23.53°C
+Temperatura auto 285 en nodo 187: 21.53°C
+Temperatura auto 285 en nodo 214: 26.53°C
+Temperatura auto 285 en nodo 217: 26.53°C
+Temperatura auto 285 en nodo 244: 25.53°C
 
 CAMINO AUTO 286:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
@@ -6074,26 +6415,33 @@ Temperatura auto 288 en nodo 217: 25.50°C
 Temperatura auto 288 en nodo 244: 24.50°C
 
 CAMINO AUTO 289:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1663.52 minutos
+Tiempo de carga en nodo 208: 440.57 minutos
+Tiempo de carga en nodo 218: 867.42 minutos
+Tiempo de carga en nodo 219: 32.09 minutos
+Tiempo de carga en nodo 231: 1305.70 minutos
+Tiempo de carga en nodo 238: 432.28 minutos
 Temperatura auto 289 en nodo 1: 19.75°C
-Temperatura auto 289 en nodo 31: 26.75°C
-Temperatura auto 289 en nodo 43: 29.75°C
-Temperatura auto 289 en nodo 68: 25.75°C
-Temperatura auto 289 en nodo 110: 21.75°C
-Temperatura auto 289 en nodo 113: 22.75°C
-Temperatura auto 289 en nodo 116: 23.75°C
-Temperatura auto 289 en nodo 120: 27.75°C
-Temperatura auto 289 en nodo 125: 28.75°C
-Temperatura auto 289 en nodo 156: 23.75°C
-Temperatura auto 289 en nodo 172: 25.75°C
-Temperatura auto 289 en nodo 175: 24.75°C
-Temperatura auto 289 en nodo 185: 20.75°C
-Temperatura auto 289 en nodo 226: 26.75°C
-Temperatura auto 289 en nodo 232: 24.75°C
-Temperatura auto 289 en nodo 244: 30.75°C
+Temperatura auto 289 en nodo 13: 24.75°C
+Temperatura auto 289 en nodo 37: 26.75°C
+Temperatura auto 289 en nodo 42: 24.75°C
+Temperatura auto 289 en nodo 52: 22.75°C
+Temperatura auto 289 en nodo 78: 19.75°C
+Temperatura auto 289 en nodo 88: 20.75°C
+Temperatura auto 289 en nodo 94: 21.75°C
+Temperatura auto 289 en nodo 95: 20.75°C
+Temperatura auto 289 en nodo 126: 20.75°C
+Temperatura auto 289 en nodo 166: 26.75°C
+Temperatura auto 289 en nodo 177: 25.75°C
+Temperatura auto 289 en nodo 189: 23.75°C
+Temperatura auto 289 en nodo 208: 21.75°C
+Temperatura auto 289 en nodo 218: 25.75°C
+Temperatura auto 289 en nodo 219: 20.75°C
+Temperatura auto 289 en nodo 231: 21.75°C
+Temperatura auto 289 en nodo 238: 27.75°C
+Temperatura auto 289 en nodo 244: 27.75°C
 
 CAMINO AUTO 290:
 1 -> 187 -> 141 -> 170 -> 97 -> 84 -> 214 -> 118 -> 217 -> 244
@@ -6164,26 +6512,31 @@ Temperatura auto 292 en nodo 238: 29.81°C
 Temperatura auto 292 en nodo 244: 29.81°C
 
 CAMINO AUTO 293:
-1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244
+1 -> 219 -> 78 -> 126 -> 208 -> 95 -> 231 -> 88 -> 94 -> 52 -> 189 -> 42 -> 218 -> 13 -> 177 -> 166 -> 238 -> 37 -> 244
 Energía final en el nodo 244: 20.00%
 Tiempo de carga en electrolineras seleccionadas: 
-Tiempo de carga en nodo 232: 1596.85 minutos
+Tiempo de carga en nodo 218: 388.59 minutos
+Tiempo de carga en nodo 219: 1529.46 minutos
+Tiempo de carga en nodo 231: 1093.34 minutos
 Temperatura auto 293 en nodo 1: 19.73°C
-Temperatura auto 293 en nodo 31: 26.73°C
-Temperatura auto 293 en nodo 43: 29.73°C
-Temperatura auto 293 en nodo 68: 25.73°C
-Temperatura auto 293 en nodo 110: 21.73°C
-Temperatura auto 293 en nodo 113: 22.73°C
-Temperatura auto 293 en nodo 116: 23.73°C
-Temperatura auto 293 en nodo 120: 27.73°C
-Temperatura auto 293 en nodo 125: 28.73°C
-Temperatura auto 293 en nodo 156: 23.73°C
-Temperatura auto 293 en nodo 172: 25.73°C
-Temperatura auto 293 en nodo 175: 24.73°C
-Temperatura auto 293 en nodo 185: 20.73°C
-Temperatura auto 293 en nodo 226: 26.73°C
-Temperatura auto 293 en nodo 232: 24.73°C
-Temperatura auto 293 en nodo 244: 30.73°C
+Temperatura auto 293 en nodo 13: 24.73°C
+Temperatura auto 293 en nodo 37: 26.73°C
+Temperatura auto 293 en nodo 42: 24.73°C
+Temperatura auto 293 en nodo 52: 22.73°C
+Temperatura auto 293 en nodo 78: 19.73°C
+Temperatura auto 293 en nodo 88: 20.73°C
+Temperatura auto 293 en nodo 94: 21.73°C
+Temperatura auto 293 en nodo 95: 20.73°C
+Temperatura auto 293 en nodo 126: 20.73°C
+Temperatura auto 293 en nodo 166: 26.73°C
+Temperatura auto 293 en nodo 177: 25.73°C
+Temperatura auto 293 en nodo 189: 23.73°C
+Temperatura auto 293 en nodo 208: 21.73°C
+Temperatura auto 293 en nodo 218: 25.73°C
+Temperatura auto 293 en nodo 219: 20.73°C
+Temperatura auto 293 en nodo 231: 21.73°C
+Temperatura auto 293 en nodo 238: 27.73°C
+Temperatura auto 293 en nodo 244: 27.73°C
 
 CAMINO AUTO 294:
 1 -> 185 -> 110 -> 113 -> 116 -> 232 -> 156 -> 175 -> 68 -> 226 -> 172 -> 31 -> 120 -> 125 -> 43 -> 244

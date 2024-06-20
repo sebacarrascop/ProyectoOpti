@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-path_to_data = os.path.join(os.getcwd(), 'data', 'simple')
+path_to_data = os.path.join(os.getcwd(), 'data', 'LasCondes')
 
 # Conjunto de nodos
 # nodo_id,x,y

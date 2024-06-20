@@ -105,7 +105,7 @@ for nodo_electrolinera in electrolineras:
         r_i = V['potencia_de_carga'][V['tipo'] == tipo_auto].values[0]
         C_v = V['tamano_bateria'][V['tipo'] == tipo_auto].values[0]
         constante_tiempo = 60  # [min/hora]
-        g_iv[nodo_electrolinera, tipo_auto] = (r_i) / (C_v * constante_tiempo)
+        g_iv[nodo_electrolinera, tipo_auto] = (r_i) / (C_v)
 
 # Se genera la matriz de incidencia de energia entre nodos
 e_ij = np.zeros((cantidad_nodos + 1, cantidad_nodos + 1))
@@ -261,7 +261,7 @@ for k in range(cantidad_autos):
 #     for i, j in G.edges():
 #         m.addConstr(F_ik[j, k] <= T_max * X_ijk[i, j, k], name=f"Temperatura_{j}_{k}_1")
 
-
+m.setParam('OutputFlag', 0)
 # Optimize model
 try:
     m.optimize()
@@ -306,7 +306,7 @@ with open(file_name, "w") as f:
         # Imprimir R_ik
         f.write(f"Tiempo de carga en electrolineras seleccionadas: \n")
         for i in G.nodes():
-            if R_ik[i, k].x > 0.0:
+            if R_ik[i, k].x > 0.1:
                 f.write(
                     f"Tiempo de carga en nodo {i}: {R_ik[i, k].x:.2f} minutos\n")
 
